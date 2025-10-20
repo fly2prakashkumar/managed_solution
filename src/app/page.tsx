@@ -57,7 +57,9 @@ export default function Home() {
               <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
                 <Link href="/services">LEARN MORE</Link>
               </Button>
-              <a href="tel:858-429-3000" className='text-white font-semibold'>858-429-3000</a>
+              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                <a href="tel:858-429-3000">858-429-3000</a>
+              </Button>
             </div>
           </div>
         </div>
