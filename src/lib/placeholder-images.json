@@ -1,3 +1,124 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "Modern office interior with people working on computers.",
+      "imageUrl": "https://images.unsplash.com/photo-1657978837950-03646a7c7b9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBvZmZpY2V8ZW58MHx8fHwxNzYwOTIzNzU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "service-security",
+      "description": "A secure data center server room.",
+      "imageUrl": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2MDg3MzY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data center"
+    },
+    {
+      "id": "service-managed-it",
+      "description": "IT professional assisting a user at their desk.",
+      "imageUrl": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxJVCUyMHN1cHBvcnR8ZW58MHx8fHwxNzYwOTMxMjYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "IT support"
+    },
+    {
+      "id": "service-cloud",
+      "description": "Abstract visualization of cloud computing network.",
+      "imageUrl": "https://images.unsplash.com/photo-1700049596230-206afab85eac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjbG91ZCUyMG5ldHdvcmt8ZW58MHx8fHwxNzYwODczNzA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cloud network"
+    },
+    {
+      "id": "service-data",
+      "description": "Close up of a database server rack.",
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZXJ2ZXIlMjByYWNrfGVufDB8fHx8MTc2MDg2MjA0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "server rack"
+    },
+    {
+      "id": "service-consulting",
+      "description": "Team of professionals in a meeting room discussing strategy.",
+      "imageUrl": "https://images.unsplash.com/photo-1603202662747-00e33e7d1468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzYwODI4NTA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business meeting"
+    },
+    {
+      "id": "service-voip",
+      "description": "Modern VoIP phone on an office desk.",
+      "imageUrl": "https://images.unsplash.com/photo-1586996157503-9587db867a20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvZmZpY2UlMjBwaG9uZXxlbnwwfHx8fDE3NjA5MzEyNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office phone"
+    },
+    {
+      "id": "case-study-1",
+      "description": "A thriving retail store environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1567958451986-2de427a4a0be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxyZXRhaWwlMjBzdG9yZXxlbnwwfHx8fDE3NjA4Mzc5MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "retail store"
+    },
+    {
+      "id": "case-study-2",
+      "description": "A modern healthcare clinic waiting room.",
+      "imageUrl": "https://images.unsplash.com/photo-1666886573590-5815157da865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoZWFsdGhjYXJlJTIwY2xpbmljfGVufDB8fHx8MTc2MDkzMTI2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare clinic"
+    },
+    {
+      "id": "case-study-3",
+      "description": "Architects collaborating over blueprints.",
+      "imageUrl": "https://images.unsplash.com/photo-1662905173818-e8ace3ce53f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhcmNoaXRlY3R1cmUlMjBmaXJtfGVufDB8fHx8MTc2MDkzMTI2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "architecture firm"
+    },
+    {
+      "id": "blog-1",
+      "description": "Cybersecurity concept with digital lock.",
+      "imageUrl": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3liZXIlMjBzZWN1cml0eXxlbnwwfHx8fDE3NjA4NDYzMTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cyber security"
+    },
+    {
+      "id": "blog-2",
+      "description": "Person typing on a laptop with code on screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1667984436031-ea1d9ff307ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkZXZlbG9wZXIlMjBjb2Rpbmd8ZW58MHx8fHwxNzYwODQ0NTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "developer coding"
+    },
+    {
+      "id": "blog-3",
+      "description": "Business team collaborating with cloud icons.",
+      "imageUrl": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidXNpbmVzcyUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNzYwOTMxMjYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business collaboration"
+    },
+    {
+      "id": "about-1",
+      "description": "Diverse team of professionals smiling in an office.",
+      "imageUrl": "https://images.unsplash.com/photo-1527525443983-6e60c75fff46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaXZlcnNlJTIwdGVhbXxlbnwwfHx8fDE3NjA4NjM5OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "diverse team"
+    },
+    {
+      "id": "team-1",
+      "description": "Portrait of a female CEO.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3NjA5MjYwNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "team-2",
+      "description": "Portrait of a male CTO.",
+      "imageUrl": "https://images.unsplash.com/photo-1562788869-4ed32648eb72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzYwODQzNDcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "team-3",
+      "description": "Portrait of a female Lead Engineer.",
+      "imageUrl": "https://images.unsplash.com/photo-1599583863916-e06c29087f51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMGVuZ2luZWVyfGVufDB8fHx8MTc2MDkzMTI2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman engineer"
+    },
+    {
+      "id": "team-4",
+      "description": "Portrait of a male Support Specialist.",
+      "imageUrl": "https://images.unsplash.com/photo-1633367583895-08545d733dfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MDkyNzY2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "resource-1",
+      "description": "Cover image for a white paper on cybersecurity.",
+      "imageUrl": "https://images.unsplash.com/photo-1733945711023-bb707111c16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8MTc2MDg0NzMwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ebook cover"
+    },
+    {
+      "id": "contact-hero",
+      "description": "An open and welcoming office reception area.",
+      "imageUrl": "https://images.unsplash.com/photo-1505410603994-c3ac6269711f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvZmZpY2UlMjByZWNlcHRpb258ZW58MHx8fHwxNzYwODIyOTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office reception"
+    }
+  ]
 }
