@@ -26,17 +26,16 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="relative h-[70vh] min-h-[600px] w-full bg-primary text-primary-foreground">
-        {heroImage && (
-          <Image
-            src={heroImage.imageUrl}
-            alt={heroImage.description}
-            fill
-            className="object-cover object-right opacity-30"
-            priority
-            data-ai-hint={heroImage.imageHint}
-          />
-        )}
+       <section className="relative h-[70vh] min-h-[600px] w-full overflow-hidden bg-primary text-primary-foreground">
+        <video
+          src="https://videos.pexels.com/video-files/3251021/3251021-hd_1280_720_25fps.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute left-0 top-0 h-full w-full object-cover opacity-30"
+        />
+        <div className="absolute inset-0 bg-primary/60" />
         <div className="container relative z-10 flex h-full flex-col items-start justify-center text-left">
           <div className="max-w-2xl">
             <h1 className="font-headline text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl">
@@ -367,5 +366,3 @@ export default function Home() {
     </div>
   );
 }
-
-    
