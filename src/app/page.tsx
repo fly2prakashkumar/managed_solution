@@ -54,10 +54,10 @@ export default function Home() {
               >
                 <Link href="/contact">CONTACT US</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-transparent bg-transparent text-white hover:bg-white/10 hover:border-white">
+              <Button asChild size="lg" variant="outline" className="border-white bg-transparent text-white hover:bg-white/10">
                 <Link href="/services">LEARN MORE</Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-transparent bg-transparent text-white hover:bg-white/10 hover:border-white">
+              <Button asChild size="lg" variant="outline" className="border-white bg-transparent text-white hover:bg-white/10">
                 <a href="tel:858-429-3000">858-429-3000</a>
               </Button>
             </div>
