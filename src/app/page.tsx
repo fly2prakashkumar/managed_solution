@@ -16,6 +16,10 @@ import { testimonials, awards, webinars } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-1');
+const aiServicesImage = PlaceHolderImages.find(img => img.id === 'home-ai-services');
+const nationalServicesImage = PlaceHolderImages.find(img => img.id === 'home-national-services');
+const mapImage = PlaceHolderImages.find(img => img.id === 'home-map');
+const smarterItImage = PlaceHolderImages.find(img => img.id === 'home-smarter-it');
 
 export default function Home() {
   return (
@@ -218,6 +222,119 @@ export default function Home() {
             </Card>
         </div>
       </section>
+
+      {/* AI-Powered Managed Services Section */}
+      <section className="py-16 md:py-24">
+        <div className="container">
+          <div className="grid items-center gap-8 md:grid-cols-2 md:gap-12">
+            <div>
+              <h2 className="font-headline text-3xl font-bold md:text-4xl">AI-Powered Managed Services</h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                We deliver AI-powered IT services that enhance productivity, automate support, and reduce downtime—providing intelligent help desk solutions for businesses of all sizes. Bring the transformative power of AI to your business!
+              </p>
+              <Button asChild size="lg" className="mt-8 bg-orange-500 text-white hover:bg-orange-600">
+                <Link href="/services#managed-it">VIEW SOLUTION</Link>
+              </Button>
+            </div>
+            <div className="relative h-80 w-full md:h-96">
+              {aiServicesImage && (
+                <Image
+                  src={aiServicesImage.imageUrl}
+                  alt={aiServicesImage.description}
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                  data-ai-hint={aiServicesImage.imageHint}
+                />
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* National Managed Services Providers Section */}
+      <section className="py-16 md:py-24 bg-secondary">
+        <div className="container">
+          <div className="grid items-center gap-8 md:grid-cols-2 md:gap-12">
+            <div className="relative h-80 w-full md:h-96 md:order-last">
+              {nationalServicesImage && (
+                <Image
+                  src={nationalServicesImage.imageUrl}
+                  alt={nationalServicesImage.description}
+                  fill
+                  className="rounded-lg object-cover shadow-lg"
+                  data-ai-hint={nationalServicesImage.imageHint}
+                />
+              )}
+            </div>
+            <div>
+              <h2 className="font-headline text-3xl font-bold md:text-4xl">National Managed Services Providers</h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                We provide nationwide managed IT services for businesses of all sizes—supporting growth from 100+ users in small and medium-sized businesses to enterprise-level outsourced IT services.
+              </p>
+              <Button asChild size="lg" className="mt-8 bg-orange-500 text-white hover:bg-orange-600">
+                <Link href="/services">OUR SERVICES</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Remote Managed IT Services Section */}
+      <section className="py-16 md:py-24 text-center">
+        <div className="container">
+          <h2 className="font-headline text-3xl font-bold md:text-4xl">Remote Managed IT Services — Available in All 50 U.S. States.</h2>
+          <h3 className="font-headline text-3xl font-bold md:text-4xl text-muted-foreground">Leading National Provider of Outsourced IT Solutions.</h3>
+          <div className="mx-auto max-w-4xl">
+            <p className="mt-4 text-lg text-muted-foreground">
+              We deliver enterprise-grade Managed IT services to businesses across all 50 states. Whether you're in New York City, Chicago, or Los Angeles, our full-time nationwide teams provide reliable, remote IT support tailored to your region. Our U.S.-based helpdesk operates 24/7/365, ensuring fast response times and expert assistance—no matter where your business is located.
+            </p>
+            <p className="mt-4 text-lg text-muted-foreground">
+              Explore our interactive map below—click any state to view IT solutions tailored to major cities in that region.
+            </p>
+          </div>
+          <div className="relative mt-12 h-auto w-full">
+            {mapImage && (
+              <Image
+                src={mapImage.imageUrl}
+                alt={mapImage.description}
+                width={1000}
+                height={600}
+                className="mx-auto"
+                data-ai-hint={mapImage.imageHint}
+              />
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Empowering Every Role Section */}
+      <section className="py-16 md:py-24 bg-secondary">
+        <div className="container">
+          <div className="grid items-center gap-8 md:grid-cols-2 md:gap-12">
+            <div>
+              <h2 className="font-headline text-3xl font-bold md:text-4xl">Empowering Every Role with Smarter IT</h2>
+              <p className="mt-4 text-lg text-muted-foreground">
+                Technology should be an advantage, not a burden. Our Managed Services Wheel illustrates how every role, from HR and Finance to IT and Compliance, benefits from integrated solutions designed to work together.
+              </p>
+              <p className="mt-4 text-lg text-muted-foreground">
+                Whether it's automating processes, monitoring networks, or ensuring compliance, we deliver peace of mind and measurable results for your entire organization.
+              </p>
+            </div>
+            <div className="relative h-96 w-full">
+              {smarterItImage && (
+                <Image
+                  src={smarterItImage.imageUrl}
+                  alt={smarterItImage.description}
+                  fill
+                  className="object-contain"
+                  data-ai-hint={smarterItImage.imageHint}
+                />
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
   );
 }

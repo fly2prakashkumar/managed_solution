@@ -165,7 +165,7 @@
     {
       "id": "webinar-3",
       "description": "Copilot and Power Automate graphic",
-      "imageUrl": "https://images.unsplash.com/photo-1654547279170-cc0600c1ee7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGZsb3d8ZW58MHx8fHwxNzYwODk2NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1654547279170-cc0600c1ee7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGZsb3d8ZW58MHx8fHwxNzYwODk2NTg1fDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "abstract flow"
     },
     {
@@ -227,6 +227,30 @@
       "description": "A person doing financial planning",
       "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04421cd6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidWRnZXQlMjBwbGFubmluZ3xlbnwwfHx8fDE3NjA5NTM2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "budget planning"
+    },
+    {
+      "id": "home-ai-services",
+      "description": "Professional woman smiling while using a tablet in a cafe",
+      "imageUrl": "https://images.unsplash.com/photo-1520182215332-b2a8b9ef3545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHRhYmxldHxlbnwwfHx8fDE3MjE4MzQ5MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "home-national-services",
+      "description": "IT professional working on a server rack in a data center",
+      "imageUrl": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZXJ2ZXIlMjByb29tfGVufDB8fHx8MTcyMTgzNTAwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "server room"
+    },
+    {
+      "id": "home-map",
+      "description": "A map of the United States",
+      "imageUrl": "https://images.unsplash.com/photo-1547815749-838c83787de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxVU0ElMjBtYXB8ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "USA map"
+    },
+    {
+      "id": "home-smarter-it",
+      "description": "A circular diagram illustrating various managed IT services",
+      "imageUrl": "https://images.unsplash.com/photo-1664526937033-fe2c11f1be25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZXJ2aWNlcyUyMGRpYWdyYW18ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "services diagram"
     }
   ]
 }
