@@ -13,7 +13,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { navItems } from "@/lib/data";
 import { ChevronDown, Menu } from "lucide-react";
-import { Hexagon } from "lucide-react";
+import { Phone } from "lucide-react";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -58,27 +58,23 @@ export default function Header() {
         </nav>
 
         {/* Desktop Buttons */}
-        <div className="hidden items-center gap-2 lg:flex">
-          <Button variant="link" asChild className="font-bold text-orange-500">
+        <div className="hidden items-center gap-4 lg:flex">
+            <a href="tel:888-563-9132" className="flex items-center gap-2 text-sm font-medium">
+                <Phone className="h-4 w-4" />
+                888-563-9132
+            </a>
+          <Button variant="outline" asChild className="font-bold border-primary text-primary">
             <Link href="/contact">BOOK CONSULTATION</Link>
           </Button>
-          <div className="relative h-10 w-10 cursor-pointer">
-             <Hexagon className="h-full w-full fill-orange-500 text-orange-500" />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <Menu className="h-6 w-6 text-white" />
-              </div>
-          </div>
         </div>
 
         {/* Mobile Menu */}
         <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
           <SheetTrigger asChild className="lg:hidden">
-             <div className="relative h-10 w-10 cursor-pointer">
-                 <Hexagon className="h-full w-full fill-orange-500 text-orange-500" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <Menu className="h-6 w-6 text-white" />
-                  </div>
-              </div>
+            <Button variant="outline" size="icon">
+                <Menu className="h-6 w-6" />
+                <span className="sr-only">Open menu</span>
+            </Button>
           </SheetTrigger>
           <SheetContent side="right">
             <div className="flex flex-col space-y-4">
@@ -117,9 +113,15 @@ export default function Header() {
                   </div>
                 ))}
               </nav>
-              <Button asChild className="font-bold">
-                 <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>BOOK CONSULTATION</Link>
-              </Button>
+                <div className="flex flex-col gap-4">
+                     <a href="tel:888-563-9132" className="flex items-center gap-2 text-sm font-medium">
+                        <Phone className="h-4 w-4" />
+                        888-563-9132
+                    </a>
+                    <Button asChild className="font-bold">
+                        <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>BOOK CONSULTATION</Link>
+                    </Button>
+                </div>
             </div>
           </SheetContent>
         </Sheet>

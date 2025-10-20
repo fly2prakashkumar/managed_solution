@@ -7,6 +7,16 @@ export interface NavItem {
   children?: NavItem[];
 }
 
+export interface FooterNavLink {
+    title: string;
+    href: string;
+}
+
+export interface FooterNav {
+    title: string;
+    links: FooterNavLink[];
+}
+
 export interface Service {
   slug: string;
   title: string;

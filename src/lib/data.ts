@@ -1,5 +1,5 @@
 
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo } from "@/lib/types";
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -7,56 +7,92 @@ export const navItems: NavItem[] = [
     title: "Services",
     href: "/services",
     children: [
-      { title: "Managed IT", href: "/services#managed-it" },
-      { title: "Cybersecurity", href: "/services#cybersecurity" },
-      { title: "Cloud Services", href: "/services#cloud-services" },
+      { title: "Managed IT Services", href: "/services#managed-it" },
+      { title: "IT Help Desk", href: "/services#help-desk" },
+      { title: "Managed IT Security Solutions", href: "/services#cybersecurity" },
+      { title: "Microsoft Consulting Services", href: "/services#it-consulting" },
+      { title: "Microsoft Security Services", href: "/services#cybersecurity" },
+      { title: "Azure Cloud Managed Services", href: "/services#cloud-services" },
+      { title: "Compliance Management", href: "/services#cybersecurity" },
+      { title: "Backup and Disaster Recovery Solutions", href: "/services#data-backup" },
+      { title: "Remote Management and Monitoring Tools", href: "/services#managed-it" },
+      { title: "Virtual CIO Consulting Services", href: "/services#it-consulting" },
     ],
   },
   {
     title: "Solutions",
     href: "#",
     children: [
-      { title: "By Industry", href: "#" },
-      { title: "By Business Size", href: "#" },
+        { title: "Zero Touch Deployment Services", href: "#" },
+        { title: "Entra ID and Intune Migration", href: "#" },
+        { title: "Employee Engagement", href: "#" },
+        { title: "Business Process Automation", href: "#" },
+        { title: "Technology Mergers and Acquisitions", href: "#" },
+        { title: "Communication and Collaboration", href: "#" },
+        { title: "Simplified Cloud Management and Deployment", href: "#" },
     ],
   },
   {
     title: "Products",
     href: "#",
     children: [
-      { title: "Product A", href: "#" },
-      { title: "Product B", href: "#" },
+      { title: "Procurement", href: "#" },
+      { title: "Security", href: "/services#cybersecurity" },
+      { title: "Microsoft Licensing", href: "#" },
     ],
   },
-  {
-    title: "Industries",
-    href: "#",
-    children: [
-      { title: "Healthcare", href: "#" },
-      { title: "Finance", href: "#" },
-      { title: "Retail", href: "#" },
-    ],
-  },
-  {
-    title: "Resources",
-    href: "/resources",
-    children: [
-        { title: "Blog", href: "/blog"},
-        { title: "Case Studies", href: "/case-studies"},
-        { title: "White Papers", href: "/resources"},
-        { title: "Events", href: "/events" },
-    ]
-  },
-  {
-    title: "Culture",
-    href: "/about",
-    children: [
-        { title: "About Us", href: "/about"},
-        { title: "Careers", href: "#"},
-    ]
-  },
+  { title: "About Us", href: "/about" },
+  { title: "Blog", href: "/blog" },
+  { title: "Resources", href: "/resources" },
    { title: "Contact", href: "/contact" },
 ];
+
+export const footerNav: FooterNav[] = [
+    {
+        title: "Services",
+        links: [
+            { title: "Managed IT Services", href: "/services#managed-it" },
+            { title: "IT Help Desk", href: "/services#help-desk" },
+            { title: "Managed IT Security Solutions", href: "/services#cybersecurity" },
+            { title: "Microsoft Consulting Services", href: "/services#it-consulting" },
+            { title: "Microsoft Security Services", href: "/services#cybersecurity" },
+            { title: "Azure Cloud Managed Services", href: "/services#cloud-services" },
+            { title: "Compliance Management", href: "/services#cybersecurity" },
+            { title: "Backup and Disaster Recovery Solutions", href: "/services#data-backup" },
+            { title: "Remote Management and Monitoring Tools", href: "/services#managed-it" },
+            { title: "Virtual CIO Consulting Services", href: "/services#it-consulting" },
+        ]
+    },
+    {
+        title: "Solutions",
+        links: [
+            { title: "Zero Touch Deployment Services", href: "#" },
+            { title: "Entra ID and Intune Migration", href: "#" },
+            { title: "Employee Engagement", href: "#" },
+            { title: "Business Process Automation", href: "#" },
+            { title: "Technology Mergers and Acquisitions", href: "#" },
+            { title: "Communication and Collaboration", href: "#" },
+            { title: "Simplified Cloud Management and Deployment", href: "#" },
+        ]
+    },
+    {
+        title: "Products",
+        links: [
+            { title: "Procurement", href: "#" },
+            { title: "Security", href: "/services#cybersecurity" },
+            { title: "Microsoft Licensing", href: "#" },
+        ]
+    },
+    {
+        title: "Contact",
+        links: [
+            { title: "Contact Us", href: "/contact" },
+            { title: "Customer Support", href: "#" },
+            { title: "Partners", href: "#" },
+            { title: "Careers", href: "#" },
+        ]
+    }
+]
 
 export const services: Service[] = [
   {
