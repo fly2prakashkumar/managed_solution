@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useForm } from "react-hook-form";
@@ -52,7 +53,7 @@ export function ContactForm() {
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Full Name</FormLabel>
+              <FormLabel>Full Name*</FormLabel>
               <FormControl>
                 <Input placeholder="John Doe" {...field} />
               </FormControl>
@@ -65,7 +66,7 @@ export function ContactForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email Address</FormLabel>
+              <FormLabel>Email Address*</FormLabel>
               <FormControl>
                 <Input placeholder="you@company.com" {...field} />
               </FormControl>
@@ -78,7 +79,7 @@ export function ContactForm() {
           name="company"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Company (Optional)</FormLabel>
+              <FormLabel>Company</FormLabel>
               <FormControl>
                 <Input placeholder="Your Company Name" {...field} />
               </FormControl>
@@ -91,7 +92,7 @@ export function ContactForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Message</FormLabel>
+              <FormLabel>Message*</FormLabel>
               <FormControl>
                 <Textarea
                   placeholder="How can we help you?"
@@ -103,7 +104,7 @@ export function ContactForm() {
             </FormItem>
           )}
         />
-        <Button type="submit" size="lg" className="w-full">
+        <Button type="submit" size="lg" className="w-full bg-orange-500 text-white hover:bg-orange-600">
           Send Message
         </Button>
       </form>
