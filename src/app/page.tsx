@@ -11,9 +11,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { ArrowRight, CheckCircle, Star, MessageSquare } from 'lucide-react';
+import { ArrowRight, CheckCircle, Star } from 'lucide-react';
 import { testimonials, awards, webinars } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import ContactSection from '@/components/shared/contact-section';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-1');
 const aiServicesImage = PlaceHolderImages.find(img => img.id === 'home-ai-services');
@@ -335,6 +336,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Stats and Feedback Section */}
+      <section className="py-16 md:py-24">
+        <div className="container">
+          <div className="mx-auto max-w-4xl text-center">
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+              <div className="flex flex-col items-center">
+                <h3 className="font-headline text-4xl font-bold text-orange-500 md:text-5xl">10,000+ Satisfied Customers</h3>
+              </div>
+              <div className="flex flex-col items-center">
+                <p className="font-headline text-5xl font-bold text-orange-500 md:text-6xl">4.95</p>
+                <p className="mt-2 text-muted-foreground">Average satisfaction rating amongst all customers</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <p className="font-headline text-5xl font-bold text-orange-500 md:text-6xl">A+</p>
+                <p className="mt-2 text-muted-foreground">Cybersecurity Rating</p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-16 text-center">
+            <h2 className="font-headline text-3xl font-bold">Worked With Us?</h2>
+            <p className="mx-auto mt-2 max-w-2xl text-muted-foreground">Your feedback is appreciated, and so are you! Tell us about your IT Managed Services Provider experience:</p>
+            <Button size="lg" className="mt-6 bg-orange-500 text-white hover:bg-orange-600">SUBMIT FEEDBACK</Button>
+          </div>
+        </div>
+      </section>
+      
+      <ContactSection />
+
     </div>
   );
 }
+
+    

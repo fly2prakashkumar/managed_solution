@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { liveEvents, onDemandVideos } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { EventContactForm } from "@/components/forms/event-contact-form";
+import ContactSection from "@/components/shared/contact-section";
 
 export default function EventsPage() {
     const heroImage = PlaceHolderImages.find(img => img.id === 'events-hero');
@@ -125,19 +125,9 @@ export default function EventsPage() {
                 </div>
             </section>
 
-             <section className="py-16 md:py-24">
-                <div className="container max-w-4xl">
-                     <div className="text-center">
-                        <h2 className="font-headline text-4xl font-bold text-blue-600">Contact Us Today!</h2>
-                        <p className="mt-4 text-lg text-muted-foreground">
-                            Chat with an expert about your business's technology needs.
-                        </p>
-                    </div>
-                    <Card className="mt-8 p-8 shadow-2xl">
-                        <EventContactForm />
-                    </Card>
-                </div>
-            </section>
+             <ContactSection />
         </>
     )
 }
+
+    
