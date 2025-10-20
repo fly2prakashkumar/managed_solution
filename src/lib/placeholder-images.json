@@ -167,6 +167,66 @@
       "description": "Copilot and Power Automate graphic",
       "imageUrl": "https://images.unsplash.com/photo-1654547279170-cc0600c1ee7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGZsb3d8ZW58MHx8fHwxNzYwODk2NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract flow"
+    },
+    {
+      "id": "events-hero",
+      "description": "People attending a tech conference.",
+      "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldmVudCUyMGNvbmZlcmVuY2V8ZW58MHx8fHwxNzYwOTUxOTk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "event conference"
+    },
+    {
+      "id": "live-event-1",
+      "description": "Copilot Agents graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1712219002737-d4e04d21c2c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3NjA4NzE4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract illustration"
+    },
+    {
+      "id": "live-event-2",
+      "description": "Copilot Studio graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1562575214-da9fcf59b907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwOTQ2NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract tech"
+    },
+    {
+      "id": "live-event-3",
+      "description": "Copilot and Power Automate graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1654547279170-cc0600c1ee7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGZsb3d8ZW58MHx8fHwxNzYwODk2NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract flow"
+    },
+    {
+      "id": "on-demand-1",
+      "description": "Copilot and Excel graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1684348366029-58309a935e4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMGRhdGF8ZW58MHx8fHwxNzYwOTUyOTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract data"
+    },
+    {
+      "id": "on-demand-2",
+      "description": "Abstract graphic about creation",
+      "imageUrl": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2MDg3MzY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract creation"
+    },
+    {
+      "id": "on-demand-3",
+      "description": "Abstract graphic of notebook",
+      "imageUrl": "https://images.unsplash.com/photo-1698241401542-a73c15f4a71e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMG5vdGVib29rfGVufDB8fHx8MTc2MDk1MzA0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract notebook"
+    },
+    {
+      "id": "on-demand-4",
+      "description": "Abstract graphic of a scheduler",
+      "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2hlZHVsZXxlbnwwfHx8fDE3NjA5NTMwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "scheduler"
+    },
+    {
+      "id": "on-demand-5",
+      "description": "Abstract graphic representing prompts",
+      "imageUrl": "https://images.unsplash.com/photo-1696205202422-7389c4456e30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHByb21wdHxlbnwwfHx8fDE3NjA5NTMwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract prompt"
+    },
+    {
+      "id": "on-demand-6",
+      "description": "A person doing financial planning",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04421cd6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidWRnZXQlMjBwbGFubmluZ3xlbnwwfHx8fDE3NjA5NTM2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "budget planning"
     }
   ]
 }

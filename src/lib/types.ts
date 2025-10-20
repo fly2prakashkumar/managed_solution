@@ -68,3 +68,22 @@ export interface Webinar {
     imageUrl: string;
     imageHint: string;
 }
+
+export interface LiveEvent {
+    slug: string;
+    title: string;
+    date: string;
+    description: string;
+    imageUrl: string;
+    imageHint: string;
+}
+
+export interface OnDemandVideo {
+    slug: string;
+    title: string;
+    series: string;
+    description: string;
+    imageUrl: string;
+    imageHint: string;
+    isNew?: boolean;
+}

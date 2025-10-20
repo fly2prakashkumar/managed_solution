@@ -130,7 +130,7 @@ export default function Home() {
           <div className="flex justify-between items-center mb-8">
             <h2 className="font-headline text-3xl font-bold md:text-4xl">New Copilot Webinar Series!</h2>
             <Button asChild variant='secondary' className='shrink-0'>
-                <Link href="#">JOIN THE HUNDREDS WHO ALREADY SIGNED UP <ArrowRight className="ml-2"/></Link>
+                <Link href="/events">JOIN THE HUNDREDS WHO ALREADY SIGNED UP <ArrowRight className="ml-2"/></Link>
             </Button>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -221,4 +221,3 @@ export default function Home() {
     </div>
   );
 }
-

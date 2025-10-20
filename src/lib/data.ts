@@ -1,5 +1,5 @@
 
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar } from "@/lib/types";
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -44,6 +44,7 @@ export const navItems: NavItem[] = [
         { title: "Blog", href: "/blog"},
         { title: "Case Studies", href: "/case-studies"},
         { title: "White Papers", href: "/resources"},
+        { title: "Events", href: "/events" },
     ]
   },
   {
@@ -260,4 +261,83 @@ export const webinars: Webinar[] = [
         imageUrl: "webinar-3",
         imageHint: "copilot power automate",
     }
+];
+
+export const liveEvents: LiveEvent[] = [
+    {
+        slug: "copilot-agents",
+        title: "Copilot Agents: Your New Digital Teammates",
+        date: "October 21st, 2025 at 10:00am PST",
+        description: "See how Copilot Agents can take on repetitive work, manage routine updates, and keep projects moving behind the scenes. You'll explore practical ways to set up and customize agents so they become reliable digital teammates for your team.",
+        imageUrl: "live-event-1",
+        imageHint: "Copilot Agents",
+    },
+    {
+        slug: "copilot-studio-deep-dive",
+        title: "Copilot Studio Deep Dive: Build Highly Customized AI Agents",
+        date: "November 4th, 2025 at 10:00am PST",
+        description: "Explore how Copilot Studio lets you design custom AI assistants tailored to your team's unique processes and data. Learn how to build, connect, and deploy agents that deliver fast, consistent results across your organization.",
+        imageUrl: "live-event-2",
+        imageHint: "Copilot Studio",
+    },
+    {
+        slug: "copilot-power-automate",
+        title: "Copilot + Power Automate: AI-Driven Workflows in Action",
+        date: "November 18th, 2025 at 10:00am PST",
+        description: "Discover how combining Copilot with Power Automate can turn everyday requests into self-running workflows. See real examples of automations that save time, reduce manual work, and keep teams focused on high-value priorities.",
+        imageUrl: "live-event-3",
+        imageHint: "Copilot Power Automate",
+    },
+];
+
+export const onDemandVideos: OnDemandVideo[] = [
+    {
+        slug: "copilot-analyst",
+        title: "Copilot Analyst: Smarter Data Workflows in Excel",
+        series: "Copilot Analyst",
+        description: "See how Copilot Agents can take on repetitive work, manage routine updates, and keep projects moving behind the scenes. You'll explore practical ways to set up and customize agents so they become reliable digital teammates for your team.",
+        imageUrl: "on-demand-1",
+        imageHint: "Copilot Excel",
+    },
+    {
+        slug: "copilot-create",
+        title: "Copilot Create: From Idea to Polished Product in Minutes",
+        series: "Microsoft Copilot Series",
+        description: "In this 30-minute session, our Microsoft Solutions expert will demonstrate how Copilot Notebooks can capture ideas, structure projects, and support collaborative planning. You'll see real examples of brainstorming, meeting summaries, and long-form analysis - and get your questions answered during a live Q&A.",
+        imageUrl: "on-demand-2",
+        imageHint: "Copilot create",
+    },
+    {
+        slug: "inside-copilot-notebooks",
+        title: "Inside Copilot Notebooks: AI-Powered Thinking Spaces",
+        series: "Microsoft Copilot Series",
+        description: "See how Copilot can transform meeting notes, outlines, and ideas into ready-to-share documents and presentations in minutes. This session includes live examples, practical tips for refining output, and time for your questions in a live Q&A.",
+        imageUrl: "on-demand-3",
+        imageHint: "Copilot notebooks",
+    },
+    {
+        slug: "copilot-scheduler-researcher",
+        title: "Copilot Scheduler & Researcher",
+        series: "Microsoft Copilot Series",
+        description: "Learn how to streamline meeting coordination, task follow-ups, and research by letting Copilot handle the scheduling and information gathering for you.",
+        imageUrl: "on-demand-4",
+        imageHint: "Copilot scheduler",
+    },
+    {
+        slug: "prompt-like-a-pro",
+        title: "Prompt Like a Pro: Strategies for Better Copilot Results",
+        series: "Microsoft Copilot Series",
+        description: "See Copilot in action during this impactful 30-minute session where our Microsoft Solutions expert will demonstrate how smarter prompting can drive better results across your Microsoft 365 apps.",
+        imageUrl: "on-demand-5",
+        imageHint: "Copilot prompt",
+        isNew: true,
+    },
+    {
+        slug: "copilot-for-finance",
+        title: "Copilot For Finance: Strategic Budget Planning for 2025",
+        series: "Microsoft 365 Copilot",
+        description: "Discover how Copilot's advanced tools can drive a collaborative and cross-functional approach, enabling teams across departments to align on financial goals, optimize resources, and improve decision-making.",
+        imageUrl: "on-demand-6",
+        imageHint: "Copilot finance",
+    },
 ]
