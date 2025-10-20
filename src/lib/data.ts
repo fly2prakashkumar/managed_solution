@@ -2,11 +2,58 @@ import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem } from
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit } from "lucide-react";
 
 export const navItems: NavItem[] = [
-  { title: "Services", href: "/services" },
-  { title: "Case Studies", href: "/case-studies" },
-  { title: "Blog", href: "/blog" },
-  { title: "About Us", href: "/about" },
-  { title: "Resources", href: "/resources" },
+  {
+    title: "Services",
+    href: "/services",
+    children: [
+      { title: "Managed IT", href: "/services#managed-it" },
+      { title: "Cybersecurity", href: "/services#cybersecurity" },
+      { title: "Cloud Services", href: "/services#cloud-services" },
+    ],
+  },
+  {
+    title: "Solutions",
+    href: "#",
+    children: [
+      { title: "By Industry", href: "#" },
+      { title: "By Business Size", href: "#" },
+    ],
+  },
+  {
+    title: "Products",
+    href: "#",
+    children: [
+      { title: "Product A", href: "#" },
+      { title: "Product B", href: "#" },
+    ],
+  },
+  {
+    title: "Industries",
+    href: "#",
+    children: [
+      { title: "Healthcare", href: "#" },
+      { title: "Finance", href: "#" },
+      { title: "Retail", href: "#" },
+    ],
+  },
+  {
+    title: "Resources",
+    href: "/resources",
+    children: [
+        { title: "Blog", href: "/blog"},
+        { title: "Case Studies", href: "/case-studies"},
+        { title: "White Papers", href: "/resources"},
+    ]
+  },
+  {
+    title: "Culture",
+    href: "/about",
+    children: [
+        { title: "About Us", href: "/about"},
+        { title: "Careers", href: "#"},
+    ]
+  },
+   { title: "Contact", href: "/contact" },
 ];
 
 export const services: Service[] = [

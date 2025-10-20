@@ -1,7 +1,14 @@
 import Link from "next/link";
 import Logo from "@/components/shared/logo";
 import { navItems } from "@/lib/data";
-import { Github, Twitter, Linkedin } from "lucide-react";
+import { Github, Twitter, Linkedin, ChevronDown } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+
 
 export default function Footer() {
   return (
@@ -34,7 +41,7 @@ export default function Footer() {
                   <h3 className="font-headline text-sm font-semibold uppercase tracking-wider">Solutions</h3>
                   <ul className="mt-4 space-y-2">
                     {navItems.map(item => (
-                       <li key={item.href}>
+                       <li key={item.title}>
                          <Link href={item.href} className="text-sm text-muted-foreground hover:text-foreground">
                           {item.title}
                          </Link>
@@ -62,7 +69,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Optimal Solutions Hub. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Managed Solution. All rights reserved.</p>
         </div>
       </div>
     </footer>
