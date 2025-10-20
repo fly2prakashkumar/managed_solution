@@ -1,16 +1,35 @@
 import Link from "next/link";
 import Logo from "@/components/shared/logo";
-import { navItems } from "@/lib/data";
-import { Github, Twitter, Linkedin, ChevronDown } from "lucide-react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+import { services } from "@/lib/data";
+import { Github, Twitter, Linkedin } from "lucide-react";
 
 
 export default function Footer() {
+  const footerNav = [
+      {
+          title: "Solutions",
+          links: [
+              ...services.map(s => ({ title: s.title, href: `/services#${s.slug}`}))
+          ]
+      },
+      {
+          title: "Company",
+          links: [
+              { title: "About Us", href: "/about" },
+              { title: "Blog", href: "/blog" },
+              { title: "Careers", href: "#" },
+          ]
+      },
+      {
+          title: "Contact",
+          links: [
+                { title: "contact@optimalsolutions.com", href: "mailto:contact@optimalsolutions.com" },
+                { title: "(123) 456-7890", href: "tel:+1234567890" },
+          ]
+      }
+  ]
+
+
   return (
     <footer className="border-t bg-secondary">
       <div className="container py-12">
@@ -37,33 +56,23 @@ export default function Footer() {
           </div>
           <div className="md:col-span-3">
              <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+                {footerNav.map(section => (
+                    <div key={section.title}>
+                        <h3 className="font-headline text-sm font-semibold uppercase tracking-wider">{section.title}</h3>
+                        <ul className="mt-4 space-y-2">
+                           {section.links.map(link => (
+                               <li key={link.title}>
+                                 <Link href={link.href} className="text-sm text-muted-foreground hover:text-foreground">
+                                  {link.title}
+                                 </Link>
+                               </li>
+                           ))}
+                        </ul>
+                    </div>
+                ))}
                 <div>
-                  <h3 className="font-headline text-sm font-semibold uppercase tracking-wider">Solutions</h3>
-                  <ul className="mt-4 space-y-2">
-                    {navItems.map(item => (
-                       <li key={item.title}>
-                         <Link href={item.href} className="text-sm text-muted-foreground hover:text-foreground">
-                          {item.title}
-                         </Link>
-                       </li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-headline text-sm font-semibold uppercase tracking-wider">Company</h3>
-                  <ul className="mt-4 space-y-2">
-                    <li><Link href="/about" className="text-sm text-muted-foreground hover:text-foreground">About Us</Link></li>
-                     <li><Link href="/blog" className="text-sm text-muted-foreground hover:text-foreground">Blog</Link></li>
-                    <li><Link href="#" className="text-sm text-muted-foreground hover:text-foreground">Careers</Link></li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-headline text-sm font-semibold uppercase tracking-wider">Contact</h3>
-                  <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-                    <li><a href="mailto:contact@optimalsolutions.com" className="hover:text-foreground">contact@optimalsolutions.com</a></li>
-                    <li><a href="tel:+1234567890" className="hover:text-foreground">(123) 456-7890</a></li>
-                    <li>123 Tech Avenue, Silicon Valley, CA</li>
-                  </ul>
+                     <h3 className="font-headline text-sm font-semibold uppercase tracking-wider">Location</h3>
+                     <p className="mt-4 text-sm text-muted-foreground">123 Tech Avenue, Silicon Valley, CA</p>
                 </div>
               </div>
           </div>
