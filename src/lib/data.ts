@@ -1,4 +1,5 @@
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem } from "@/lib/types";
+
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -208,3 +209,55 @@ export const resources: Resource[] = [
         imageHint: "ebook cover"
     }
 ];
+
+export const testimonials: Testimonial[] = [
+  {
+    name: "Tim McMullen",
+    date: "2025-09-04",
+    comment: "Great Team to work with!",
+  },
+  {
+    name: "yune hwang",
+    date: "2025-08-27",
+    comment: "Managed solution is very efficient and quick to resolve my problems.",
+  },
+  {
+    name: "Julie",
+    date: "2025-08-15",
+    comment: "Celeste saved my day by fixing my monitors that were blacking out.",
+  },
+  {
+    name: "Alex Johnson",
+    date: "2025-07-22",
+    comment: "The migration to the new server was seamless. Minimal downtime and great communication.",
+  }
+];
+
+export const awards: Award[] = [
+  { title: "Microsoft Partner - Modern Work", imageId: "award-1" },
+  { title: "Microsoft Partner - Infrastructure Azure", imageId: "award-2" },
+  { title: "Inc 5000", imageId: "award-3" },
+  { title: "MSP Today - Product of the Year 2025", imageId: "award-4" },
+  { title: "Cloudtango MSP Select 2025", imageId: "award-5" },
+];
+
+export const webinars: Webinar[] = [
+    {
+        title: "Copilot Agents: Your New...",
+        date: "October 21st, 2025 at 10:00am PST",
+        imageUrl: "webinar-1",
+        imageHint: "copilot agents",
+    },
+    {
+        title: "Copilot Studio Deep Dive:...",
+        date: "November 4th, 2025 at 10:00am PST",
+        imageUrl: "webinar-2",
+        imageHint: "copilot studio",
+    },
+    {
+        title: "Copilot + Power Automate:...",
+        date: "November 18th, 2025 at 10:00am PST",
+        imageUrl: "webinar-3",
+        imageHint: "copilot power automate",
+    }
+]

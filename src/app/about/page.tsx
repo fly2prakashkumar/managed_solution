@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import PageHeader from "@/components/shared/page-header";
 import { team } from "@/lib/data";
@@ -38,19 +39,19 @@ export default function AboutPage() {
               <h3 className="mt-8 font-headline text-2xl font-bold">Our Core Values</h3>
               <ul className="mt-4 space-y-3">
                 <li className="flex items-start">
-                  <CheckCircle className="mr-3 mt-1 h-5 w-5 flex-shrink-0 text-accent" />
+                  <CheckCircle className="mr-3 mt-1 h-5 w-5 flex-shrink-0 text-orange-500" />
                   <span><strong>Client Partnership:</strong> We succeed when our clients succeed.</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="mr-3 mt-1 h-5 w-5 flex-shrink-0 text-accent" />
+                  <CheckCircle className="mr-3 mt-1 h-5 w-5 flex-shrink-0 text-orange-500" />
                   <span><strong>Uncompromising Integrity:</strong> We build trust through transparent and ethical practices.</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="mr-3 mt-1 h-5 w-5 flex-shrink-0 text-accent" />
+                  <CheckCircle className="mr-3 mt-1 h-5 w-5 flex-shrink-0 text-orange-500" />
                   <span><strong>Continuous Innovation:</strong> We embrace change and constantly seek better ways to serve our clients.</span>
                 </li>
                  <li className="flex items-start">
-                  <CheckCircle className="mr-3 mt-1 h-5 w-5 flex-shrink-0 text-accent" />
+                  <CheckCircle className="mr-3 mt-1 h-5 w-5 flex-shrink-0 text-orange-500" />
                   <span><strong>Proactive Excellence:</strong> We anticipate needs and deliver exceptional results.</span>
                 </li>
               </ul>
@@ -87,7 +88,7 @@ export default function AboutPage() {
                         </div>
                     )}
                   <h3 className="font-headline text-lg font-semibold">{member.name}</h3>
-                  <p className="text-sm text-accent">{member.role}</p>
+                  <p className="text-sm text-orange-500">{member.role}</p>
                 </CardContent>
               </Card>
             )})}
@@ -97,3 +98,4 @@ export default function AboutPage() {
     </>
   );
 }
+

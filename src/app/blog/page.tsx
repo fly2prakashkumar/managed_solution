@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/shared/page-header";
@@ -45,7 +46,7 @@ export default function BlogPage() {
                   <p className="text-muted-foreground">{post.excerpt}</p>
                 </CardContent>
                 <CardFooter>
-                  <Button asChild variant="link" className="p-0 text-accent">
+                  <Button asChild variant="link" className="p-0 text-orange-500">
                     <Link href={`/blog/${post.slug}`}>Read More <ArrowRight className="ml-2 h-4 w-4" /></Link>
                   </Button>
                 </CardFooter>
@@ -57,3 +58,4 @@ export default function BlogPage() {
     </>
   );
 }
+

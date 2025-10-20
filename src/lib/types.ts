@@ -1,3 +1,4 @@
+
 import type { LucideIcon } from "lucide-react";
 
 export interface NavItem {
@@ -18,7 +19,7 @@ export interface Service {
 
 export interface CaseStudy {
   slug: string;
-  title: string;
+  title:string;
   clientName: string;
   description: string;
   imageUrl: string;
@@ -48,4 +49,22 @@ export interface Resource {
   description: string;
   imageUrl: string;
   imageHint: string;
+}
+
+export interface Testimonial {
+    name: string;
+    date: string;
+    comment: string;
+}
+
+export interface Award {
+    title: string;
+    imageId: string;
+}
+
+export interface Webinar {
+    title: string;
+    date: string;
+    imageUrl: string;
+    imageHint: string;
 }
