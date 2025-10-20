@@ -59,10 +59,6 @@ export default function Header() {
 
         {/* Desktop Buttons */}
         <div className="hidden items-center gap-4 lg:flex">
-            <a href="tel:888-563-9132" className="flex items-center gap-2 text-sm font-medium">
-                <Phone className="h-4 w-4" />
-                888-563-9132
-            </a>
           <Button variant="outline" asChild className="font-bold border-primary text-primary">
             <Link href="/contact">BOOK CONSULTATION</Link>
           </Button>
@@ -114,10 +110,6 @@ export default function Header() {
                 ))}
               </nav>
                 <div className="flex flex-col gap-4">
-                     <a href="tel:888-563-9132" className="flex items-center gap-2 text-sm font-medium">
-                        <Phone className="h-4 w-4" />
-                        888-563-9132
-                    </a>
                     <Button asChild className="font-bold">
                         <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>BOOK CONSULTATION</Link>
                     </Button>
