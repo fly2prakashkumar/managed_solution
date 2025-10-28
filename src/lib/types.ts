@@ -63,7 +63,6 @@ export interface Resource {
 
 export interface Testimonial {
     name: string;
-    date: string;
     comment: string;
 }
 
@@ -97,4 +96,9 @@ export interface OnDemandVideo {
     imageUrl: string;
     imageHint: string;
     isNew?: boolean;
+}
+
+export interface Faq {
+    question: string;
+    answer: string;
 }

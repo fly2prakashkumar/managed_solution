@@ -1,5 +1,5 @@
 
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav } from "@/lib/types";
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -249,25 +249,17 @@ export const resources: Resource[] = [
 
 export const testimonials: Testimonial[] = [
   {
+    name: "Fern Usry",
+    comment: "I would highly recommend Managed Solution for your IT needs. They resolve things quickly and efficiently.",
+  },
+  {
+    name: "John Grillo",
+    comment: "My IT issue was holding up a Sales Contract from being sent out. The Managed Solution team took care of it in less than 5 minutes!",
+  },
+  {
     name: "Tim McMullen",
-    date: "2025-09-04",
-    comment: "Great Team to work with!",
+    comment: "They are always great at helping me out. The fast response … highly recommend this company!",
   },
-  {
-    name: "yune hwang",
-    date: "2025-08-27",
-    comment: "Managed solution is very efficient and quick to resolve my problems.",
-  },
-  {
-    name: "Julie",
-    date: "2025-08-15",
-    comment: "Celeste saved my day by fixing my monitors that were blacking out.",
-  },
-  {
-    name: "Alex Johnson",
-    date: "2025-07-22",
-    comment: "The migration to the new server was seamless. Minimal downtime and great communication.",
-  }
 ];
 
 export const awards: Award[] = [
@@ -380,3 +372,34 @@ export const onDemandVideos: OnDemandVideo[] = [
         imageHint: "Copilot finance",
     },
 ]
+
+export const faqs: Faq[] = [
+    {
+        question: "Are you a Managed IT services provider company in the USA?",
+        answer: "Yes, we are rated a Top 100 MSP in the U.S. and offer nationwide IT services for businesses of all sizes, from small businesses to large enterprises."
+    },
+    {
+        question: "Do you provide same day Managed IT Services in San Diego?",
+        answer: "Yes, we provide same-day services in San Diego, Carlsbad, Orange County, Los Angeles, and throughout California."
+    },
+    {
+        question: "How do I know if my business is ready for Managed IT Services?",
+        answer: "You might be ready if you're experiencing frequent downtime, using outdated technology, or have limited IT expertise. If you're looking to scale, improve cybersecurity, or streamline operations without adding internal burden, it's a good time to consider an MSP."
+    },
+    {
+        question: "Do you offer IT services for small businesses or enterprise?",
+        answer: "Yes, our services are tailored for businesses of all sizes, from small to enterprise, designed to boost efficiency, security, and innovation."
+    },
+    {
+        question: "Can Managed IT Services support our remote or hybrid workforce?",
+        answer: "Absolutely. We specialize in optimizing infrastructure for remote and hybrid work, ensuring secure access, reliable collaboration tools, and uninterrupted connectivity for your team."
+    },
+    {
+        question: "Will we lose control of our IT systems by outsourcing to an MSP?",
+        answer: "No. A good MSP acts as an extension of your team. We provide transparency, collaboration, and tools that allow you to retain visibility and control while benefiting from our outsourced expertise."
+    },
+    {
+        question: "Do you as an MSP offer 24×7×365 support?",
+        answer: "Yes. We provide guaranteed proactive end-to-end IT management and support, including 24x7x365 network monitoring, patch management, and data protection. Our helpdesk agents are all based in the USA."
+    }
+];

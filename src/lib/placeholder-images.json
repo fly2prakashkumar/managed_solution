@@ -3,7 +3,7 @@
     {
       "id": "hero-1",
       "description": "IT professional with a headset on, smiling.",
-      "imageUrl": "https://images.unsplash.com/photo-1587831990711-23714e187518?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpdCUyMHN1cHBvcnR8ZW58MHx8fHwxNzIxMjA5NzM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1587831990711-23714e187518?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpdCUyMHN1cHBvcnR8ZW58MHx8fHwxNzIxMjA5NzM3fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "IT support"
     },
     {
@@ -293,6 +293,18 @@
       "description": "Financial professionals working in a modern trading office.",
       "imageUrl": "https://images.unsplash.com/photo-1642132652873-774b94653600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaW5hbmNlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDMyMjZ8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "finance technology"
+    },
+    {
+      "id": "managed-it-pharma",
+      "description": "Scientist in a lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDM0ODF8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "science technology"
+    },
+    {
+      "id": "managed-it-nonprofit",
+      "description": "Volunteers working together.",
+      "imageUrl": "https://images.unsplash.com/photo-1593113598332-cd288d649433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBoZWxwfGVufDB8fHx8MTcyMTkwMzQ4MXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "community help"
     }
   ]
 }
