@@ -9,7 +9,7 @@
     {
       "id": "service-security",
       "description": "A secure data center server room.",
-      "imageUrl": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2MDg3MzY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2MDg3MzY3NXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "data center"
     },
     {
@@ -261,26 +261,38 @@
     {
       "id": "eguide-cover",
       "description": "Cover of The Ultimate Managed IT Services Guide For 2025",
-      "imageUrl": "https://images.unsplash.com/photo-1586996157503-9587db867a20?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZ3VpZGUlMjBjb3ZlcnxlbnwwfHx8fDE3MjE4OTc2OTB8MA&ixlib=rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageUrl": "https://images.unsplash.com/photo-1586996157503-9587db867a20?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZ3VpZGUlMjBjb3ZlcnxlbnwwfHx8fDE3MjE4OTc2OTB8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "eguide cover"
     },
     {
       "id": "it-burden",
       "description": "IT professional working on servers",
-      "imageUrl": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZXJ2ZXIlMjByb29tfGVufDB8fHx8MTcyMTgzNTAwMnww&ixlib=rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageUrl": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZXJ2ZXIlMjByb29tfGVufDB8fHx8MTcyMTgzNTAwMnww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "server room"
     },
     {
       "id": "powerbi-dashboard",
       "description": "PowerBI executive dashboard screenshot",
-      "imageUrl": "https://images.unsplash.com/photo-1634620942424-95d4b8be05f2?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmJpJTIwZGFzaGJvYXJkfGVufDB8fHx8MTcyMTg5ODAwN3ww&ixlib=rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageUrl": "https://images.unsplash.com/photo-1634620942424-95d4b8be05f2?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwb3dlcmJpJTIwZGFzaGJvYXJkfGVufDB8fHx8MTcyMTg5ODAwN3ww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "dashboard"
     },
     {
       "id": "msp-diagram",
       "description": "Diagram of IT Managed Services",
-      "imageUrl": "https://images.unsplash.com/photo-1664526937033-fe2c11f1be25?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZXJ2aWNlcyUyMGRpYWdyYW18ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib=rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageUrl": "https://images.unsplash.com/photo-1664526937033-fe2c11f1be25?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZXJ2aWNlcyUyMGRpYWdyYW18ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "services diagram"
+    },
+    {
+      "id": "managed-it-healthcare",
+      "description": "Doctor reviewing medical scans on a tablet.",
+      "imageUrl": "https://images.unsplash.com/photo-1666214278381-c9cf932750d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDI5NzN8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare technology"
+    },
+    {
+      "id": "managed-it-finance",
+      "description": "Financial professionals working in a modern trading office.",
+      "imageUrl": "https://images.unsplash.com/photo-1642132652873-774b94653600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaW5hbmNlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDMyMjZ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance technology"
     }
   ]
 }

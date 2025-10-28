@@ -5,8 +5,8 @@ import { services, testimonials, caseStudies, awards } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Star, CheckCircle, Lock, Headset, Cloud, ShieldAlert, Briefcase, Bot, Users, Network, Database, BrainCircuit, Workflow, Handshake } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
+import { Star, CheckCircle, Lock, Headset, Cloud, ShieldAlert, Briefcase, Bot, Users, Network, Database, BrainCircuit, Workflow, Handshake, Hospital, Bank, FileText, Settings, RefreshCw, Lightbulb } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -72,11 +72,76 @@ const subServices = [
     }
 ]
 
+const serviceTypes = [
+    {
+        title: "Proactive Monitoring & IT Maintenance",
+        description: "MSPs continuously monitor your IT systems to identify and resolve issues before they cause significant problems.",
+        icon: Settings
+    },
+    {
+        title: "Security Management",
+        description: "This includes implementing and managing security measures such as firewalls, antivirus software, and intrusion detection systems to protect against cyber threats.",
+        icon: ShieldAlert
+    },
+    {
+        title: "Disaster Backup & Recovery",
+        description: "MSPs ensure that your data is regularly backed up and can be quickly restored in case of data loss or system failure.",
+        icon: RefreshCw
+    },
+    {
+        title: "IT Help Desk Support",
+        description: "Providing 24/7/365 support to address any IT-related issues that employees may encounter.",
+        icon: Headset
+    },
+    {
+        title: "Cloud IT Services",
+        description: "Managing cloud infrastructure, including cloud migration, storage and security.",
+        icon: Cloud
+    },
+    {
+        title: "Compliance Management",
+        description: "Ensuring that your IT systems comply with relevant industry regulations and standards.",
+        icon: FileText
+    },
+    {
+        title: "Strategic IT Planning",
+        description: "Offering guidance on IT strategy and planning to align technology with business goals.",
+        icon: Lightbulb
+    },
+    {
+        title: "AI & Automation",
+        description: "Work smarter, be more productive, boost creativity for your business with Copilot.",
+        icon: Bot
+    }
+];
+
+const industrySolutions = [
+    {
+        title: "Managed IT for Healthcare Providers",
+        description: "Impacting care through innovative technology",
+        imageUrl: "managed-it-healthcare",
+        imageHint: "healthcare technology",
+        href: "#"
+    },
+    {
+        title: "Managed IT for Financial Institutions",
+        description: "Optimize your operations, improve customer experience and meet regulatory requirements",
+        imageUrl: "managed-it-finance",
+        imageHint: "finance technology",
+        href: "#"
+    }
+];
+
+
 const ManagedITPage = () => {
     const eguideImage = PlaceHolderImages.find(img => img.id === 'eguide-cover');
     const burdenImage = PlaceHolderImages.find(img => img.id === 'it-burden');
     const powerbiDashboardImage = PlaceHolderImages.find(img => img.id === 'powerbi-dashboard');
     const mspServicesDiagramImage = PlaceHolderImages.find(img => img.id === 'msp-diagram');
+    const msSecurityPartner = PlaceHolderImages.find(p => p.id === 'award-1');
+    const msModernWorkPartner = PlaceHolderImages.find(p => p.id === 'award-2');
+    const msAzurePartner = PlaceHolderImages.find(p => p.id === 'award-3');
+
 
     return (
         <div>
@@ -201,6 +266,74 @@ const ManagedITPage = () => {
                 </div>
             </section>
 
+            {/* Types of Managed IT Services */}
+            <section className="py-16 md:py-24">
+                <div className="container">
+                    <h2 className="text-center font-headline text-4xl font-bold mb-12">Types of Managed IT Services:</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-border">
+                        {serviceTypes.map((service, index) => (
+                            <Card key={service.title} className={`rounded-none border-none ${(index === 4) ? 'bg-orange-50' : 'bg-background'}`}>
+                                <CardContent className="p-8 h-full">
+                                    <service.icon className="h-10 w-10 text-orange-500 mb-4" />
+                                    <h3 className="font-headline text-xl font-bold">{service.title}</h3>
+                                    <p className="mt-2 text-muted-foreground text-sm">{service.description}</p>
+                                </CardContent>
+                            </Card>
+                        ))}
+                    </div>
+                </div>
+            </section>
+            
+            {/* Premier Microsoft Partner */}
+            <section className="py-16 md:py-24 bg-secondary relative">
+                <div className="container text-center max-w-4xl mx-auto z-10 relative">
+                     <h2 className="font-headline text-4xl font-bold">Partner with a Premier Microsoft Service Provider</h2>
+                     <p className="mt-4 text-muted-foreground">
+                        Maintain control and confidence over your IT operations by working with a Top 150 Microsoft Service Provider. Get Managed IT Services that are powered by experts on the market's leading technology.
+                     </p>
+                </div>
+                <Card className="absolute left-1/2 -translate-x-1/2 top-full -translate-y-1/2 z-20 w-full max-w-4xl shadow-2xl">
+                    <div className="flex justify-around items-center p-8">
+                         {msSecurityPartner && <Image src={msSecurityPartner.imageUrl} alt="Microsoft Security Partner" width={140} height={70} className="object-contain" data-ai-hint={msSecurityPartner.imageHint} />}
+                        {msModernWorkPartner && <Image src={msModernWorkPartner.imageUrl} alt="Microsoft Modern Work Partner" width={140} height={70} className="object-contain" data-ai-hint={msModernWorkPartner.imageHint} />}
+                        {msAzurePartner && <Image src={msAzurePartner.imageUrl} alt="Microsoft Azure Partner" width={140} height={70} className="object-contain" data-ai-hint={msAzurePartner.imageHint} />}
+                    </div>
+                </Card>
+            </section>
+
+            {/* Managed IT for Businesses */}
+            <section className="pt-48 pb-16 md:pb-24">
+                <div className="container">
+                    <h2 className="text-center font-headline text-4xl font-bold mb-12">Managed IT Services for Businesses & Organizations</h2>
+                    <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+                        {industrySolutions.map(solution => {
+                            const solutionImage = PlaceHolderImages.find(img => img.id === solution.imageUrl);
+                            return (
+                                <Card key={solution.title} className="overflow-hidden group">
+                                     {solutionImage && (
+                                        <div className="relative h-64 w-full">
+                                            <Image 
+                                                src={solutionImage.imageUrl} 
+                                                alt={solution.title} 
+                                                fill
+                                                className="object-cover transition-transform duration-300 group-hover:scale-105"
+                                                data-ai-hint={solutionImage.imageHint}
+                                            />
+                                        </div>
+                                     )}
+                                     <CardContent className="p-6">
+                                        <h3 className="font-headline text-2xl font-bold">{solution.title}</h3>
+                                        <p className="mt-2 text-muted-foreground">{solution.description}</p>
+                                        <Button asChild variant="link" className="p-0 text-orange-500 mt-4">
+                                            <Link href={solution.href}>Learn More &rarr;</Link>
+                                        </Button>
+                                     </CardContent>
+                                </Card>
+                            )
+                        })}
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
