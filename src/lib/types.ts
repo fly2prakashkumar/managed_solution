@@ -73,6 +73,7 @@ export interface Award {
 }
 
 export interface Webinar {
+    slug: string;
     title: string;
     date: string;
     imageUrl: string;

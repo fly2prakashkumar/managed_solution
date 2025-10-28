@@ -136,7 +136,7 @@ export default function Home() {
           <div className="flex justify-between items-center mb-8">
             <h2 className="font-headline text-3xl font-bold md:text-4xl">New Copilot Webinar Series!</h2>
             <Button asChild variant='secondary' className='shrink-0'>
-                <Link href="/events">JOIN THE HUNDREDS WHO ALREADY SIGNED UP <ArrowRight className="ml-2"/></Link>
+                <Link href="/events">VIEW ALL EVENTS <ArrowRight className="ml-2"/></Link>
             </Button>
           </div>
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -159,7 +159,7 @@ export default function Home() {
                   <h3 className="font-headline text-xl font-bold">{webinar.title}</h3>
                   <p className="text-sm text-muted-foreground mt-2">{webinar.date}</p>
                   <Button asChild className="mt-4 bg-orange-500 text-white hover:bg-orange-600">
-                    <Link href="#">REGISTER</Link>
+                    <Link href={`/events/${webinar.slug}`}>REGISTER</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -211,14 +211,14 @@ export default function Home() {
                     </Carousel>
                 </div>
 
-                <div className="mt-8 text-center text-muted-foreground">
-                    <p>
+                <div className="mt-8 text-muted-foreground">
+                    <p className='text-center'>
                         Accelerate your company's success with an award-winning team of Microsoft Managed Services experts that are constantly expanding their breadth of knowledge and capabilities. As a Top 150 Microsoft Service Provider in the US with a multitude of Microsoft Certifications under our belt — you can trust us to keep your system powered by the most current, top-of-the-line practices.
                     </p>
                 </div>
                 <div className="mt-8 text-center">
                     <Button asChild size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
-                        <Link href="#">SEE ALL AWARDS & CERTIFICATIONS</Link>
+                        <Link href="/about">SEE ALL AWARDS & CERTIFICATIONS</Link>
                     </Button>
                 </div>
             </Card>
@@ -235,7 +235,7 @@ export default function Home() {
                 We deliver AI-powered IT services that enhance productivity, automate support, and reduce downtime—providing intelligent help desk solutions for businesses of all sizes. Bring the transformative power of AI to your business!
               </p>
               <Button asChild size="lg" className="mt-8 bg-orange-500 text-white hover:bg-orange-600">
-                <Link href="/services#managed-it">VIEW SOLUTION</Link>
+                <Link href="/services/managed-it">VIEW SOLUTION</Link>
               </Button>
             </div>
             <div className="relative h-80 w-full md:h-96">

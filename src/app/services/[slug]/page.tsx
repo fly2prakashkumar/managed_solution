@@ -5,7 +5,7 @@ import { services, testimonials, caseStudies, awards } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Star, CheckCircle, Lock, Headset, Cloud, ShieldAlert, Briefcase, Bot, Users, Network, Database, BrainCircuit, Workflow, Handshake, Hospital, Bank, FileText, Settings, RefreshCw, Lightbulb } from "lucide-react";
+import { Star, CheckCircle, Lock, Headset, Cloud, ShieldAlert, Briefcase, Bot, Users, Network, Database, Settings, RefreshCw, Lightbulb } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Carousel,
@@ -101,7 +101,7 @@ const serviceTypes = [
     {
         title: "Compliance Management",
         description: "Ensuring that your IT systems comply with relevant industry regulations and standards.",
-        icon: FileText
+        icon: CheckCircle
     },
     {
         title: "Strategic IT Planning",
@@ -153,7 +153,7 @@ const ManagedITPage = () => {
                         <p className="mt-4 text-lg text-primary-foreground/80">
                             Download our free eGuide to discover how Managed IT Services can transform your business with proactive monitoring, enhanced security, and strategic IT planning. Learn what a managed IT service provider is, see example MSP contracts, and explore key considerations for selecting the right MSP.
                         </p>
-                        <Button asChild size="lg" variant="outline" className="mt-8 bg-transparent hover:bg-white/10">
+                        <Button asChild size="lg" variant="secondary" className="mt-8">
                             <Link href="#">GET YOUR FREE EGUIDE NOW</Link>
                         </Button>
                     </div>
@@ -183,7 +183,7 @@ const ManagedITPage = () => {
                             With over 20 years’ experience in providing end-to-end technology solutions and outsourced IT services, our award-winning and Microsoft Certified specialists tailor to your success and satisfaction at every touchpoint.
                         </p>
                         <Button asChild variant="link" className="p-0 text-orange-500 mt-2">
-                             <Link href="#">View Awards &gt;</Link>
+                             <Link href="/about">View Awards &gt;</Link>
                         </Button>
                         <div className="mt-6 flex items-center gap-6">
                             {awards.slice(2,5).map(award => {
@@ -260,7 +260,7 @@ const ManagedITPage = () => {
                             Managed IT Services involve outsourcing the management and maintenance of a company’s IT infrastructure to a third-party provider, known as a Managed Service Provider (MSP). This approach allows businesses to focus on their core operations while ensuring their IT systems are efficiently managed and secure. By leveraging Managed IT Services, businesses can benefit from reduced downtime, enhanced security, and cost savings, as they do not need to invest heavily in in-house IT resources. Looking for IT help? Speak with our experts.
                         </p>
                         <Button asChild size="lg" className="mt-6 bg-orange-500 text-white hover:bg-orange-600">
-                            <Link href="/team">MEET OUR TEAM</Link>
+                            <Link href="/about">MEET OUR TEAM</Link>
                         </Button>
                     </div>
                 </div>
@@ -272,7 +272,7 @@ const ManagedITPage = () => {
                     <h2 className="text-center font-headline text-4xl font-bold mb-12">Types of Managed IT Services:</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-border">
                         {serviceTypes.map((service, index) => (
-                            <Card key={service.title} className={`rounded-none border-none ${(index === 4) ? 'bg-orange-50' : 'bg-background'}`}>
+                            <Card key={service.title} className={`rounded-none border-none ${(index === 7) ? 'bg-orange-50' : 'bg-background'}`}>
                                 <CardContent className="p-8 h-full">
                                     <service.icon className="h-10 w-10 text-orange-500 mb-4" />
                                     <h3 className="font-headline text-xl font-bold">{service.title}</h3>

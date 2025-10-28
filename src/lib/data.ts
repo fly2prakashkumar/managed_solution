@@ -1,6 +1,6 @@
 
 import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav } from "@/lib/types";
-import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit } from "lucide-react";
+import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle } from "lucide-react";
 
 export const navItems: NavItem[] = [
   {
@@ -280,18 +280,21 @@ export const awards: Award[] = [
 
 export const webinars: Webinar[] = [
     {
+        slug: "copilot-agents",
         title: "Copilot Agents: Your New...",
         date: "October 21st, 2025 at 10:00am PST",
         imageUrl: "webinar-1",
         imageHint: "copilot agents",
     },
     {
+        slug: "copilot-studio-deep-dive",
         title: "Copilot Studio Deep Dive:...",
         date: "November 4th, 2025 at 10:00am PST",
         imageUrl: "webinar-2",
         imageHint: "copilot studio",
     },
     {
+        slug: "copilot-power-automate",
         title: "Copilot + Power Automate:...",
         date: "November 18th, 2025 at 10:00am PST",
         imageUrl: "webinar-3",
@@ -377,4 +380,3 @@ export const onDemandVideos: OnDemandVideo[] = [
         imageHint: "Copilot finance",
     },
 ]
-
