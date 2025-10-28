@@ -5,7 +5,7 @@ import { services, testimonials, caseStudies } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Star, CheckCircle, Lock, Headset, Cloud, ShieldAlert, Briefcase, Bot, Users } from "lucide-react";
+import { Star, CheckCircle, Lock, Headset, Cloud, ShieldAlert, Briefcase, Bot, Users, Network, Database } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
