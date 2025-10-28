@@ -7,16 +7,16 @@ export const navItems: NavItem[] = [
     title: "Services",
     href: "/services",
     children: [
-      { title: "Managed IT Services", href: "/services#managed-it" },
-      { title: "IT Help Desk", href: "/services#help-desk" },
-      { title: "Managed IT Security Solutions", href: "/services#cybersecurity" },
-      { title: "Microsoft Consulting Services", href: "/services#it-consulting" },
-      { title: "Microsoft Security Services", href: "/services#cybersecurity" },
-      { title: "Azure Cloud Managed Services", href: "/services#cloud-services" },
-      { title: "Compliance Management", href: "/services#cybersecurity" },
-      { title: "Backup and Disaster Recovery Solutions", href: "/services#data-backup" },
-      { title: "Remote Management and Monitoring Tools", href: "/services#managed-it" },
-      { title: "Virtual CIO Consulting Services", href: "/services#it-consulting" },
+      { title: "Managed IT Services", href: "/services/managed-it" },
+      { title: "IT Help Desk", href: "/services/help-desk" },
+      { title: "Managed IT Security Solutions", href: "/services/cybersecurity" },
+      { title: "Microsoft Consulting Services", href: "/services/it-consulting" },
+      { title: "Microsoft Security Services", href: "/services/cybersecurity" },
+      { title: "Azure Cloud Managed Services", href: "/services/cloud-services" },
+      { title: "Compliance Management", href: "/services/cybersecurity" },
+      { title: "Backup and Disaster Recovery Solutions", href: "/services/data-backup" },
+      { title: "Remote Management and Monitoring Tools", href: "/services/managed-it" },
+      { title: "Virtual CIO Consulting Services", href: "/services/it-consulting" },
     ],
   },
   {
@@ -37,7 +37,7 @@ export const navItems: NavItem[] = [
     href: "#",
     children: [
       { title: "Procurement", href: "#" },
-      { title: "Security", href: "/services#cybersecurity" },
+      { title: "Security", href: "/services/cybersecurity" },
       { title: "Microsoft Licensing", href: "#" },
     ],
   },
@@ -51,16 +51,16 @@ export const footerNav: FooterNav[] = [
     {
         title: "Services",
         links: [
-            { title: "Managed IT Services", href: "/services#managed-it" },
-            { title: "IT Help Desk", href: "/services#help-desk" },
-            { title: "Managed IT Security Solutions", href: "/services#cybersecurity" },
-            { title: "Microsoft Consulting Services", href: "/services#it-consulting" },
-            { title: "Microsoft Security Services", href: "/services#cybersecurity" },
-            { title: "Azure Cloud Managed Services", href: "/services#cloud-services" },
-            { title: "Compliance Management", href: "/services#cybersecurity" },
-            { title: "Backup and Disaster Recovery Solutions", href: "/services#data-backup" },
-            { title: "Remote Management and Monitoring Tools", href: "/services#managed-it" },
-            { title: "Virtual CIO Consulting Services", href: "/services#it-consulting" },
+            { title: "Managed IT Services", href: "/services/managed-it" },
+            { title: "IT Help Desk", href: "/services/help-desk" },
+            { title: "Managed IT Security Solutions", href: "/services/cybersecurity" },
+            { title: "Microsoft Consulting Services", href: "/services/it-consulting" },
+            { title: "Microsoft Security Services", href: "/services/cybersecurity" },
+            { title: "Azure Cloud Managed Services", href: "/services/cloud-services" },
+            { title: "Compliance Management", href: "/services/cybersecurity" },
+            { title: "Backup and Disaster Recovery Solutions", href: "/services/data-backup" },
+            { title: "Remote Management and Monitoring Tools", href: "/services/managed-it" },
+            { title: "Virtual CIO Consulting Services", href: "/services/it-consulting" },
         ]
     },
     {
@@ -79,7 +79,7 @@ export const footerNav: FooterNav[] = [
         title: "Products",
         links: [
             { title: "Procurement", href: "#" },
-            { title: "Security", href: "/services#cybersecurity" },
+            { title: "Security", href: "/services/cybersecurity" },
             { title: "Microsoft Licensing", href: "#" },
         ]
     },
@@ -155,7 +155,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "retail-chain-network-overhaul",
     title: "Retail Chain Network Overhaul",
-    clientName: "Global Fashion Inc.",
+    clientName: "Pathway Genomics",
     description: "We modernized the entire network infrastructure for a 50-store retail chain, resulting in a 99.9% uptime and a 40% increase in transaction speed. The solution involved implementing a secure SD-WAN and centralized cloud management.",
     imageUrl: "case-study-1",
     imageHint: "retail store",
@@ -377,3 +377,4 @@ export const onDemandVideos: OnDemandVideo[] = [
         imageHint: "Copilot finance",
     },
 ]
+

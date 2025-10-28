@@ -51,7 +51,7 @@
     {
       "id": "case-study-2",
       "description": "A modern healthcare clinic waiting room.",
-      "imageUrl": "https://images.unsplash.com/photo-1666886573590-5815157da865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoZWFsdGhjYXJlJTIwY2xpbmljfGVufDB8fHx8MTc2MDkzMTI2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1666886573590-5815157da865?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoZWFsdGhjYXJlJTIwY2xpbmljfGVufDB8fHx8MTc2MDkzMTI2M3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "healthcare clinic"
     },
     {
@@ -111,55 +111,55 @@
     {
       "id": "resource-1",
       "description": "Cover image for a white paper on cybersecurity.",
-      "imageUrl": "https://images.unsplash.com/photo-1733945711023-bb707111c16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8MTc2MDg0NzMwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1733945711023-bb707111c16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8MTc2MDg0NzMwOHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "ebook cover"
     },
     {
       "id": "contact-hero",
       "description": "An open and welcoming office reception area.",
-      "imageUrl": "https://images.unsplash.com/photo-1505410603994-c3ac6269711f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvZmZpY2UlMjByZWNlcHRpb258ZW58MHx8fHwxNzYwODIyOTkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1505410603994-c3ac6269711f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvZmZpY2UlMjByZWNlcHRpb258ZW58MHx8fHwxNzYwODIyOTkwfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "office reception"
     },
     {
       "id": "award-1",
       "description": "Microsoft Partner Modern Work Logo",
-      "imageUrl": "https://images.unsplash.com/photo-1662027008658-b615840c7deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsb2dvJTIwbWljcm9zb2Z0fGVufDB8fHx8MTc2MDk0Mjg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1662027008658-b615840c7deb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsb2dvJTIwbWljcm9zb2Z0fGVufDB8fHx8MTc2MDk0Mjg4MHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "logo microsoft"
     },
     {
       "id": "award-2",
       "description": "Microsoft Partner Infrastructure Azure Logo",
-      "imageUrl": "https://images.unsplash.com/photo-1662052955282-da15376f3919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dvJTIwYXp1cmV8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1662052955282-da15376f3919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dvJTIwYXp1cmV8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "logo azure"
     },
     {
       "id": "award-3",
       "description": "Inc 5000 Logo",
-      "imageUrl": "https://images.unsplash.com/photo-1643370362348-3d5360bc0137?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1643370362348-3d5360bc0137?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "logo award"
     },
     {
       "id": "award-4",
       "description": "MSP Today Product of the Year 2025 Logo",
-      "imageUrl": "https://images.unsplash.com/photo-1754300681803-61eadeb79d10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1754300681803-61eadeb79d10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "logo award"
     },
     {
       "id": "award-5",
       "description": "Cloudtango MSP Select 2025 Logo",
-      "imageUrl": "https://images.unsplash.com/photo-1664262283608-05edf08055be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1664262283608-05edf08055be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "logo award"
     },
     {
       "id": "webinar-1",
       "description": "Copilot Agents graphic",
-      "imageUrl": "https://images.unsplash.com/photo-1712219002737-d4e04d21c2c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3NjA4NzE4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1712219002737-d4e04d21c2c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3NjA4NzE4MjR8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract illustration"
     },
     {
       "id": "webinar-2",
       "description": "Copilot Studio graphic",
-      "imageUrl": "https://images.unsplash.com/photo-1562575214-da9fcf59b907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwOTQ2NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1562575214-da9fcf59b907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwOTQ2NDY4fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract tech"
     },
     {
@@ -171,86 +171,92 @@
     {
       "id": "events-hero",
       "description": "People attending a tech conference.",
-      "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldmVudCUyMGNvbmZlcmVuY2V8ZW58MHx8fHwxNzYwOTUxOTk5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldmVudCUyMGNvbmZlcmVuY2V8ZW58MHx8fHwxNzYwOTUxOTk5fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "event conference"
     },
     {
       "id": "live-event-1",
       "description": "Copilot Agents graphic",
-      "imageUrl": "https://images.unsplash.com/photo-1712219002737-d4e04d21c2c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3NjA4NzE4MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1712219002737-d4e04d21c2c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3NjA4NzE4MjR8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract illustration"
     },
     {
       "id": "live-event-2",
       "description": "Copilot Studio graphic",
-      "imageUrl": "https://images.unsplash.com/photo-1562575214-da9fcf59b907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwOTQ2NDY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1562575214-da9fcf59b907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhYnN0cmFjdCUyMHRlY2h8ZW58MHx8fHwxNzYwOTQ2NDY4fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract tech"
     },
     {
       "id": "live-event-3",
       "description": "Copilot and Power Automate graphic",
-      "imageUrl": "https://images.unsplash.com/photo-1654547279170-cc0600c1ee7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGZsb3d8ZW58MHx8fHwxNzYwODk2NTg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1654547279170-cc0600c1ee7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGZsb3d8ZW58MHx8fHwxNzYwODk2NTg1fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract flow"
     },
     {
       "id": "on-demand-1",
       "description": "Copilot and Excel graphic",
-      "imageUrl": "https://images.unsplash.com/photo-1684348366029-58309a935e4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMGRhdGF8ZW58MHx8fHwxNzYwOTUyOTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1684348366029-58309a935e4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMGRhdGF8ZW58MHx8fHwxNzYwOTUyOTM0fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract data"
     },
     {
       "id": "on-demand-2",
       "description": "Abstract graphic about creation",
-      "imageUrl": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2MDg3MzY3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1682559736721-c2e77ff4c650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkYXRhJTIwY2VudGVyfGVufDB8fHx8MTc2MDg3MzY3NXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract creation"
     },
     {
       "id": "on-demand-3",
       "description": "Abstract graphic of notebook",
-      "imageUrl": "https://images.unsplash.com/photo-1698241401542-a73c15f4a71e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMG5vdGVib29rfGVufDB8fHx8MTc2MDk1MzA0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1698241401542-a73c15f4a71e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMG5vdGVib29rfGVufDB8fHx8MTc2MDk1MzA0N3ww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract notebook"
     },
     {
       "id": "on-demand-4",
       "description": "Abstract graphic of a scheduler",
-      "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2hlZHVsZXxlbnwwfHx8fDE3NjA5NTMwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2hlZHVsZXxlbnwwfHx8fDE3NjA5NTMwNDd8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "scheduler"
     },
     {
       "id": "on-demand-5",
       "description": "Abstract graphic representing prompts",
-      "imageUrl": "https://images.unsplash.com/photo-1696205202422-7389c4456e30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHByb21wdHxlbnwwfHx8fDE3NjA5NTMwNDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1696205202422-7389c4456e30?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMHByb21wdHxlbnwwfHx8fDE3NjA5NTMwNDd8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract prompt"
     },
     {
       "id": "on-demand-6",
       "description": "A person doing financial planning",
-      "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04421cd6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidWRnZXQlMjBwbGFubmluZ3xlbnwwfHx8fDE3NjA5NTM2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04421cd6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidWRnZXQlMjBwbGFubmluZ3xlbnwwfHx8fDE3NjA5NTM2Njl8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "budget planning"
     },
     {
       "id": "home-ai-services",
       "description": "Professional woman smiling while using a tablet in a cafe",
-      "imageUrl": "https://images.unsplash.com/photo-1520182215332-b2a8b9ef3545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHRhYmxldHxlbnwwfHx8fDE3MjE4MzQ5MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1520182215332-b2a8b9ef3545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHRhYmxldHxlbnwwfHx8fDE3MjE4MzQ5MzV8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "professional woman"
     },
     {
       "id": "home-national-services",
       "description": "IT professional working on a server rack in a data center",
-      "imageUrl": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZXJ2ZXIlMjByb29tfGVufDB8fHx8MTcyMTgzNTAwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzZXJ2ZXIlMjByb29tfGVufDB8fHx8MTcyMTgzNTAwMnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "server room"
     },
     {
       "id": "home-map",
       "description": "A map of the United States",
-      "imageUrl": "https://images.unsplash.com/photo-1547815749-838c83787de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxVU0ElMjBtYXB8ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1547815749-838c83787de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxVU0ElMjBtYXB8ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "USA map"
     },
     {
       "id": "home-smarter-it",
       "description": "A circular diagram illustrating various managed IT services",
-      "imageUrl": "https://images.unsplash.com/photo-1664526937033-fe2c11f1be25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZXJ2aWNlcyUyMGRpYWdyYW18ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1664526937033-fe2c11f1be25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZXJ2aWNlcyUyMGRpYWdyYW18ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "services diagram"
+    },
+    {
+      "id": "case-study-pdf-preview",
+      "description": "Preview of a PDF case study document.",
+      "imageUrl": "https://images.unsplash.com/photo-1606764539891-b9a9f75294b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZGYlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjE4MzY0NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "pdf document"
     }
   ]
 }
