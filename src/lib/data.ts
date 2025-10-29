@@ -8,17 +8,14 @@ export const navItems: NavItem[] = [
     title: "Services",
     href: "/services",
     children: [
-      { title: "Managed IT Services", href: "/services/managed-it" },
+      { title: "Managed IT", href: "/services/managed-it" },
+      { title: "Co-Managed IT", href: "/services/co-managed-it" },
       { title: "IT Help Desk", href: "/services/help-desk" },
-      { title: "Managed IT Security Solutions", href: "/services/cybersecurity" },
-      { title: "Microsoft Consulting Services", href: "/services/it-consulting" },
-      { title: "Microsoft Security Services", href: "/services/cybersecurity" },
-      { title: "Azure Cloud Managed Services", href: "/services/cloud-services" },
-      { title: "Compliance Management", href: "/services/cybersecurity" },
-      { title: "Backup and Disaster Recovery Solutions", href: "/services/data-backup" },
-      { title: "Remote Management and Monitoring Tools", href: "/services/managed-it" },
-      { title: "Virtual CIO Consulting Services", href: "/services/it-consulting" },
-      { title: "Co-Managed IT", href: "/services/co-managed-it"},
+      { title: "Managed IT Security", href: "/services/cybersecurity" },
+      { title: "Microsoft Consulting", href: "/services/it-consulting" },
+      { title: "Microsoft Security", href: "/services/cybersecurity" },
+      { title: "Azure Cloud", href: "/services/cloud-services" },
+      { title: "VCIO Consulting", href: "/services/it-consulting" }
     ],
   },
   {
@@ -460,3 +457,4 @@ export const coManagedFaqs: Faq[] = [
         answer: "Yes! It helps you avoid the high cost of hiring additional full-time specialists by providing access to a wide range of expertise on-demand. You only pay for the specific services you need, making it a cost-effective way to enhance your IT capabilities."
     }
 ]
+
