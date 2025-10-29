@@ -11,7 +11,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { ArrowRight, CheckCircle, Star } from 'lucide-react';
+import { ArrowRight, CheckCircle, Star, Monitor, ShieldCheck, UserCheck, BarChart, Briefcase, Bot, Settings, Globe } from 'lucide-react';
 import { testimonials, awards, webinars } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import ContactSection from '@/components/shared/contact-section';
@@ -23,6 +23,40 @@ const mapImage = PlaceHolderImages.find(img => img.id === 'home-map');
 const smarterItImage = PlaceHolderImages.find(img => img.id === 'home-smarter-it');
 
 export default function Home() {
+  const serviceBenefits = [
+    {
+        icon: '🖥️',
+        text: "Gain full visibility into your network's health and performance."
+    },
+    {
+        icon: '💼',
+        text: "Ensure continuous compliance with real-time threat monitoring and incident reporting."
+    },
+    {
+        icon: '🚨',
+        text: "Protect sensitive employee data with around-the-clock threat detection and rapid response."
+    },
+    {
+        icon: '⚖️',
+        text: "Enhance employee satisfaction by applying customer service metrics to internal support."
+    },
+    {
+        icon: '📊',
+        text: "Make faster, data-driven decisions with real-time insights into budgets, forecasts, and performance."
+    },
+    {
+        icon: '🤝',
+        text: "Automate routine tasks to a trusted partner. Focus on solving complex tech challenges faster."
+    },
+    {
+        icon: '⚙️',
+        text: "Streamline issue tracking with a centralized system. Gain visibility, prioritize tasks, and improve response times."
+    },
+    {
+        icon: '🌐',
+        text: "Oversee all endpoints with real-time monitoring and automated maintenance. Boost efficiency and reduce downtime across the organization."
+    }
+  ];
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
@@ -55,7 +89,7 @@ export default function Home() {
                 <Link href="/contact">CONTACT US</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-white bg-transparent text-white hover:bg-white/10">
-                <Link href="/services">LEARN MORE</Link>
+                <Link href="/services/managed-it">LEARN MORE</Link>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-white bg-transparent text-white hover:bg-white/10">
                 <a href="tel:858-429-3000">858-429-3000</a>
@@ -133,14 +167,12 @@ export default function Home() {
       {/* Webinar Series Section */}
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container">
-          <div className="flex justify-between items-center mb-8">
+          <div className="text-center mb-8">
             <h2 className="font-headline text-3xl font-bold md:text-4xl">New Copilot Webinar Series!</h2>
-            <Button asChild variant='secondary' className='shrink-0'>
-                <Link href="/events">VIEW ALL EVENTS <ArrowRight className="ml-2"/></Link>
-            </Button>
+             <p className="text-primary-foreground/80 mt-2">JOIN THE HUNDREDS WHO ALREADY SIGNED UP</p>
           </div>
-          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {webinars.map((webinar) => {
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-4xl mx-auto">
+            {webinars.slice(1,3).map((webinar) => {
               const webinarImage = PlaceHolderImages.find(img => img.id === webinar.imageUrl);
               return (
               <Card key={webinar.title} className="bg-card text-card-foreground overflow-hidden">
@@ -158,7 +190,7 @@ export default function Home() {
                 <CardContent className="p-6">
                   <h3 className="font-headline text-xl font-bold">{webinar.title}</h3>
                   <p className="text-sm text-muted-foreground mt-2">{webinar.date}</p>
-                  <Button asChild className="mt-4 bg-orange-500 text-white hover:bg-orange-600">
+                  <Button asChild className="mt-4 bg-orange-500 text-white hover:bg-orange-600 w-full">
                     <Link href={`/events/${webinar.slug}`}>REGISTER</Link>
                   </Button>
                 </CardContent>
@@ -173,11 +205,6 @@ export default function Home() {
         <div className="container max-w-4xl">
             <Card className="p-8 md:p-12 shadow-2xl">
                 <div className="text-center">
-                    <div className="flex justify-center text-orange-400 mb-4">
-                        <Star className="w-6 h-6" />
-                        <Star className="w-8 h-8 mx-1" />
-                        <Star className="w-6 h-6" />
-                    </div>
                     <h2 className="font-headline text-3xl font-bold md:text-4xl">Microsoft Specialized Experts You Can Count On</h2>
                 </div>
                 
@@ -309,30 +336,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Empowering Every Role Section */}
-      <section className="py-16 md:py-24 bg-secondary">
+      {/* Managed Services Wheel Section */}
+       <section className="py-16 md:py-24 bg-secondary">
         <div className="container">
-          <div className="grid items-center gap-8 md:grid-cols-2 md:gap-12">
-            <div>
-              <h2 className="font-headline text-3xl font-bold md:text-4xl">Empowering Every Role with Smarter IT</h2>
-              <p className="mt-4 text-lg text-muted-foreground">
+          <div className="text-center max-w-3xl mx-auto">
+            <h2 className="font-headline text-3xl font-bold md:text-4xl">Empowering Every Role with Smarter IT</h2>
+             <p className="mt-4 text-lg text-muted-foreground">
                 Technology should be an advantage, not a burden. Our Managed Services Wheel illustrates how every role, from HR and Finance to IT and Compliance, benefits from integrated solutions designed to work together.
               </p>
-              <p className="mt-4 text-lg text-muted-foreground">
-                Whether it's automating processes, monitoring networks, or ensuring compliance, we deliver peace of mind and measurable results for your entire organization.
-              </p>
-            </div>
-            <div className="relative h-96 w-full">
-              {smarterItImage && (
-                <Image
-                  src={smarterItImage.imageUrl}
-                  alt={smarterItImage.description}
-                  fill
-                  className="object-contain"
-                  data-ai-hint={smarterItImage.imageHint}
-                />
-              )}
-            </div>
+          </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+            {serviceBenefits.map((benefit, index) => (
+              <div key={index} className="flex flex-col items-center text-center">
+                <span className="text-4xl">{benefit.icon}</span>
+                <p className="mt-4 text-muted-foreground">{benefit.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

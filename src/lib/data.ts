@@ -1,6 +1,6 @@
 
 import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq } from "@/lib/types";
-import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle } from "lucide-react";
+import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
 export const navItems: NavItem[] = [
   {
@@ -41,10 +41,35 @@ export const navItems: NavItem[] = [
       { title: "Microsoft Licensing", href: "#" },
     ],
   },
-  { title: "About Us", href: "/about" },
-  { title: "Blog", href: "/blog" },
-  { title: "Resources", href: "/resources" },
-   { title: "Contact", href: "/contact" },
+  {
+    title: "Industries",
+    href: "#",
+    children: [
+      { title: "Healthcare", href: "#" },
+      { title: "Finance", href: "#" },
+      { title: "Life Sciences", href: "#" },
+      { title: "Non-Profit", href: "#" },
+    ]
+  },
+  {
+    title: "Resources",
+    href: "/resources",
+    children: [
+      { title: "Blog", href: "/blog" },
+      { title: "Case Studies", href: "/case-studies" },
+      { title: "Events", href: "/events" },
+      { title: "White Papers", href: "/resources" },
+    ]
+  },
+  {
+    title: "Culture",
+    href: "/about",
+    children: [
+      { title: "About Us", href: "/about" },
+      { title: "Careers", href: "#" },
+      { title: "Awards", href: "/about" },
+    ]
+  },
 ];
 
 export const footerNav: FooterNav[] = [
@@ -57,39 +82,26 @@ export const footerNav: FooterNav[] = [
             { title: "Microsoft Consulting Services", href: "/services/it-consulting" },
             { title: "Microsoft Security Services", href: "/services/cybersecurity" },
             { title: "Azure Cloud Managed Services", href: "/services/cloud-services" },
-            { title: "Compliance Management", href: "/services/cybersecurity" },
-            { title: "Backup and Disaster Recovery Solutions", href: "/services/data-backup" },
-            { title: "Remote Management and Monitoring Tools", href: "/services/managed-it" },
-            { title: "Virtual CIO Consulting Services", href: "/services/it-consulting" },
         ]
     },
     {
-        title: "Solutions",
+        title: "Industries",
         links: [
-            { title: "Zero Touch Deployment Services", href: "#" },
-            { title: "Entra ID and Intune Migration", href: "#" },
-            { title: "Employee Engagement", href: "#" },
-            { title: "Business Process Automation", href: "#" },
-            { title: "Technology Mergers and Acquisitions", href: "#" },
-            { title: "Communication and Collaboration", href: "#" },
-            { title: "Simplified Cloud Management and Deployment", href: "#" },
+            { title: "Healthcare", href: "#" },
+            { title: "Financial", href: "#" },
+            { title: "Life Sciences", href: "#" },
+            { title: "Nonprofit", href: "#" },
         ]
     },
     {
-        title: "Products",
+        title: "Company",
         links: [
-            { title: "Procurement", href: "#" },
-            { title: "Security", href: "/services/cybersecurity" },
-            { title: "Microsoft Licensing", href: "#" },
-        ]
-    },
-    {
-        title: "Contact",
-        links: [
-            { title: "Contact Us", href: "/contact" },
-            { title: "Customer Support", href: "#" },
-            { title: "Partners", href: "#" },
+            { title: "About Us", href: "/about" },
+            { title: "Blog", href: "/blog" },
+            { title: "Case Studies", href: "/case-studies" },
+            { title: "Events", href: "/events" },
             { title: "Careers", href: "#" },
+            { title: "Contact Us", href: "/contact" },
         ]
     }
 ]
@@ -251,14 +263,17 @@ export const testimonials: Testimonial[] = [
   {
     name: "Fern Usry",
     comment: "I would highly recommend Managed Solution for your IT needs. They resolve things quickly and efficiently.",
+    date: "2024-07-12"
   },
   {
     name: "John Grillo",
     comment: "My IT issue was holding up a Sales Contract from being sent out. The Managed Solution team took care of it in less than 5 minutes!",
+    date: "2024-07-10"
   },
   {
     name: "Tim McMullen",
     comment: "They are always great at helping me out. The fast response … highly recommend this company!",
+    date: "2024-07-08"
   },
 ];
 

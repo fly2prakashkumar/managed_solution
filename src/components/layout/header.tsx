@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { navItems } from "@/lib/data";
-import { ChevronDown, Menu } from "lucide-react";
+import { ChevronDown, Menu, Search, User, CreditCard } from "lucide-react";
 import { Phone } from "lucide-react";
 
 export default function Header() {
@@ -20,6 +20,28 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+       <div className="bg-secondary/50">
+        <div className="container flex h-10 items-center justify-end text-sm text-muted-foreground">
+          <div className="flex items-center gap-6">
+            <a href="tel:858.429.3055" className="hover:text-foreground">858.429.3055</a>
+            <Link href="#" className="flex items-center gap-1.5 hover:text-foreground">
+              <User className="h-4 w-4" />
+              Customer Support
+            </Link>
+            <Link href="#" className="flex items-center gap-1.5 hover:text-foreground">
+              <CreditCard className="h-4 w-4" />
+              Make A Payment
+            </Link>
+             <Link href="#" className="flex items-center gap-1.5 hover:text-foreground">
+              Partner Programs
+            </Link>
+            <button className="flex items-center gap-1.5 hover:text-foreground">
+              <Search className="h-4 w-4" />
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
       <div className="container flex h-20 items-center justify-between">
         <Logo />
 
@@ -61,6 +83,9 @@ export default function Header() {
         <div className="hidden items-center gap-4 lg:flex">
           <Button variant="outline" asChild className="font-bold border-primary text-primary">
             <Link href="/contact">BOOK CONSULTATION</Link>
+          </Button>
+           <Button variant="default" asChild className="font-bold">
+            <Link href="/contact">CONTACT SALES</Link>
           </Button>
         </div>
 

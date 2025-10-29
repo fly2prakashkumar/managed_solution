@@ -64,6 +64,7 @@ export interface Resource {
 export interface Testimonial {
     name: string;
     comment: string;
+    date: string;
 }
 
 export interface Award {

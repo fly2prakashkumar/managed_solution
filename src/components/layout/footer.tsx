@@ -1,8 +1,10 @@
+
 import Link from "next/link";
 import Logo from "@/components/shared/logo";
 import { footerNav } from "@/lib/data";
 import { Linkedin, Facebook, Twitter, Youtube } from "lucide-react";
 import { Button } from "../ui/button";
+import { Input } from "../ui/input";
 
 
 export default function Footer() {
@@ -47,7 +49,7 @@ export default function Footer() {
             </div>
             <div className="mt-8 space-y-4">
                 <div>
-                    <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">Services</h3>
+                    <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">Address</h3>
                     <p className="mt-2 text-sm text-muted-foreground">
                         2150 W Washington St, Suite 402<br />
                         San Diego, CA 92110
@@ -63,8 +65,8 @@ export default function Footer() {
              </Button>
           </div>
           
-          <div className="md:col-span-9">
-             <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+          <div className="md:col-span-6">
+             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
                 {footerNav.map(section => (
                     <div key={section.title}>
                         <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">{section.title}</h3>
@@ -81,9 +83,23 @@ export default function Footer() {
                 ))}
               </div>
           </div>
+           <div className="md:col-span-3">
+            <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">Newsletter Sign-Up</h3>
+            <form className="mt-4 space-y-4">
+              <div>
+                <label htmlFor="footer-firstname" className="sr-only">First name*</label>
+                <Input id="footer-firstname" placeholder="First name*" required />
+              </div>
+              <div>
+                <label htmlFor="footer-email" className="sr-only">Email*</label>
+                <Input id="footer-email" type="email" placeholder="Email*" required />
+              </div>
+              <Button type="submit" className="w-full">Sign Up</Button>
+            </form>
+          </div>
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Managed Solution. All rights reserved.</p>
+          <p>Copyright &copy; {new Date().getFullYear()} Managed Solution. All rights reserved.</p>
         </div>
       </div>
     </footer>
