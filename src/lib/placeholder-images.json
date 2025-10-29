@@ -285,7 +285,7 @@
     {
       "id": "managed-it-healthcare",
       "description": "Doctor reviewing medical scans on a tablet.",
-      "imageUrl": "https://images.unsplash.com/photo-1666214278381-c9cf932750d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDI5NzN8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1666214278381-c9cf932750d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDI5NzN8MA&ixlib.rb-41.0&q=80&w=1080",
       "imageHint": "healthcare technology"
     },
     {
@@ -297,7 +297,7 @@
     {
       "id": "managed-it-pharma",
       "description": "Scientist in a lab.",
-      "imageUrl": "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDM0ODF8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1579165466949-3180a3d056d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY2llbmNlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDM0ODF8MA&ixlib.rb-41.0&q=80&w=1080",
       "imageHint": "science technology"
     },
     {
@@ -339,7 +339,7 @@
     {
       "id": "security-hero",
       "description": "Abstract concept of cyber security with glowing blue lock.",
-      "imageUrl": "https://images.unsplash.com/photo-1584433144853-1ab3d72a23a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwYWJzdHJhY3R8ZW58MHx8fHwxNzIyMDIxODAyfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1584433144853-1ab3d72a23a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwYWJzdHJhY3R8ZW58MHx8fHwxNzIyMDIxODAyfDA&ixlib.rb-41.0&q=80&w=1080",
       "imageHint": "cybersecurity abstract"
     },
     {
@@ -371,6 +371,18 @@
       "description": "Microsoft logo with security overlay.",
       "imageUrl": "https://images.unsplash.com/photo-1629813299710-1c9c3792f392?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBzZWN1cml0eXxlbnwwfHx8fDE3MjIwMjE4MDJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "microsoft security"
+    },
+    {
+      "id": "service-ms-security",
+      "description": "Microsoft logo with a security shield.",
+      "imageUrl": "https://images.unsplash.com/photo-1629813299710-1c9c3792f392?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBzZWN1cml0eXxlbnwwfHx8fDE3MjIwMjE4MDJ8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "Microsoft security"
+    },
+    {
+      "id": "service-vcio",
+      "description": "Executive in a meeting, representing a vCIO.",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHN0cmF0ZWd5fGVufDB8fHx8MTcyMjA0MjM1OHww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "business strategy"
     }
   ]
 }

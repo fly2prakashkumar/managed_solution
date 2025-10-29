@@ -13,7 +13,9 @@ export const navItems: NavItem[] = [
       { title: "IT Help Desk", href: "/services/help-desk" },
       { title: "IT Security", href: "/services/cybersecurity" },
       { title: "Microsoft Consulting", href: "/services/it-consulting" },
-      { title: "Cloud Services", href: "/services/cloud-services" }
+      { title: "Azure Cloud Services", href: "/services/cloud-services" },
+      { title: "Microsoft Security", href: "/services/microsoft-security" },
+      { title: "vCIO Consulting", href: "/services/vcio-consulting" },
     ],
   },
   {
@@ -124,7 +126,7 @@ export const services: Service[] = [
   },
   {
     slug: "cloud-services",
-    title: "Cloud Services",
+    title: "Azure Cloud Services",
     shortDescription: "Leverage the power and scalability of the cloud.",
     icon: Cloud,
     description: "Unlock flexibility and efficiency with our cloud services. We help you migrate, manage, and optimize your cloud infrastructure, whether you're using public, private, or hybrid cloud environments. Services include cloud hosting, data backup, and disaster recovery.",
@@ -166,6 +168,24 @@ export const services: Service[] = [
     description: "Our Co-Managed IT services provide a flexible partnership, supplementing your existing IT team with our expertise, resources, and tools. We fill the gaps, you maintain control.",
     imageUrl: "co-managed-it-hero",
     imageHint: "team collaboration",
+  },
+  {
+    slug: "microsoft-security",
+    title: "Microsoft Security",
+    shortDescription: "Specialized security for your Microsoft environment.",
+    icon: ShieldCheck,
+    description: "Leverage our deep expertise in Microsoft's security stack. We help you implement and manage solutions like Microsoft Sentinel, Defender, and Entra ID to protect your assets.",
+    imageUrl: "service-ms-security",
+    imageHint: "Microsoft security",
+  },
+  {
+    slug: "vcio-consulting",
+    title: "vCIO Consulting",
+    shortDescription: "Strategic IT leadership to guide your business.",
+    icon: Briefcase,
+    description: "Get the benefit of high-level strategic IT guidance without the cost of a full-time executive. Our vCIOs help with budgeting, planning, and aligning your technology with your business goals.",
+    imageUrl: "service-vcio",
+    imageHint: "business strategy",
   },
 ];
 

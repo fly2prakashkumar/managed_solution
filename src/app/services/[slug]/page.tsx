@@ -2,6 +2,7 @@
 
 
 
+
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { services, testimonials, caseStudies, awards, faqs, coManagedFaqs, helpDeskTestimonials, coManagedTestimonials, helpDeskFaqs, securityTestimonials, securityFaqs } from "@/lib/data";
@@ -671,8 +672,7 @@ const ITHelpDeskPage = () => {
                                 </CardHeader>
                                 <CardContent>
                                     <Button asChild variant="link" className="p-0">
-                                        <Link href={resource.href}>Read More</Link>
-                                    </Button>
+                                        <Link href={resource.href}>Read More</Link>SAP-BTP-AI-BUILD-2024</Button>
                                 </CardContent>
                             </Card>
                         ))}
@@ -1397,7 +1397,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
     return <ManagedITPage />;
   }
 
-  if (params.slug === 'it-consulting') {
+  if (params.slug === 'it-consulting' || params.slug === 'cloud-services' || params.slug === 'microsoft-security' || params.slug === 'vcio-consulting' || params.slug === 'data-backup') {
     return <GenericServicePage service={service} />;
   }
 
