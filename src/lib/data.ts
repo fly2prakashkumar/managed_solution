@@ -310,6 +310,27 @@ export const helpDeskTestimonials: Testimonial[] = [
         comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
     }
+];
+
+export const securityTestimonials: Testimonial[] = [
+    {
+        name: "Annglia C.",
+        company: "Polara Health",
+        comment: "They are ALWAYS so pleasant to work with and have a sense of urgency. The whole team is very helpful and knowledgeable! Thank you for all that you do for us!",
+        date: "2024-07-18"
+    },
+    {
+        name: "Elizabeth S.",
+        company: "Shore Solutions",
+        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        date: "2024-07-17"
+    },
+    {
+        name: "Barbara R.",
+        company: "CA Assoc of Marriage & Family Therapists",
+        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        date: "2024-07-16"
+    }
 ]
 
 export const awards: Award[] = [
@@ -501,5 +522,28 @@ export const helpDeskFaqs: Faq[] = [
     {
         question: "What is the pricing for help desk services?",
         answer: "Our pricing starts at $30.00 per user. We offer clear pricing structures and a 60-day satisfaction guarantee to ensure our service is the right fit for your business."
+    }
+]
+
+export const securityFaqs: Faq[] = [
+    {
+        question: "What is Managed IT Security?",
+        answer: "Managed IT Security involves outsourcing your cybersecurity needs to a specialized provider who handles threat monitoring, detection, response, and compliance. This allows you to protect your business without needing a large in-house security team."
+    },
+    {
+        question: "How does 24/7 monitoring work?",
+        answer: "Our Security Operations Center (SOC) continuously monitors your network, servers, and endpoints around the clock. We use advanced tools like SIEM to analyze activity, identify threats, and respond instantly to any security incidents."
+    },
+    {
+        question: "Is security awareness training really necessary?",
+        answer: "Yes. Employees are often the first line of defense against cyberattacks. Our phishing simulations and training programs educate your team to recognize and avoid threats, significantly reducing the risk of human error leading to a breach."
+    },
+    {
+        question: "Can you help with industry-specific compliance (e.g., HIPAA, PCI)?",
+        answer: "Absolutely. We have extensive experience helping businesses in regulated industries meet their compliance obligations. We can conduct risk assessments, implement necessary controls, and provide the documentation needed for audits."
+    },
+    {
+        question: "What makes your security solutions 'specialized' with Microsoft?",
+        answer: "As a premier Microsoft partner with specializations in security, we have deep expertise in deploying and managing Microsoft's security ecosystem, including Microsoft Sentinel (SIEM), Defender, and Entra ID. This allows us to provide tightly integrated and highly effective security solutions."
     }
 ]

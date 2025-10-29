@@ -335,6 +335,42 @@
       "description": "A professional document or datasheet.",
       "imageUrl": "https://images.unsplash.com/photo-1583521214690-8a79a6396930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjIwMDk2ODF8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "document"
+    },
+    {
+      "id": "security-hero",
+      "description": "Abstract concept of cyber security with glowing blue lock.",
+      "imageUrl": "https://images.unsplash.com/photo-1584433144853-1ab3d72a23a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwYWJzdHJhY3R8ZW58MHx8fHwxNzIyMDIxODAyfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "cybersecurity abstract"
+    },
+    {
+      "id": "security-datasheet-cta",
+      "description": "Graphic for a datasheet download.",
+      "imageUrl": "https://images.unsplash.com/photo-1611266964311-66710b1d5c5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGRvY3VtZW50fGVufDB8fHx8MTcyMjAyMTgwMnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract document"
+    },
+    {
+      "id": "security-blog-1",
+      "description": "Graphic for Identity Management blog post.",
+      "imageUrl": "https://images.unsplash.com/photo-1634961138287-354d10332526?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpZGVudGl0eSUyMGFic3RyYWN0fGVufDB8fHx8MTcyMjAyMTgwMnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "identity abstract"
+    },
+    {
+      "id": "security-blog-2",
+      "description": "Stressed person at desk, representing CISO nightmares.",
+      "imageUrl": "https://images.unsplash.com/photo-1604116238890-50a3b0a259d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdHJlc3NlZCUyMHBlcnNvbiUyMGRlc2t8ZW58MHx8fHwxNzIyMDIxODAyfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "stressed person"
+    },
+    {
+      "id": "security-blog-3",
+      "description": "Computer with cybersecurity graphics.",
+      "imageUrl": "https://images.unsplash.com/photo-1614064548237-02f0d1a29813?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjeWJlcnNlY3VyaXR5JTIwZ3JhcGhpY3xlbnwwfHx8fDE3MjIwMjE4MDJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "cybersecurity graphic"
+    },
+    {
+      "id": "security-blog-4",
+      "description": "Microsoft logo with security overlay.",
+      "imageUrl": "https://images.unsplash.com/photo-1629813299710-1c9c3792f392?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBzZWN1cml0eXxlbnwwfHx8fDE3MjIwMjE4MDJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "microsoft security"
     }
   ]
 }
