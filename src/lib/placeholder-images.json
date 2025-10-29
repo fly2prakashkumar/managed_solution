@@ -317,6 +317,24 @@
       "description": "Cross-departmental collaboration with sticky notes on a glass wall.",
       "imageUrl": "https://images.unsplash.com/photo-1542744095-fcf48d80b2fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHdvcmtzaG9wfGVufDB8fHx8MTcyMTkxMDY1N3ww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "business workshop"
+    },
+    {
+      "id": "help-desk-hero",
+      "description": "A happy employee receiving IT help desk support.",
+      "imageUrl": "https://images.unsplash.com/photo-1556742053-999a3851b664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMGVtcGxveWVlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy employee"
+    },
+    {
+      "id": "help-desk-employees",
+      "description": "US-based employees working in an office.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "team office"
+    },
+    {
+      "id": "datasheet-cta",
+      "description": "A professional document or datasheet.",
+      "imageUrl": "https://images.unsplash.com/photo-1583521214690-8a79a6396930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjIwMDk2ODF8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "document"
     }
   ]
 }

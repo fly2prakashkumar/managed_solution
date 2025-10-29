@@ -66,6 +66,7 @@ export interface Testimonial {
     name: string;
     comment: string;
     date: string;
+    company?: string;
 }
 
 export interface Award {

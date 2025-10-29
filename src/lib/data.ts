@@ -8,14 +8,12 @@ export const navItems: NavItem[] = [
     title: "Services",
     href: "/services",
     children: [
-      { title: "Managed IT", href: "/services/managed-it" },
+      { title: "Managed IT Services", href: "/services/managed-it" },
       { title: "Co-Managed IT", href: "/services/co-managed-it" },
       { title: "IT Help Desk", href: "/services/help-desk" },
-      { title: "Managed IT Security", href: "/services/cybersecurity" },
+      { title: "IT Security", href: "/services/cybersecurity" },
       { title: "Microsoft Consulting", href: "/services/it-consulting" },
-      { title: "Microsoft Security", href: "/services/cybersecurity" },
-      { title: "Azure Cloud", href: "/services/cloud-services" },
-      { title: "VCIO Consulting", href: "/services/it-consulting" }
+      { title: "Cloud Services", href: "/services/cloud-services" }
     ],
   },
   {
@@ -291,6 +289,27 @@ export const coManagedTestimonials: Testimonial[] = [
         comment: "We'd worked with Managed Solution on a successful IT project in the past, so we had a good idea of their capabilities. Since they were at Microsoft Partner, in addition to projects they were able to support our software licensing. This was especially important to make sure that we have a compliant IT function error radar.",
         date: "Sr. Principal, Information Systems and Technology"
     }
+];
+
+export const helpDeskTestimonials: Testimonial[] = [
+    {
+        name: "Annglia C.",
+        company: "Polara Health",
+        comment: "They are ALWAYS so pleasant to work with and have a sense of urgency. The whole team is very helpful and knowledgeable! Thank you for all that you do for us!",
+        date: "2024-07-18"
+    },
+    {
+        name: "Elizabeth S.",
+        company: "Shore Solutions",
+        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        date: "2024-07-17"
+    },
+    {
+        name: "Barbara R.",
+        company: "CA Assoc of Marriage & Family Therapists",
+        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        date: "2024-07-16"
+    }
 ]
 
 export const awards: Award[] = [
@@ -458,3 +477,29 @@ export const coManagedFaqs: Faq[] = [
     }
 ]
 
+export const helpDeskFaqs: Faq[] = [
+    {
+        question: "How can I contact the IT help desk?",
+        answer: "You can contact our IT help desk via phone at 888.563.9132 (option 2), by email at support@managedsolution.com, or through our customer portal."
+    },
+    {
+        question: "What are your help desk hours?",
+        answer: "Our help desk is based in the USA and operates 24/7/365, including holidays, to ensure you always have access to support when you need it."
+    },
+    {
+        question: "What is the average response time for a ticket?",
+        answer: "Our average response time is under 10 seconds. We prioritize rapid acknowledgment and resolution to minimize your downtime."
+    },
+    {
+        question: "What kind of issues can the help desk assist with?",
+        answer: "Our help desk can assist with a wide range of issues, including software problems, hardware troubleshooting, network connectivity, password resets, security concerns, and support for Microsoft applications."
+    },
+    {
+        question: "Do you offer on-site support?",
+        answer: "Yes, our Level 3 support tier includes regularly scheduled on-site visits and hands-on assistance from our expert field engineers for issues that cannot be resolved remotely."
+    },
+    {
+        question: "What is the pricing for help desk services?",
+        answer: "Our pricing starts at $30.00 per user. We offer clear pricing structures and a 60-day satisfaction guarantee to ensure our service is the right fit for your business."
+    }
+]
