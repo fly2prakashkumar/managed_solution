@@ -305,6 +305,18 @@
       "description": "Volunteers working together.",
       "imageUrl": "https://images.unsplash.com/photo-1593113598332-cd288d649433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBoZWxwfGVufDB8fHx8MTcyMTkwMzQ4MXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "community help"
+    },
+    {
+      "id": "co-managed-it-hero",
+      "description": "A diverse team collaborating in a modern office.",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MjE5MTA2NTd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "collaboration-image",
+      "description": "Cross-departmental collaboration with sticky notes on a glass wall.",
+      "imageUrl": "https://images.unsplash.com/photo-1542744095-fcf48d80b2fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHdvcmtzaG9wfGVufDB8fHx8MTcyMTkxMDY1N3ww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "business workshop"
     }
   ]
 }

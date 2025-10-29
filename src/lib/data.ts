@@ -1,4 +1,5 @@
 
+
 import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
@@ -17,6 +18,7 @@ export const navItems: NavItem[] = [
       { title: "Backup and Disaster Recovery Solutions", href: "/services/data-backup" },
       { title: "Remote Management and Monitoring Tools", href: "/services/managed-it" },
       { title: "Virtual CIO Consulting Services", href: "/services/it-consulting" },
+      { title: "Co-Managed IT", href: "/services/co-managed-it"},
     ],
   },
   {
@@ -161,6 +163,15 @@ export const services: Service[] = [
     imageUrl: "service-voip",
     imageHint: "customer support",
   },
+  {
+    slug: "co-managed-it",
+    title: "Co-Managed IT Services",
+    shortDescription: "Collaborative IT support to empower your in-house team.",
+    icon: Users,
+    description: "Our Co-Managed IT services provide a flexible partnership, supplementing your existing IT team with our expertise, resources, and tools. We fill the gaps, you maintain control.",
+    imageUrl: "co-managed-it-hero",
+    imageHint: "team collaboration",
+  },
 ];
 
 export const caseStudies: CaseStudy[] = [
@@ -276,6 +287,14 @@ export const testimonials: Testimonial[] = [
     date: "2024-07-08"
   },
 ];
+
+export const coManagedTestimonials: Testimonial[] = [
+    {
+        name: "Dennis Gonzales",
+        comment: "We'd worked with Managed Solution on a successful IT project in the past, so we had a good idea of their capabilities. Since they were at Microsoft Partner, in addition to projects they were able to support our software licensing. This was especially important to make sure that we have a compliant IT function error radar.",
+        date: "Sr. Principal, Information Systems and Technology"
+    }
+]
 
 export const awards: Award[] = [
   { title: "Microsoft Partner - Modern Work", imageId: "award-1" },
@@ -418,3 +437,26 @@ export const faqs: Faq[] = [
         answer: "Yes. We provide guaranteed proactive end-to-end IT management and support, including 24x7x365 network monitoring, patch management, and data protection. Our helpdesk agents are all based in the USA."
     }
 ];
+
+export const coManagedFaqs: Faq[] = [
+    {
+        question: "What is co-managed IT?",
+        answer: "Co-managed IT is a collaborative model where an external IT provider works alongside your in-house IT team. It allows you to supplement your team's capabilities with specialized expertise, resources, and tools without fully outsourcing your IT department."
+    },
+    {
+        question: "How does co-managed IT differ from fully managed IT services?",
+        answer: "In a fully managed model, the provider handles all aspects of your IT. In a co-managed model, it's a partnership. You choose which functions to keep in-house and which to delegate, giving you more flexibility and control."
+    },
+    {
+        question: "What services can be included in a co-managed IT model?",
+        answer: "Services are flexible but often include 24/7 help desk support, cybersecurity monitoring, compliance management, strategic CIO-level guidance, and access to advanced tools that your in-house team may not have."
+    },
+    {
+        question: "Who benefits from co-managed IT?",
+        answer: "Businesses with an existing IT team that need to scale, fill skill gaps, or free up their internal staff to focus on strategic projects instead of day-to-day maintenance and support."
+    },
+    {
+        question: "Can co-managed IT help reduce costs?",
+        answer: "Yes! It helps you avoid the high cost of hiring additional full-time specialists by providing access to a wide range of expertise on-demand. You only pay for the specific services you need, making it a cost-effective way to enhance your IT capabilities."
+    }
+]
