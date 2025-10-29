@@ -1,6 +1,7 @@
 
 
 
+
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { services, testimonials, caseStudies, awards, faqs, coManagedFaqs, helpDeskTestimonials, coManagedTestimonials, helpDeskFaqs, securityTestimonials, securityFaqs } from "@/lib/data";
@@ -30,19 +31,19 @@ const subServices = [
         title: "Managed Data Security",
         description: "Protect your data with our advanced security solutions.",
         icon: Lock,
-        href: "#"
+        href: "/services/cybersecurity"
     },
     {
         title: "24/7 US-Based National Helpdesk",
         description: "Get round-the-clock IT support services from our dedicated team.",
         icon: Headset,
-        href: "#"
+        href: "/services/help-desk"
     },
     {
         title: "Azure Assure",
         description: "Optimize your cloud environment with our Azure managed services.",
         icon: Cloud,
-        href: "#"
+        href: "/services/cloud-services"
     },
     {
         title: "IT Compliance Management",
@@ -1394,6 +1395,10 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
 
   if (params.slug === 'managed-it') {
     return <ManagedITPage />;
+  }
+
+  if (params.slug === 'it-consulting') {
+    return <GenericServicePage service={service} />;
   }
 
   return <GenericServicePage service={service} />;

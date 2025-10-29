@@ -142,7 +142,7 @@ export const services: Service[] = [
   },
   {
     slug: "it-consulting",
-    title: "IT Consulting & Strategy",
+    title: "Microsoft Consulting",
     shortDescription: "Strategic guidance to align technology with your goals.",
     icon: BrainCircuit,
     description: "Our expert consultants work with you to develop a long-term technology roadmap. We provide strategic advice on IT infrastructure, digital transformation, and budgeting to ensure your technology investments drive business growth and innovation.",
@@ -151,7 +151,7 @@ export const services: Service[] = [
   },
   {
     slug: "help-desk",
-    title: "24/7 Help Desk Support",
+    title: "IT Help Desk",
     shortDescription: "Fast and friendly technical support when you need it.",
     icon: LifeBuoy,
     description: "Our dedicated help desk team is available around the clock to provide expert technical assistance. We offer remote and on-site support to resolve your employees' IT issues quickly, minimizing downtime and boosting productivity.",
@@ -160,7 +160,7 @@ export const services: Service[] = [
   },
   {
     slug: "co-managed-it",
-    title: "Co-Managed IT Services",
+    title: "Co-Managed IT",
     shortDescription: "Collaborative IT support to empower your in-house team.",
     icon: Users,
     description: "Our Co-Managed IT services provide a flexible partnership, supplementing your existing IT team with our expertise, resources, and tools. We fill the gaps, you maintain control.",
