@@ -27,9 +27,9 @@ export default function Logo() {
         </div>
       </div>
       <span className="hidden font-headline text-lg font-bold sm:inline-block">
-        <span className="text-gray-500">MANAGED</span>
+        <span className="text-gray-500">ETERNAL</span>
         <br />
-        <span className="text-orange-500">SOLUTION</span>
+        <span className="text-orange-500">MINDS</span>
       </span>
     </Link>
   );

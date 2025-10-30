@@ -5,7 +5,7 @@ import Footer from "@/components/layout/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Optimal Solutions Hub",
+  title: "EternalMinds",
   description: "Your Partner in Managed IT Services and Solutions.",
 };
 
