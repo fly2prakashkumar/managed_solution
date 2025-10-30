@@ -407,6 +407,24 @@
       "description": "Microsoft Azure logo",
       "imageUrl": "https://images.unsplash.com/photo-1662052955282-da15376f3919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dvJTIwYXp1cmV8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "azure logo"
+    },
+    {
+      "id": "vcio-hero",
+      "description": "Professional woman using a smartphone in a modern setting",
+      "imageUrl": "https://images.unsplash.com/photo-1554425217-46b1a37a78a4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbiUyMHBob25lfGVufDB8fHx8MTcyMjMzMjI5NXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "vcio-process",
+      "description": "Man at a whiteboard explaining a process",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjB3aGl0ZWJvYXJkfGVufDB8fHx8MTcyMjMzMjI5NXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "man whiteboard"
+    },
+    {
+      "id": "vcio-datasheet",
+      "description": "Abstract graphic for a datasheet download.",
+      "imageUrl": "https://images.unsplash.com/photo-1611266964311-66710b1d5c5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGRvY3VtZW50fGVufDB8fHx8MTcyMjAyMTgwMnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract document"
     }
   ]
 }

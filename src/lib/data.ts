@@ -303,6 +303,27 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
+export const vcioTestimonials: Testimonial[] = [
+    {
+        name: "Annglia C.",
+        company: "Polara Health",
+        comment: "They are ALWAYS so pleasant to work with and have a sense of urgency. The whole team is very helpful and knowledgeable! Thank you for all that you do for us!",
+        date: "2024-07-18"
+    },
+    {
+        name: "Molly Wardell",
+        company: "COOWardell Builders",
+        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        date: "2024-07-17"
+    },
+    {
+        name: "Barbara R.",
+        company: "CA Assoc of Marriage & Family Therapists",
+        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        date: "2024-07-16"
+    }
+];
+
 export const coManagedTestimonials: Testimonial[] = [
     {
         name: "Dennis Gonzales",
@@ -492,6 +513,33 @@ export const faqs: Faq[] = [
     {
         question: "Do you as an MSP offer 24×7×365 support?",
         answer: "Yes. We provide guaranteed proactive end-to-end IT management and support, including 24x7x365 network monitoring, patch management, and data protection. Our helpdesk agents are all based in the USA."
+    }
+];
+
+export const vcioFaqs: Faq[] = [
+    {
+        question: "What is a vCIO?",
+        answer: "A vCIO, or Virtual Chief Information Officer, is an outsourced executive who provides strategic IT guidance and management to businesses. They help align technology with business goals without the cost of a full-time CIO."
+    },
+    {
+        question: "How does a vCIO differ from a traditional CIO?",
+        answer: "A vCIO provides the same strategic expertise as a traditional CIO but on a fractional or part-time basis. This makes executive-level IT leadership accessible and affordable for businesses that don't need a full-time CIO."
+    },
+    {
+        question: "What are the benefits of hiring a virtual CIO?",
+        answer: "Benefits include cost savings, access to a wide range of expertise, improved IT strategy, better vendor management, and the ability to focus on your core business while your technology is strategically managed."
+    },
+    {
+        question: "How can a vCIO improve my business's IT strategy?",
+        answer: "A vCIO will assess your current technology, understand your business goals, and create a long-term IT roadmap. They ensure your technology investments support business growth, improve efficiency, and reduce risk."
+    },
+    {
+        question: "What services does a virtual CIO typically provide?",
+        answer: "Services include IT budget planning, risk management, vendor management, technology roadmap development, and ensuring that IT initiatives align with overall business objectives."
+    },
+    {
+        question: "What industries benefit most from vCIO services?",
+        answer: "Any industry can benefit, but they are particularly valuable for healthcare, finance, pharma, non-profits, manufacturing, and small businesses that need strategic IT guidance but not a full-time executive."
     }
 ];
 
