@@ -567,3 +567,11 @@ export const securityFaqs: Faq[] = [
         answer: "As a premier Microsoft partner with specializations in security, we have deep expertise in deploying and managing Microsoft's security ecosystem, including Microsoft Sentinel (SIEM), Defender, and Entra ID. This allows us to provide tightly integrated and highly effective security solutions."
     }
 ]
+
+export const azureFaqs: Faq[] = [
+    { question: "What is Azure Managed Services?", answer: "Azure Managed Services involve outsourcing the management of your Microsoft Azure environment to a third-party expert like us. We handle monitoring, security, optimization, and support, allowing you to focus on your core business." },
+    { question: "Why should I use a managed service provider for Azure?", answer: "An MSP with Azure expertise ensures your cloud environment is cost-effective, secure, and performing optimally. We bring specialized knowledge to manage the complexities of Azure, from resource deployment to compliance." },
+    { question: "Can you help migrate our existing applications to Azure?", answer: "Yes, we provide complete migration services, including assessment, planning, execution, and post-migration support to ensure a seamless transition to the cloud." },
+    { question: "How do you ensure the security of my data on Azure?", answer: "We implement a multi-layered security approach, leveraging Azure's native security tools, continuous monitoring, identity management, and compliance controls to protect your data." },
+    { question: "How do you optimize Azure costs?", answer: "We continuously monitor your Azure consumption, identify underutilized resources, apply cost-saving measures like reserved instances, and provide detailed reporting to help you understand and control your cloud spend." }
+]

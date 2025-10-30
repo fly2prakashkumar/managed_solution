@@ -389,6 +389,24 @@
       "description": "Abstract Microsoft security graphic.",
       "imageUrl": "https://images.unsplash.com/photo-1629813299710-1c9c3792f392?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBzZWN1cml0eXxlbnwwfHx8fDE3MjIwMjE4MDJ8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "Microsoft security"
+    },
+    {
+      "id": "azure-hero",
+      "description": "Team discussing work around a table",
+      "imageUrl": "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGRpc2N1c3Npb258ZW58MHx8fHwxNzIyMjcwNjMxfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "business discussion"
+    },
+    {
+      "id": "azure-resource-1",
+      "description": "Abstract image of a cloud",
+      "imageUrl": "https://images.unsplash.com/photo-1593976378121-7b773c35800d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxheXVyZSUyMGNsb3VkfGVufDB8fHx8MTcyMjI3MDYzMXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "azure cloud"
+    },
+    {
+      "id": "azure-resource-2",
+      "description": "Microsoft Azure logo",
+      "imageUrl": "https://images.unsplash.com/photo-1662052955282-da15376f3919?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dvJTIwYXp1cmV8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "azure logo"
     }
   ]
 }
