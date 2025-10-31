@@ -180,7 +180,7 @@ export const services: Service[] = [
   },
   {
     slug: "vcio-consulting",
-    title: "vCIO Consulting",
+    title: "VCIO Consulting",
     shortDescription: "Strategic IT leadership to guide your business.",
     icon: Briefcase,
     description: "Get the benefit of high-level strategic IT guidance without the cost of a full-time executive. Our vCIOs help with budgeting, planning, and aligning your technology with your business goals.",
@@ -602,6 +602,114 @@ export const faqs: Faq[] = [
         question: "What makes your security solutions 'specialized' with Microsoft?",
         answer: "As a premier Microsoft partner with specializations in security, we have deep expertise in deploying and managing Microsoft's security ecosystem, including Microsoft Sentinel (SIEM), Defender, and Entra ID. This allows us to provide tightly integrated and highly effective security solutions."
     },
+    { question: "What is Azure Managed Services?", answer: "Azure Managed Services involve outsourcing the management of your Microsoft Azure environment to a third-party expert like us. We handle monitoring, security, optimization, and support, allowing you to focus on your core business." },
+    { question: "Why should I use a managed service provider for Azure?", answer: "An MSP with Azure expertise ensures your cloud environment is cost-effective, secure, and performing optimally. We bring specialized knowledge to manage the complexities of Azure, from resource deployment to compliance." },
+    { question: "Can you help migrate our existing applications to Azure?", answer: "Yes, we provide complete migration services, including assessment, planning, execution, and post-migration support to ensure a seamless transition to the cloud." },
+    { question: "How do you ensure the security of my data on Azure?", answer: "We implement a multi-layered security approach, leveraging Azure's native security tools, continuous monitoring, identity management, and compliance controls to protect your data." },
+    { question: "How do you optimize Azure costs?", answer: "We continuously monitor your Azure consumption, identify underutilized resources, apply cost-saving measures like reserved instances, and provide detailed reporting to help you understand and control your cloud spend." }
+];
+
+export const securityFaqs: Faq[] = [
+    {
+        question: "What is Managed IT Security?",
+        answer: "Managed IT Security involves outsourcing your cybersecurity needs to a specialized provider who handles threat monitoring, detection, response, and compliance. This allows you to protect your business without needing a large in-house security team."
+    },
+    {
+        question: "How does 24/7 monitoring work?",
+        answer: "Our Security Operations Center (SOC) continuously monitors your network, servers, and endpoints around the clock. We use advanced tools like SIEM to analyze activity, identify threats, and respond instantly to any security incidents."
+    },
+    {
+        question: "Is security awareness training really necessary?",
+        answer: "Yes. Employees are often the first line of defense against cyberattacks. Our phishing simulations and training programs educate your team to recognize and avoid threats, significantly reducing the risk of human error leading to a breach."
+    },
+    {
+        question: "Can you help with industry-specific compliance (e.g., HIPAA, PCI)?",
+        answer: "Absolutely. We have extensive experience helping businesses in regulated industries meet their compliance obligations. We can conduct risk assessments, implement necessary controls, and provide the documentation needed for audits."
+    },
+    {
+        question: "What makes your security solutions 'specialized' with Microsoft?",
+        answer: "As a premier Microsoft partner with specializations in security, we have deep expertise in deploying and managing Microsoft's security ecosystem, including Microsoft Sentinel (SIEM), Defender, and Entra ID. This allows us to provide tightly integrated and highly effective security solutions."
+    }
+];
+
+export const helpDeskFaqs: Faq[] = [
+    {
+        question: "How can I contact the IT help desk?",
+        answer: "You can contact our IT help desk via phone at 888.563.9132 (option 2), by email at support@managedsolution.com, or through our customer portal."
+    },
+    {
+        question: "What are your help desk hours?",
+        answer: "Our help desk is based in the USA and operates 24/7/365, including holidays, to ensure you always have access to support when you need it."
+    },
+    {
+        question: "What is the average response time for a ticket?",
+        answer: "Our average response time is under 10 seconds. We prioritize rapid acknowledgment and resolution to minimize your downtime."
+    },
+    {
+        question: "What kind of issues can the help desk assist with?",
+        answer: "Our help desk can assist with a wide range of issues, including software problems, hardware troubleshooting, network connectivity, password resets, security concerns, and support for Microsoft applications."
+    },
+    {
+        question: "Do you offer on-site support?",
+        answer: "Yes, our Level 3 support tier includes regularly scheduled on-site visits and hands-on assistance from our expert field engineers for issues that cannot be resolved remotely."
+    },
+    {
+        question: "What is the pricing for help desk services?",
+        answer: "Our pricing starts at $30.00 per user. We offer clear pricing structures and a 60-day satisfaction guarantee to ensure our service is the right fit for your business."
+    }
+];
+
+export const coManagedFaqs: Faq[] = [
+    {
+        question: "What is co-managed IT?",
+        answer: "Co-managed IT is a collaborative model where an external IT provider works alongside your in-house IT team. It allows you to supplement your team's capabilities with specialized expertise, resources, and tools without fully outsourcing your IT department."
+    },
+    {
+        question: "How does co-managed IT differ from fully managed IT services?",
+        answer: "In a fully managed model, the provider handles all aspects of your IT. In a co-managed model, it's a partnership. You choose which functions to keep in-house and which to delegate, giving you more flexibility and control."
+    },
+    {
+        question: "What services can be included in a co-managed IT model?",
+        answer: "Services are flexible but often include 24/7 help desk support, cybersecurity monitoring, compliance management, strategic CIO-level guidance, and access to advanced tools that your in-house team may not have."
+    },
+    {
+        question: "Who benefits from co-managed IT?",
+        answer: "Businesses with an existing IT team that need to scale, fill skill gaps, or free up their internal staff to focus on strategic projects instead of day-to-day maintenance and support."
+    },
+    {
+        question: "Can co-managed IT help reduce costs?",
+        answer: "Yes! It helps you avoid the high cost of hiring additional full-time specialists by providing access to a wide range of expertise on-demand. You only pay for the specific services you need, making it a cost-effective way to enhance your IT capabilities."
+    }
+];
+
+export const vcioFaqs: Faq[] = [
+    {
+        question: "What is a vCIO?",
+        answer: "A vCIO, or Virtual Chief Information Officer, is an outsourced executive who provides strategic IT guidance and management to businesses. They help align technology with business goals without the cost of a full-time CIO."
+    },
+    {
+        question: "How does a vCIO differ from a traditional CIO?",
+        answer: "A vCIO provides the same strategic expertise as a traditional CIO but on a fractional or part-time basis. This makes executive-level IT leadership accessible and affordable for businesses that don't need a full-time CIO."
+    },
+    {
+        question: "What are the benefits of hiring a virtual CIO?",
+        answer: "Benefits include cost savings, access to a wide range of expertise, improved IT strategy, better vendor management, and the ability to focus on your core business while your technology is strategically managed."
+    },
+    {
+        question: "How can a vCIO improve my business's IT strategy?",
+        answer: "A vCIO will assess your current technology, understand your business goals, and create a long-term IT roadmap. They ensure your technology investments support business growth, improve efficiency, and reduce risk."
+    },
+    {
+        question: "What services does a virtual CIO typically provide?",
+        answer: "Services include IT budget planning, risk management, vendor management, technology roadmap development, and ensuring that IT initiatives align with overall business objectives."
+    },
+    {
+        question: "What industries benefit most from vCIO services?",
+        answer: "Any industry can benefit, but they are particularly valuable for healthcare, finance, pharma, non-profits, manufacturing, and small businesses that need strategic IT guidance but not a full-time executive."
+    }
+];
+
+export const azureFaqs: Faq[] = [
     { question: "What is Azure Managed Services?", answer: "Azure Managed Services involve outsourcing the management of your Microsoft Azure environment to a third-party expert like us. We handle monitoring, security, optimization, and support, allowing you to focus on your core business." },
     { question: "Why should I use a managed service provider for Azure?", answer: "An MSP with Azure expertise ensures your cloud environment is cost-effective, secure, and performing optimally. We bring specialized knowledge to manage the complexities of Azure, from resource deployment to compliance." },
     { question: "Can you help migrate our existing applications to Azure?", answer: "Yes, we provide complete migration services, including assessment, planning, execution, and post-migration support to ensure a seamless transition to the cloud." },

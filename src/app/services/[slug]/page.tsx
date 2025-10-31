@@ -7,9 +7,10 @@
 
 
 
+
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { services, testimonials, caseStudies, awards, faqs, coManagedFaqs, helpDeskTestimonials, coManagedTestimonials, helpDeskFaqs, securityTestimonials, securityFaqs, azureFaqs, vcioFaqs, vcioTestimonials } from "@/lib/data";
+import { services, testimonials, caseStudies, awards, faqs, coManagedFaqs, helpDeskTestimonials, coManagedTestimonials, helpDeskFaqs, securityTestimonials, securityFaqs, vcioFaqs, vcioTestimonials, azureFaqs } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -1299,6 +1300,7 @@ const ITHelpDeskPage = () => {
                             <Card key={resource.title}>
                                 <CardHeader>
                                     <CardTitle className="text-xl">{resource.title}</CardTitle>
+
                                 </CardHeader>
                                 <CardContent>
                                     <Button asChild variant="link" className="p-0">
