@@ -10,17 +10,19 @@ export default function Logo() {
           alt="EternalMinds Logo"
           width={48}
           height={48}
-          className="rounded-full"
+          className="object-contain"
         />
       </div>
       <div className="hidden sm:block">
-        <p className="font-headline text-xl font-bold leading-none text-blue-400">
-          ETERNAL MINDS
+        <p className="font-headline text-xl font-bold leading-none text-primary">
+          EternalMinds
         </p>
         <p className="text-xs tracking-wider text-muted-foreground">
-          SMART. SCALABLE. SUSTAINABLE
+          Your Partner in Managed IT Services and Solutions.
         </p>
       </div>
     </Link>
   );
 }
+
+    

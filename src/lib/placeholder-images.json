@@ -247,12 +247,6 @@
       "imageHint": "USA map"
     },
     {
-      "id": "home-smarter-it",
-      "description": "A circular diagram illustrating various managed IT services",
-      "imageUrl": "https://images.unsplash.com/photo-1664526937033-fe2c11f1be25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzZXJ2aWNlcyUyMGRpYWdyYW18ZW58MHx8fHwxNzYwOTcyNjk3fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "services diagram"
-    },
-    {
       "id": "case-study-pdf-preview",
       "description": "Preview of a PDF case study document.",
       "imageUrl": "https://images.unsplash.com/photo-1606764539891-b9a9f75294b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZGYlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjE4MzY0NDF8MA&ixlib.rb-4.1.0&q=80&w=1080",
@@ -425,6 +419,12 @@
       "description": "Abstract graphic for a datasheet download.",
       "imageUrl": "https://images.unsplash.com/photo-1611266964311-66710b1d5c5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGRvY3VtZW50fGVufDB8fHx8MTcyMjAyMTgwMnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract document"
+    },
+    {
+      "id": "logo",
+      "description": "Eternal Minds Logo",
+      "imageUrl": "/logo.png",
+      "imageHint": "company logo"
     }
   ]
 }

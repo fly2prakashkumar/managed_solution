@@ -11,7 +11,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
-import { ArrowRight, CheckCircle, Star, Monitor, ShieldCheck, UserCheck, BarChart, Briefcase, Bot, Settings, Globe } from 'lucide-react';
+import { CheckCircle, Star } from 'lucide-react';
 import { testimonials, awards, webinars } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import ContactSection from '@/components/shared/contact-section';
@@ -20,13 +20,12 @@ const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-1');
 const aiServicesImage = PlaceHolderImages.find(img => img.id === 'home-ai-services');
 const nationalServicesImage = PlaceHolderImages.find(img => img.id === 'home-national-services');
 const mapImage = PlaceHolderImages.find(img => img.id === 'home-map');
-const smarterItImage = PlaceHolderImages.find(img => img.id === 'home-smarter-it');
 
 export default function Home() {
   const serviceBenefits = [
     {
         icon: '🖥️',
-        text: "Gain full visibility into your network's health and performance."
+        text: "Gain full visibility into your network's health and performance. Proactively identify issues before they impact operations."
     },
     {
         icon: '💼',
@@ -42,7 +41,7 @@ export default function Home() {
     },
     {
         icon: '📊',
-        text: "Make faster, data-driven decisions with real-time insights into budgets, forecasts, and performance."
+        text: "Make faster, data-driven decisions with real-time insights into budgets, forecasts and performance."
     },
     {
         icon: '🤝',
@@ -61,14 +60,16 @@ export default function Home() {
     <div className="flex flex-col">
       {/* Hero Section */}
        <section className="relative h-[70vh] min-h-[600px] w-full overflow-hidden bg-primary text-primary-foreground">
-        <video
-          src="https://videos.pexels.com/video-files/3251021/3251021-hd_1280_720_25fps.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="absolute left-0 top-0 h-full w-full object-cover opacity-30"
-        />
+        {heroImage && (
+            <Image
+                src={heroImage.imageUrl}
+                alt={heroImage.description}
+                fill
+                className="absolute left-0 top-0 h-full w-full object-cover opacity-30"
+                data-ai-hint={heroImage.imageHint}
+                priority
+            />
+        )}
         <div className="absolute inset-0 bg-primary/60" />
         <div className="container relative z-10 flex h-full flex-col items-start justify-center text-left">
           <div className="max-w-2xl">
@@ -94,71 +95,6 @@ export default function Home() {
               <Button asChild size="lg" variant="outline" className="border-white bg-transparent text-white hover:bg-white/10">
                 <a href="tel:858-429-3000">858-429-3000</a>
               </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials Section */}
-      <section className="py-16 md:py-24 bg-secondary">
-        <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
-            <div className="text-center md:text-left">
-                <p className='font-bold text-lg'>EXCELLENT</p>
-                <div className='flex justify-center md:justify-start text-yellow-500 my-2'>
-                    <Star fill='currentColor' className='w-5 h-5' />
-                    <Star fill='currentColor' className='w-5 h-5' />
-                    <Star fill='currentColor' className='w-5 h-5' />
-                    <Star fill='currentColor' className='w-5 h-5' />
-                    <Star fill='currentColor' className='w-5 h-5' />
-                </div>
-                <p className='text-muted-foreground text-sm'>Based on 66 reviews</p>
-                <div className="flex items-center justify-center md:justify-start gap-1 mt-2 font-bold text-lg">
-                    <Image src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" width={60} height={20} />
-                </div>
-            </div>
-            <div className='md:col-span-3'>
-                 <Carousel
-                    opts={{
-                        align: "start",
-                        loop: true,
-                    }}
-                    className="w-full"
-                    >
-                    <CarouselContent>
-                        {testimonials.map((testimonial, index) => (
-                        <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                            <Card>
-                                <CardContent className="p-6">
-                                    <div className='flex items-start justify-between mb-2'>
-                                        <div className="flex items-center gap-3">
-                                            <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center font-bold text-primary">
-                                                {testimonial.name.charAt(0)}
-                                            </div>
-                                            <div>
-                                                <p className="font-semibold">{testimonial.name}</p>
-                                                <p className="text-xs text-muted-foreground">{testimonial.date}</p>
-                                            </div>
-                                        </div>
-                                        <Image src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" width={20} height={20} className='w-5 h-5 opacity-50' />
-                                    </div>
-                                    <div className='flex text-yellow-500 my-3'>
-                                        {[...Array(5)].map((_, i) => <Star key={i} fill='currentColor' className='w-4 h-4' />)}
-                                    </div>
-                                    <p className="text-sm text-muted-foreground">{testimonial.comment}</p>
-                                </CardContent>
-                            </Card>
-                        </CarouselItem>
-                        ))}
-                    </CarouselContent>
-                    <CarouselPrevious className='-left-4' />
-                    <CarouselNext className='-right-4' />
-                </Carousel>
-                <div className='text-center md:text-right mt-4'>
-                  <Link href="#" className='inline-flex items-center text-xs text-green-600 font-semibold bg-green-100/50 px-2 py-1 rounded-md'>
-                    <CheckCircle className="w-4 h-4 mr-1 text-green-500" /> Verified by Trustindex
-                  </Link>
-                </div>
             </div>
           </div>
         </div>
@@ -362,7 +298,8 @@ export default function Home() {
           <div className="mx-auto max-w-4xl text-center">
             <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
               <div className="flex flex-col items-center">
-                <h3 className="font-headline text-4xl font-bold text-orange-500 md:text-5xl">10,000+ Satisfied Customers</h3>
+                <p className="font-headline text-4xl font-bold text-orange-500 md:text-5xl">10,000+</p>
+                <p className="mt-2 text-muted-foreground">Satisfied Customers</p>
               </div>
               <div className="flex flex-col items-center">
                 <p className="font-headline text-5xl font-bold text-orange-500 md:text-6xl">4.95</p>
@@ -387,3 +324,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
