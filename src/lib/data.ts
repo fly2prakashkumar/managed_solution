@@ -15,7 +15,7 @@ export const navItems: NavItem[] = [
       { title: "Microsoft Consulting", href: "/services/it-consulting" },
       { title: "Azure Cloud Services", href: "/services/cloud-services" },
       { title: "Microsoft Security", href: "/services/microsoft-security" },
-      { title: "vCIO Consulting", href: "/services/vcio-consulting" },
+      { title: "VCIO Consulting", href: "/services/vcio-consulting" },
     ],
   },
   {
@@ -513,10 +513,7 @@ export const faqs: Faq[] = [
     {
         question: "Do you as an MSP offer 24×7×365 support?",
         answer: "Yes. We provide guaranteed proactive end-to-end IT management and support, including 24x7x365 network monitoring, patch management, and data protection. Our helpdesk agents are all based in the USA."
-    }
-];
-
-export const vcioFaqs: Faq[] = [
+    },
     {
         question: "What is a vCIO?",
         answer: "A vCIO, or Virtual Chief Information Officer, is an outsourced executive who provides strategic IT guidance and management to businesses. They help align technology with business goals without the cost of a full-time CIO."
@@ -540,10 +537,7 @@ export const vcioFaqs: Faq[] = [
     {
         question: "What industries benefit most from vCIO services?",
         answer: "Any industry can benefit, but they are particularly valuable for healthcare, finance, pharma, non-profits, manufacturing, and small businesses that need strategic IT guidance but not a full-time executive."
-    }
-];
-
-export const coManagedFaqs: Faq[] = [
+    },
     {
         question: "What is co-managed IT?",
         answer: "Co-managed IT is a collaborative model where an external IT provider works alongside your in-house IT team. It allows you to supplement your team's capabilities with specialized expertise, resources, and tools without fully outsourcing your IT department."
@@ -563,10 +557,7 @@ export const coManagedFaqs: Faq[] = [
     {
         question: "Can co-managed IT help reduce costs?",
         answer: "Yes! It helps you avoid the high cost of hiring additional full-time specialists by providing access to a wide range of expertise on-demand. You only pay for the specific services you need, making it a cost-effective way to enhance your IT capabilities."
-    }
-]
-
-export const helpDeskFaqs: Faq[] = [
+    },
     {
         question: "How can I contact the IT help desk?",
         answer: "You can contact our IT help desk via phone at 888.563.9132 (option 2), by email at support@managedsolution.com, or through our customer portal."
@@ -590,10 +581,7 @@ export const helpDeskFaqs: Faq[] = [
     {
         question: "What is the pricing for help desk services?",
         answer: "Our pricing starts at $30.00 per user. We offer clear pricing structures and a 60-day satisfaction guarantee to ensure our service is the right fit for your business."
-    }
-]
-
-export const securityFaqs: Faq[] = [
+    },
     {
         question: "What is Managed IT Security?",
         answer: "Managed IT Security involves outsourcing your cybersecurity needs to a specialized provider who handles threat monitoring, detection, response, and compliance. This allows you to protect your business without needing a large in-house security team."
@@ -613,13 +601,12 @@ export const securityFaqs: Faq[] = [
     {
         question: "What makes your security solutions 'specialized' with Microsoft?",
         answer: "As a premier Microsoft partner with specializations in security, we have deep expertise in deploying and managing Microsoft's security ecosystem, including Microsoft Sentinel (SIEM), Defender, and Entra ID. This allows us to provide tightly integrated and highly effective security solutions."
-    }
-]
-
-export const azureFaqs: Faq[] = [
+    },
     { question: "What is Azure Managed Services?", answer: "Azure Managed Services involve outsourcing the management of your Microsoft Azure environment to a third-party expert like us. We handle monitoring, security, optimization, and support, allowing you to focus on your core business." },
     { question: "Why should I use a managed service provider for Azure?", answer: "An MSP with Azure expertise ensures your cloud environment is cost-effective, secure, and performing optimally. We bring specialized knowledge to manage the complexities of Azure, from resource deployment to compliance." },
     { question: "Can you help migrate our existing applications to Azure?", answer: "Yes, we provide complete migration services, including assessment, planning, execution, and post-migration support to ensure a seamless transition to the cloud." },
     { question: "How do you ensure the security of my data on Azure?", answer: "We implement a multi-layered security approach, leveraging Azure's native security tools, continuous monitoring, identity management, and compliance controls to protect your data." },
     { question: "How do you optimize Azure costs?", answer: "We continuously monitor your Azure consumption, identify underutilized resources, apply cost-saving measures like reserved instances, and provide detailed reporting to help you understand and control your cloud spend." }
-]
+];
+
+    

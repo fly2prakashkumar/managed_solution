@@ -6,13 +6,14 @@
 
 
 
+
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { services, testimonials, caseStudies, awards, faqs, coManagedFaqs, helpDeskTestimonials, coManagedTestimonials, helpDeskFaqs, securityTestimonials, securityFaqs, azureFaqs, vcioFaqs, vcioTestimonials } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Star, CheckCircle, Lock, Headset, Cloud, ShieldAlert, Briefcase, Bot, Users, Network, Database, Settings, RefreshCw, Lightbulb, Ticket, Tv, MonitorPlay, HeartHand, FileText, LocateFixed, GitBranch, Target, Search, Eye, BarChart, HardHat, LandPlot, Video, Activity, DollarSign, Puzzle, Zap } from "lucide-react";
+import { Star, CheckCircle, Lock, Headset, Cloud, ShieldAlert, Briefcase, Bot, Users, Network, Database, Settings, RefreshCw, Lightbulb, Ticket, Tv, MonitorPlay, HeartHandshake, FileText, LocateFixed, GitBranch, Target, Search, Eye, BarChart, HardHat, LandPlot, Video, Activity, DollarSign, Puzzle, Zap } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import {
   Accordion,
@@ -201,7 +202,7 @@ const VCIOPage = () => {
         { title: "OpEx vs CapEx Cost Comparisons", icon: DollarSign },
         { title: "Reduced IT Costs & Better Profitability", icon: BarChart },
         { title: "Reduced Regulatory & Security Risks", icon: ShieldAlert },
-        { title: "Improved Satisfaction with IT", icon: HeartHand },
+        { title: "Improved Satisfaction with IT", icon: HeartHandshake },
     ];
     
     return(
