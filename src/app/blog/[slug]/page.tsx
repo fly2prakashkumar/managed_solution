@@ -7,6 +7,12 @@ import SummaryClient from "./summary-client";
 import { M365BusinessPremiumPost } from "@/components/blog/m365-business-premium";
 import { SecurityToolkitPost } from "@/components/blog/security-toolkit";
 import { ZeroTrustPost } from "@/components/blog/zero-trust";
+import { CopilotGpt5Post } from "@/components/blog/copilot-gpt5-post";
+import { CopilotVsChatGptPost } from "@/components/blog/copilot-vs-chatgpt-post";
+import { ClutchAwardPost } from "@/components/blog/clutch-award-post";
+import { TeamsHackingPost } from "@/components/blog/teams-hacking-post";
+import { Inc5000Post } from "@/components/blog/inc5000-post";
+import { SharePointZeroDayPost } from "@/components/blog/sharepoint-zero-day-post";
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -31,6 +37,25 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   if (params.slug === "harnessing-ai-for-zero-trust-architecture") {
     return <ZeroTrustPost />;
   }
+  if (params.slug === "microsoft-copilot-gpt-5-available-now") {
+    return <CopilotGpt5Post />;
+  }
+  if (params.slug === "copilot-vs-chatgpt-which-is-safer-for-work") {
+    return <CopilotVsChatGptPost />;
+  }
+  if (params.slug === "clutch-names-managed-solution-market-leader-2025") {
+    return <ClutchAwardPost />;
+  }
+  if (params.slug === "preventing-microsoft-teams-hacking-social-engineering") {
+    return <TeamsHackingPost />;
+  }
+  if (params.slug === "managed-solution-inc-5000-list-2025") {
+    return <Inc5000Post />;
+  }
+  if (params.slug === "sharepoint-zero-day-fix-cve-2025-53770") {
+    return <SharePointZeroDayPost />;
+  }
+
 
   // Fallback for standard posts
   const postImage = PlaceHolderImages.find(img => img.id === post.imageUrl);

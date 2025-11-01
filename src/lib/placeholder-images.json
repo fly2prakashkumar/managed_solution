@@ -923,6 +923,12 @@
       "description": "Security orb graphic",
       "imageUrl": "https://images.unsplash.com/photo-1584433144853-1ab3d72a23a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMG9yYnxlbnwwfHx8fDE3MjI2MjkwNjB8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "security orb"
+    },
+    {
+      "id": "clutch-award-hero",
+      "description": "Clutch award graphic on a laptop screen",
+      "imageUrl": "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhd2FyZCUyMGdyYXBoaWN8ZW58MHx8fHwxNzIyNjI5MDYwfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "award graphic"
     }
   ]
 }
