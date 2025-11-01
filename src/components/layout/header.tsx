@@ -11,7 +11,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { navItems } from "@/lib/data";
 import { ChevronDown, Menu } from "lucide-react";
 
@@ -81,6 +81,9 @@ export default function Header() {
             </Button>
           </SheetTrigger>
           <SheetContent side="right">
+            <SheetHeader>
+                <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
+            </SheetHeader>
             <div className="flex flex-col space-y-4">
               <Logo />
               <nav className="flex flex-col space-y-2">
