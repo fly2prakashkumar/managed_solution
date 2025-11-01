@@ -392,7 +392,7 @@
     },
     {
       "id": "logo",
-      "description": "Optimal Solutions Hub Logo",
+      "description": "EternalMinds Logo",
       "imageUrl": "/logo.png",
       "imageHint": "company logo"
     },
@@ -452,7 +452,7 @@
     },
     {
       "id": "rpa-helpdesk",
-      "description": "Managed Solution U.S. based employees working in office for IT Help Desk Services.",
+      "description": "EternalMinds U.S. based employees working in office for IT Help Desk Services.",
       "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "team office"
     },
@@ -542,13 +542,13 @@
     },
     {
       "id": "compliance-hero",
-      "description": "women consulting in professional setting for Managed Solution's compliance management system page",
+      "description": "women consulting in professional setting for EternalMinds's compliance management system page",
       "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjB3aGl0ZWJvYXJkfGVufDB8fHx8MTcyMjMzMjI5NXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "consulting setting"
     },
     {
       "id": "compliance-products",
-      "description": "Managed Solution IT products page feature image",
+      "description": "EternalMinds IT products page feature image",
       "imageUrl": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwdG9vbHN8ZW58MHx8fHwxNzIyNTU2MjU1fDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "IT products"
     },
@@ -572,7 +572,7 @@
     },
     {
       "id": "entra-id-webpage",
-      "description": "microsoft entra ID webpage for managed solution workers gathered around desk",
+      "description": "microsoft entra ID webpage for eternalminds workers gathered around desk",
       "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "team office"
     },
@@ -626,7 +626,7 @@
     },
     {
       "id": "mergers-acquisitions-hero",
-      "description": "image of business deal men shaking hands in professional setting for Managed solution's technology mergers and",
+      "description": "image of business deal men shaking hands in professional setting for EternalMinds's technology mergers and",
       "imageUrl": "https://images.unsplash.com/photo-1622675313417-38a8b8481b7a?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGRlYWx8ZW58MHx8fHwxNzIyNTkwMjU4fDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "business deal"
     },
@@ -674,7 +674,7 @@
     },
     {
       "id": "doc-graphic",
-      "description": "graphic of documents for managed solutions best helpdesk webpage",
+      "description": "graphic of documents for eternalminds best helpdesk webpage",
       "imageUrl": "https://images.unsplash.com/photo-1583521214690-8a79a6396930?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjIwMDk2ODF8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "document graphic"
     },
@@ -686,7 +686,7 @@
     },
     {
       "id": "procurement-blog-2",
-      "description": "managed solution Public Productivity Immersion Experience Brainstorm Session",
+      "description": "EternalMinds Public Productivity Immersion Experience Brainstorm Session",
       "imageUrl": "https://images.unsplash.com/photo-1542744095-fcf48d80b2fd?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHdvcmtzaG9wfGVufDB8fHx8MTcyMTkxMDY1N3ww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "brainstorm session"
     },
@@ -764,7 +764,7 @@
     },
     {
       "id": "healthcare-blended-it",
-      "description": "healthcare blended it managed solution 1",
+      "description": "healthcare blended it eternalminds 1",
       "imageUrl": "https://images.unsplash.com/photo-1666214278381-c9cf932750d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDI5NzN8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "healthcare blended"
     },
@@ -842,7 +842,7 @@
     },
     {
       "id": "blog-security-toolkit-graphic",
-      "description": "Managed Solution's security toolkit for cybersecurity awareness month 2025 image depicting business man handing viewer digital",
+      "description": "EternalMinds's security toolkit for cybersecurity awareness month 2025 image depicting business man handing viewer digital",
       "imageUrl": "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMHRvb2xraXR8ZW58MHx8fHwxNzIyNjI3NTc0fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "security toolkit"
     },
@@ -971,6 +971,12 @@
       "description": "Headshot of Alexis Hesseltine",
       "imageUrl": "https://images.unsplash.com/photo-1542103749-8ef59b94f475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMGhlYWRzaG90fGVufDB8fHx8MTcyMjYzODA1MHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "woman headshot"
+    },
+    {
+      "id": "sharepoint-content-management",
+      "description": "SharePoint Content Management page image with woman and man working in office",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBhbmQlMjB3b21hbiUyMHdvcmtpbmd8ZW58MHx8fHwxNzIyNjQ2ODQ1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "man woman"
     }
   ]
 }

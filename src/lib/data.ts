@@ -78,8 +78,8 @@ export const navItems: NavItem[] = [
     href: "/contact",
     children: [
         { title: "Contact Us", href: "/contact" },
-        { title: "Customer Support", href: "#" },
-        { title: "Partner with Us", href: "#" },
+        { title: "Customer Support", href: "/contact" },
+        { title: "Partner with Us", href: "/contact" },
     ],
   },
 ];
@@ -124,8 +124,8 @@ export const footerNav: FooterNav[] = [
         title: "Contact",
         links: [
             { title: "Contact Us", href: "/contact" },
-            { title: "Customer Support", href: "#" },
-            { title: "Partners", href: "#" },
+            { title: "Customer Support", href: "/contact" },
+            { title: "Partners", href: "/contact" },
             { title: "Careers", href: "/careers" },
         ]
     }
@@ -544,7 +544,7 @@ export const team: TeamMember[] = [
     role: "CEO/Founder",
     imageUrl: "team-sean",
     imageHint: "man headshot",
-    bio: "Founded Managed Solution; champions the vision of driving business growth by empowering people behind technology solutions."
+    bio: "Founded EternalMinds; champions the vision of driving business growth by empowering people behind technology solutions."
   },
   {
     name: "Jennell Mott",
@@ -628,12 +628,12 @@ export const resources: Resource[] = [
 export const testimonials: Testimonial[] = [
   {
     name: "Fern Usry",
-    comment: "I would highly recommend Managed Solution for your IT needs. They resolve things quickly and efficiently.",
+    comment: "I would highly recommend EternalMinds for your IT needs. They resolve things quickly and efficiently.",
     date: "2024-07-12"
   },
   {
     name: "John Grillo",
-    comment: "My IT issue was holding up a Sales Contract from being sent out. The Managed Solution team took care of it in less than 5 minutes!",
+    comment: "My IT issue was holding up a Sales Contract from being sent out. The EternalMinds team took care of it in less than 5 minutes!",
     date: "2024-07-10"
   },
   {
@@ -656,7 +656,7 @@ export const testimonials: Testimonial[] = [
     {
         name: "Barbara R.",
         company: "CA Assoc of Marriage & Family Therapists",
-        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        comment: "I am always so impressed with the level of service I receive from EternalMinds. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
     }
 ];
@@ -677,7 +677,7 @@ export const vcioTestimonials: Testimonial[] = [
     {
         name: "Barbara R.",
         company: "CA Assoc of Marriage & Family Therapists",
-        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        comment: "I am always so impressed with the level of service I receive from EternalMinds. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
     }
 ];
@@ -685,7 +685,7 @@ export const vcioTestimonials: Testimonial[] = [
 export const coManagedTestimonials: Testimonial[] = [
     {
         name: "Dennis Gonzales",
-        comment: "We'd worked with Managed Solution on a successful IT project in the past, so we had a good idea of their capabilities. Since they were at Microsoft Partner, in addition to projects they were able to support our software licensing. This was especially important to make sure that we have a compliant IT function error radar.",
+        comment: "We'd worked with EternalMinds on a successful IT project in the past, so we had a good idea of their capabilities. Since they were at Microsoft Partner, in addition to projects they were able to support our software licensing. This was especially important to make sure that we have a compliant IT function error radar.",
         date: "Sr. Principal, Information Systems and Technology"
     }
 ];
@@ -706,7 +706,7 @@ export const helpDeskTestimonials: Testimonial[] = [
     {
         name: "Barbara R.",
         company: "CA Assoc of Marriage & Family Therapists",
-        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        comment: "I am always so impressed with the level of service I receive from EternalMinds. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
     }
 ];
@@ -727,7 +727,7 @@ export const securityTestimonials: Testimonial[] = [
     {
         name: "Barbara R.",
         company: "CA Assoc of Marriage & Family Therapists",
-        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        comment: "I am always so impressed with the level of service I receive from EternalMinds. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
     }
 ];
@@ -752,6 +752,10 @@ export const awardTimeline = [
     { year: 2017, awards: ["Inc. 500 Fastest Growing Companies", "Microsoft SoCal SMB Partner Award Azure Rainmaker", "Top 100 Cloud Service Providers"] },
     { year: 2016, awards: ["Microsoft 2016 US SMB Champions Club SMB Marketer of the Year", "CRN's 2016 Fast Growth 150 List"] },
     { year: 2015, awards: ["Talkin' Cloud 100", "Microsoft Top West Region Small and Midsize Business Cloud Partner", "San Diego Business Journal Fastest Growing Private Companies"] },
+    { year: 2010, awards: ["San Diego Business Journal Fastest Growing Private Companies", "Microsoft Partner Network Winning on Value Award"] },
+    { year: 2009, awards: ["Microsoft Partner Network Pipeline Accelerator Award"] },
+    { year: 2008, awards: ["CEO Sean Ferrel honored as one of San Diego's “40 under 40” brightest young leaders."] },
+    { year: 2002, awards: ["EternalMinds was established"] },
 ];
 
 export const certifications = {
@@ -954,7 +958,7 @@ export const securityFaqs: Faq[] = [
 export const helpDeskFaqs: Faq[] = [
     {
         question: "How can I contact the IT help desk?",
-        answer: "You can contact our IT help desk via phone at 888.563.9132 (option 2), by email at support@managedsolution.com, or through our customer portal."
+        answer: "You can contact our IT help desk via phone at 888.563.9132 (option 2), by email at support@optimalsolutions.com, or through our customer portal."
     },
     {
         question: "What are your help desk hours?",
@@ -1193,7 +1197,7 @@ export const complianceTestimonials: Testimonial[] = [
     {
         name: "Barbara R.",
         company: "CA Assoc of Marriage & Family Therapists",
-        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        comment: "I am always so impressed with the level of service I receive from EternalMinds. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
     }
 ];
