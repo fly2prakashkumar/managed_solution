@@ -78,8 +78,8 @@ export const navItems: NavItem[] = [
     href: "/contact",
     children: [
         { title: "Contact Us", href: "/contact" },
-        { title: "Customer Support", href: "/contact" },
-        { title: "Partner with Us", href: "/contact" },
+        { title: "Customer Support", href: "/contact/customer-support" },
+        { title: "Partner with Us", href: "/contact/partner" },
     ],
   },
 ];
@@ -124,8 +124,8 @@ export const footerNav: FooterNav[] = [
         title: "Contact",
         links: [
             { title: "Contact Us", href: "/contact" },
-            { title: "Customer Support", href: "/contact" },
-            { title: "Partners", href: "/contact" },
+            { title: "Customer Support", href: "/contact/customer-support" },
+            { title: "Partners", href: "/contact/partner" },
             { title: "Careers", href: "/careers" },
         ]
     }
@@ -671,7 +671,7 @@ export const vcioTestimonials: Testimonial[] = [
     {
         name: "Molly Wardell",
         company: "COOWardell Builders",
-        comment: "The tech was very patient with me and very knowledgeable. He was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
         date: "2024-07-17"
     },
     {
