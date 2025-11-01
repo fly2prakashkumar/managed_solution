@@ -68,7 +68,7 @@ export const navItems: NavItem[] = [
     href: "/about",
     children: [
       { title: "About Us", href: "/about" },
-      { title: "Awards & Certifications", href: "/about" },
+      { title: "Awards & Certifications", href: "/about/awards" },
       { title: "Leadership Team", href: "/leadership" },
       { title: "Careers", href: "/careers" },
     ],
