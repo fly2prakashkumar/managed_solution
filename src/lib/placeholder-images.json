@@ -929,6 +929,18 @@
       "description": "Clutch award graphic on a laptop screen",
       "imageUrl": "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhd2FyZCUyMGdyYXBoaWN8ZW58MHx8fHwxNzIyNjI5MDYwfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "award graphic"
+    },
+    {
+      "id": "about-customer-service",
+      "description": "Call center business woman talking on headset.",
+      "imageUrl": "https://images.unsplash.com/photo-1553729459-efe14ef6055d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjdXN0b21lciUyMHNlcnZpY2V8ZW58MHx8fHwxNzIyNjM2NjUxfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "customer service"
+    },
+    {
+      "id": "about-our-story",
+      "description": "Our Story Graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvffJldyUyMHN0b3J5fGVufDB8fHx8fDE3MjI2MzY2NTF8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "our story"
     }
   ]
 }
