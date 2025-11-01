@@ -41,10 +41,10 @@ export const navItems: NavItem[] = [
     title: "Industries",
     href: "#",
     children: [
-      { title: "Healthcare", href: "#" },
       { title: "Finance", href: "#" },
+      { title: "Healthcare", href: "#" },
       { title: "Life Sciences", href: "#" },
-      { title: "Non-Profit", href: "#" },
+      { title: "Non-Profits", href: "#" },
     ]
   },
   {
@@ -687,3 +687,6 @@ export const vcioFaqs: Faq[] = [
 
 
 
+
+
+    
