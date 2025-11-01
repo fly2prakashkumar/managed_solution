@@ -62,8 +62,9 @@ export const navItems: NavItem[] = [
     href: "/about",
     children: [
       { title: "About Us", href: "/about" },
+      { title: "Awards & Certifications", href: "/about" },
       { title: "Careers", href: "#" },
-      { title: "Awards", href: "/about" },
+      { title: "Leadership Team", href: "/about" },
     ]
   },
   {
@@ -431,11 +432,11 @@ export const securityTestimonials: Testimonial[] = [
 ]
 
 export const awards: Award[] = [
-  { title: "Microsoft Partner - Modern Work", imageId: "award-1" },
-  { title: "Microsoft Partner - Infrastructure Azure", imageId: "award-2" },
-  { title: "Inc 5000", imageId: "award-3" },
-  { title: "MSP Today - Product of the Year 2025", imageId: "award-4" },
-  { title: "Cloudtango MSP Select 2025", imageId: "award-5" },
+    { title: "Microsoft Partner - Security", imageId: "award-1" },
+    { title: "Microsoft Partner - Modern Work", imageId: "award-2" },
+    { title: "Microsoft Partner - Azure Infrastructure", imageId: "award-3" },
+    { title: "CRN MSP 500", imageId: "award-4" },
+    { title: "UpCity National Excellence", imageId: "award-5" },
 ];
 
 export const webinars: Webinar[] = [
@@ -687,6 +688,9 @@ export const vcioFaqs: Faq[] = [
 
 
 
+
+
+    
 
 
     
