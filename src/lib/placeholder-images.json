@@ -14,9 +14,9 @@
     },
     {
       "id": "service-managed-it",
-      "description": "IT professional assisting a user at their desk.",
-      "imageUrl": "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxJVCUyMHN1cHBvcnR8ZW58MHx8fHwxNzYwOTMxMjYzfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "IT support"
+      "description": "remote management and monitoring tools image for managed solution",
+      "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZW1vdGUlMjBtYW5hZ2VtZW50fGVufDB8fHx8MTcyMjU1NTkwMXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "remote management"
     },
     {
       "id": "service-cloud",
@@ -32,9 +32,9 @@
     },
     {
       "id": "service-consulting",
-      "description": "Team of professionals in a meeting room discussing strategy.",
-      "imageUrl": "https://images.unsplash.com/photo-1603202662747-00e33e7d1468?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxidXNpbmVzcyUyMG1lZXRpbmd8ZW58MHx8fHwxNzYwODI4NTA1fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "business meeting"
+      "description": "leadership 2",
+      "imageUrl": "https://images.unsplash.com/photo-1573497491208-6b1acb260507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsZWFkZXJzaGlwJTIwdGVhbXxlbnwwfHx8fDE3MjI1NTU5MDJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "leadership team"
     },
     {
       "id": "service-voip",
@@ -393,7 +393,7 @@
     {
       "id": "azure-resource-1",
       "description": "Abstract image of a cloud",
-      "imageUrl": "https://images.unsplash.com/photo-1593976378121-7b773c35800d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxheXVyZSUyMGNsb3VkfGVufDB8fHx8MTcyMjI3MDYzMXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1593976378121-7b773c35800d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHwheXVyZSUyMGNsb3VkfGVufDB8fHx8MTcyMjI3MDYzMXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "azure cloud"
     },
     {
@@ -428,39 +428,39 @@
     },
     {
       "id": "solution-ai",
-      "description": "Abstract graphic representing AI and automation",
-      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGF1dG9tYXRpb258ZW58MHx8fHwxNzIyNDMxMDQ4fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "AI automation"
+      "description": "5-cyber-security-training-tools-and-resources",
+      "imageUrl": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwdG9vbHN8ZW58MHx8fHwxNzIyNTU2MjU1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "cybersecurity tools"
     },
     {
       "id": "solution-collaboration",
-      "description": "Team collaborating in a meeting",
-      "imageUrl": "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fDE3MjI0MzEwNDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "team meeting"
+      "description": "Meeting in Microsoft Teams",
+      "imageUrl": "https://images.unsplash.com/photo-1632882765332-342d9a3e6a98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjB0ZWFtc3xlbnwwfHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "microsoft teams"
     },
     {
       "id": "solution-network",
-      "description": "Technician working on network servers",
-      "imageUrl": "https://images.unsplash.com/photo-1631566418738-23e58c270381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwbW9uaXRvcmluZ3xlbnwwfHx8fDE3MjI0MzEwNDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "network monitoring"
+      "description": "Networking Monitoring and Support Datasheet phto",
+      "imageUrl": "https://images.unsplash.com/photo-1580894894543-c2499a38356f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwbW9uaXRvcmluZyUyMGRhdGFzaGVldHxlbnwwfHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "network datasheet"
     },
     {
       "id": "solution-cloud",
-      "description": "Abstract graphic of cloud management",
-      "imageUrl": "https://images.unsplash.com/photo-1611002234123-5c263721c5d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMG1hbmFnZW1lbnR8ZW58MHx8fHwxNzIyNDMxMDQ4fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "cloud management"
+      "description": "Cloud Service Provider",
+      "imageUrl": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMHNlcnZpY2V8ZW58MHx8fHwxNzIyNTU2MjU1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "cloud service"
     },
     {
       "id": "solution-deployment",
-      "description": "Setting up multiple devices",
-      "imageUrl": "https://images.unsplash.com/photo-1634902379144-8e5e8e8b0b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXZpY2UlMjBzZXR1cHxlbnwwfHx8fDE3MjI0MzEwNDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "device setup"
+      "description": "White Papers",
+      "imageUrl": "https://images.unsplash.com/photo-1583521214690-8a79a6396930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3aGl0ZSUyMHBhcGVyc3xlbnwwfHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "white papers"
     },
     {
       "id": "solution-employee",
-      "description": "An illustration of an employee's journey",
-      "imageUrl": "https://images.unsplash.com/photo-1629904853716-f0bc64219b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbXBsb3llZSUyMGpvdXJuZXl8ZW58MHx8fHwxNzIyNDMxMDQ4fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "employee journey"
+      "description": "ms resources hero",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXNvdXJjZXMlMjBoZXJvfGVufDB8fHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "resources hero"
     }
   ]
 }

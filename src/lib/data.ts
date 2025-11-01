@@ -1,5 +1,3 @@
-
-
 import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
@@ -22,14 +20,12 @@ export const navItems: NavItem[] = [
     title: "Solutions",
     href: "/solutions",
     children: [
-        { title: "AI & Automation", href: "#" },
+        { title: "AI and Automation", href: "#" },
+        { title: "Communication and Collaboration", href: "#" },
         { title: "Network Monitoring", href: "#" },
-        { title: "Zero Touch Deployment", href: "#" },
-        { title: "Compliance Management System", href: "#" },
-        { title: "Entra ID and Intune Migration", href: "#" },
-        { title: "Employee Engagement", href: "#" },
-        { title: "Business Process Automation", href: "#" },
-        { title: "Technology Mergers and Acquisitions", href: "#" },
+        { title: "Cloud Management & Deployment", href: "#" },
+        { title: "Zero Touch Deployment Services", href: "#" },
+        { title: "Employee Lifecycle Management", href: "#" },
     ],
   },
   {
@@ -120,9 +116,9 @@ export const services: Service[] = [
     title: "Managed IT Services",
     shortDescription: "Comprehensive IT management for your peace of mind.",
     icon: Laptop,
-    description: "Our Managed IT Services provide proactive monitoring, maintenance, and management of your entire IT infrastructure. From desktops to servers, we ensure your systems are running optimally, securely, and efficiently, allowing you to focus on your core business.",
+    description: "Improve productivity, gain predictability in controlled costs and mitigate the impact of infrastructure challenges on your daily operations with our Managed IT Services.",
     imageUrl: "service-managed-it",
-    imageHint: "IT support",
+    imageHint: "remote management",
   },
   {
     slug: "cybersecurity",
@@ -153,12 +149,12 @@ export const services: Service[] = [
   },
   {
     slug: "it-consulting",
-    title: "Microsoft Consulting",
+    title: "Microsoft Consulting Services",
     shortDescription: "Strategic guidance to align technology with your goals.",
     icon: BrainCircuit,
-    description: "Our expert consultants work with you to develop a long-term technology roadmap. We provide strategic advice on IT infrastructure, digital transformation, and budgeting to ensure your technology investments drive business growth and innovation.",
+    description: "Discover the transformational power of Microsoft Solutions tailored to suit your needs and propel your business forward through the guidance of our Specialized Microsoft Experts.",
     imageUrl: "service-consulting",
-    imageHint: "business meeting",
+    imageHint: "leadership team",
   },
   {
     slug: "help-desk",
@@ -687,5 +683,6 @@ export const vcioFaqs: Faq[] = [
     
 
     
+
 
 
