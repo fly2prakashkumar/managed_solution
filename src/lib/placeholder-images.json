@@ -422,9 +422,45 @@
     },
     {
       "id": "logo",
-      "description": "Eternal Minds Logo",
+      "description": "Optimal Solutions Hub Logo",
       "imageUrl": "/logo.png",
       "imageHint": "company logo"
+    },
+    {
+      "id": "solution-ai",
+      "description": "Abstract graphic representing AI and automation",
+      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGF1dG9tYXRpb258ZW58MHx8fHwxNzIyNDMxMDQ4fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI automation"
+    },
+    {
+      "id": "solution-collaboration",
+      "description": "Team collaborating in a meeting",
+      "imageUrl": "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZ3xlbnwwfHx8fDE3MjI0MzEwNDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "team meeting"
+    },
+    {
+      "id": "solution-network",
+      "description": "Technician working on network servers",
+      "imageUrl": "https://images.unsplash.com/photo-1631566418738-23e58c270381?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwbW9uaXRvcmluZ3xlbnwwfHx8fDE3MjI0MzEwNDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "network monitoring"
+    },
+    {
+      "id": "solution-cloud",
+      "description": "Abstract graphic of cloud management",
+      "imageUrl": "https://images.unsplash.com/photo-1611002234123-5c263721c5d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMG1hbmFnZW1lbnR8ZW58MHx8fHwxNzIyNDMxMDQ4fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "cloud management"
+    },
+    {
+      "id": "solution-deployment",
+      "description": "Setting up multiple devices",
+      "imageUrl": "https://images.unsplash.com/photo-1634902379144-8e5e8e8b0b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXZpY2UlMjBzZXR1cHxlbnwwfHx8fDE3MjI0MzEwNDh8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "device setup"
+    },
+    {
+      "id": "solution-employee",
+      "description": "An illustration of an employee's journey",
+      "imageUrl": "https://images.unsplash.com/photo-1629904853716-f0bc64219b1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbXBsb3llZSUyMGpvdXJuZXl8ZW58MHx8fHwxNzIyNDMxMDQ4fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "employee journey"
     }
   ]
 }

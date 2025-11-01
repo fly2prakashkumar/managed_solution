@@ -105,3 +105,13 @@ export interface Faq {
     question: string;
     answer: string;
 }
+
+export interface Solution {
+    slug: string;
+    title: string;
+    description: string;
+    imageUrl: string;
+    imageHint: string;
+    href: string;
+}
+

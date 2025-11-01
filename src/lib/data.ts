@@ -1,6 +1,6 @@
 
 
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq } from "@/lib/types";
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -20,7 +20,7 @@ export const navItems: NavItem[] = [
   },
   {
     title: "Solutions",
-    href: "#",
+    href: "/solutions",
     children: [
         { title: "Zero Touch Deployment Services", href: "#" },
         { title: "Entra ID and Intune Migration", href: "#" },
@@ -187,6 +187,57 @@ export const services: Service[] = [
     imageUrl: "service-vcio",
     imageHint: "business strategy",
   },
+];
+
+export const solutions: Solution[] = [
+    {
+        slug: "ai-automation",
+        title: "AI and Automation",
+        description: "Leverage cutting-edge AI and automation technologies to streamline processes, enhance productivity, and drive innovation across your organization.",
+        imageUrl: "solution-ai",
+        imageHint: "AI automation",
+        href: "#"
+    },
+    {
+        slug: "communication-collaboration",
+        title: "Communication and Collaboration",
+        description: "Enhance collaboration and streamline communications with Microsoft Teams Collaboration tools and our reliable support.",
+        imageUrl: "solution-collaboration",
+        imageHint: "team meeting",
+        href: "#"
+    },
+    {
+        slug: "network-monitoring",
+        title: "Network Monitoring",
+        description: "Stay ahead of downtime with a proactive IT support team and network monitoring tools so you can focus on what's important.",
+        imageUrl: "solution-network",
+        imageHint: "network monitoring",
+        href: "#"
+    },
+    {
+        slug: "cloud-management",
+        title: "Cloud Management & Deployment",
+        description: "Our team of cloud experts is here to help you leverage the power of the cloud seamlessly to meet the needs your business.",
+        imageUrl: "solution-cloud",
+        imageHint: "cloud management",
+        href: "#"
+    },
+    {
+        slug: "zero-touch-deployment",
+        title: "Zero Touch Deployment Services",
+        description: "Save time and costs on manual device set-up while enhancing security and compliance.",
+        imageUrl: "solution-deployment",
+        imageHint: "device setup",
+        href: "#"
+    },
+    {
+        slug: "employee-lifecycle",
+        title: "Employee Lifecycle Management",
+        description: "From onboarding to offboarding, automate the employee lifecycle while enhancing productivity and security.",
+        imageUrl: "solution-employee",
+        imageHint: "employee journey",
+        href: "#"
+    }
 ];
 
 export const caseStudies: CaseStudy[] = [
