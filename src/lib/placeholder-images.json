@@ -67,30 +67,6 @@
       "imageHint": "diverse team"
     },
     {
-      "id": "team-1",
-      "description": "Portrait of a female CEO.",
-      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3NjA5MjYwNjd8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional woman"
-    },
-    {
-      "id": "team-2",
-      "description": "Portrait of a male CTO.",
-      "imageUrl": "https://images.unsplash.com/photo-1562788869-4ed32648eb72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzYwODQzNDcyfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional man"
-    },
-    {
-      "id": "team-3",
-      "description": "Portrait of a female Lead Engineer.",
-      "imageUrl": "https://images.unsplash.com/photo-1599583863916-e06c29087f51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMGVuZ2luZWVyfGVufDB8fHx8MTc2MDkzMTI2M3ww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman engineer"
-    },
-    {
-      "id": "team-4",
-      "description": "Portrait of a male Support Specialist.",
-      "imageUrl": "https://images.unsplash.com/photo-1633367583895-08545d733dfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBzbWlsaW5nfGVufDB8fHx8MTc2MDkyNzY2M3ww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "man smiling"
-    },
-    {
       "id": "eguide-1",
       "description": "Cover image for a white paper on cybersecurity.",
       "imageUrl": "https://images.unsplash.com/photo-1733945711023-bb707111c16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8MTc2MDg0NzMwOHww&ixlib.rb-4.1.0&q=80&w=1080",
@@ -941,6 +917,60 @@
       "description": "Our Story Graphic",
       "imageUrl": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvffJldyUyMHN0b3J5fGVufDB8fHx8fDE3MjI2MzY2NTF8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "our story"
+    },
+    {
+      "id": "team-sean",
+      "description": "Headshot of Sean Ferrel",
+      "imageUrl": "https://images.unsplash.com/photo-1562788869-4ed32648eb72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtYW4lMjBoZWFkc2hvdHxlbnwwfHx8fDE3MjI2MzgwNTB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "man headshot"
+    },
+    {
+      "id": "team-jennell",
+      "description": "Headshot of Jennell Mott",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMGhlYWRzaG90fGVufDB8fHx8MTcyMjYzODA1MHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman headshot"
+    },
+    {
+      "id": "team-richard",
+      "description": "Headshot of Richard Swaisgood",
+      "imageUrl": "https://images.unsplash.com/photo-1566753323558-f4e0952af115?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjBoZWFkc2hvdHxlbnwwfHx8fDE3MjI2MzgwNTB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "man headshot"
+    },
+    {
+      "id": "team-derek",
+      "description": "Headshot of Derek Graf",
+      "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtYW4lMjBoZWFkc2hvdHxlbnwwfHx8fDE3MjI2MzgwNTB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "man headshot"
+    },
+    {
+      "id": "team-amanda",
+      "description": "Headshot of Amanda Hawthorne",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3b21hbiUyMGhlYWRzaG90fGVufDB8fHx8MTcyMjYzODA1MHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman headshot"
+    },
+    {
+      "id": "team-ashley",
+      "description": "Headshot of Ashley Triplett",
+      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMGhlYWRzaG90fGVufDB8fHx8MTcyMjYzODA1MHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman headshot"
+    },
+    {
+      "id": "team-martin",
+      "description": "Headshot of Martin Wojnar",
+      "imageUrl": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYW4lMjBoZWFkc2hvdHxlbnwwfHx8fDE3MjI2MzgwNTB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "man headshot"
+    },
+    {
+      "id": "team-kat",
+      "description": "Headshot of Kat Grunzinger",
+      "imageUrl": "https://images.unsplash.com/photo-1554151228-14d9def656e4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMGhlYWRzaG90fGVufDB8fHx8MTcyMjYzODA1MHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman headshot"
+    },
+    {
+      "id": "team-alexis",
+      "description": "Headshot of Alexis Hesseltine",
+      "imageUrl": "https://images.unsplash.com/photo-1542103749-8ef59b94f475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3b21hbiUyMGhlYWRzaG90fGVufDB8fHx8MTcyMjYzODA1MHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman headshot"
     }
   ]
 }

@@ -69,7 +69,7 @@ export const navItems: NavItem[] = [
     children: [
       { title: "About Us", href: "/about" },
       { title: "Awards & Certifications", href: "/about" },
-      { title: "Leadership Team", href: "/about" },
+      { title: "Leadership Team", href: "/leadership" },
       { title: "Careers", href: "/careers" },
     ],
   },
@@ -540,29 +540,68 @@ export const blogPosts: BlogPost[] = [
 
 export const team: TeamMember[] = [
   {
-    name: "Dr. Evelyn Reed",
-    role: "Founder & CEO",
-    imageUrl: "team-1",
-    imageHint: "professional woman",
+    name: "Sean Ferrel",
+    role: "CEO/Founder",
+    imageUrl: "team-sean",
+    imageHint: "man headshot",
+    bio: "Founded Managed Solution; champions the vision of driving business growth by empowering people behind technology solutions."
   },
   {
-    name: "Marcus Thorne",
-    role: "Chief Technology Officer",
-    imageUrl: "team-2",
-    imageHint: "professional man",
+    name: "Jennell Mott",
+    role: "COO",
+    imageUrl: "team-jennell",
+    imageHint: "woman headshot",
+    bio: "One of the first employees (2004); developed profound expertise in Microsoft technology."
   },
   {
-    name: "Lena Petrova",
-    role: "Lead Cybersecurity Analyst",
-    imageUrl: "team-3",
-    imageHint: "woman engineer",
+    name: "Richard Swaisgood",
+    role: "Director of Cloud Productivity & Automation",
+    imageUrl: "team-richard",
+    imageHint: "man headshot",
+    bio: "With the company since 2007; holds over 12 Microsoft Certifications."
   },
   {
-    name: "David Chen",
-    role: "Head of Cloud Solutions",
-    imageUrl: "team-4",
-    imageHint: "man smiling",
+    name: "Derek Graf",
+    role: "Director of Customer Support Services",
+    imageUrl: "team-derek",
+    imageHint: "man headshot",
+    bio: "Ensures every client is provided the highest level of support; works with the customer support team."
   },
+  {
+    name: "Amanda Hawthorne",
+    role: "Director of People & Culture",
+    imageUrl: "team-amanda",
+    imageHint: "woman headshot",
+    bio: "Puts the human back in human resources; with the company since 2015."
+  },
+  {
+    name: "Ashley Triplett",
+    role: "Director of Cloud & Procurement Services",
+    imageUrl: "team-ashley",
+    imageHint: "woman headshot",
+    bio: "Joined in 2020; specializes in IT procurement and is the expert on Microsoft licensing."
+  },
+  {
+    name: "Martin Wojnar",
+    role: "Director of Performance Marketing",
+    imageUrl: "team-martin",
+    imageHint: "man headshot",
+    bio: "Joined in 2024; leads marketing initiatives with 15 years of IT industry experience."
+  },
+  {
+    name: "Kat Grunzinger",
+    role: "Talent Advisor",
+    imageUrl: "team-kat",
+    imageHint: "woman headshot",
+    bio: "HR professional with almost 20 years of experience; holds SHRM-CP certification."
+  },
+  {
+    name: "Alexis Hesseltine",
+    role: "Channel Manager",
+    imageUrl: "team-alexis",
+    imageHint: "woman headshot",
+    bio: "Dedicated to fostering strong relationships between the company and its valued partners."
+  }
 ];
 
 export const resources: Resource[] = [
@@ -602,7 +641,7 @@ export const testimonials: Testimonial[] = [
     comment: "They are always great at helping me out. The fast response … highly recommend this company!",
     date: "2024-07-08"
   },
-  {
+    {
         name: "Annglia C.",
         company: "Polara Health",
         comment: "They are ALWAYS so pleasant to work with and have a sense of urgency. The whole team is very helpful and knowledgeable! Thank you for all that you do for us!",

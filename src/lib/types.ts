@@ -52,6 +52,7 @@ export interface TeamMember {
   role: string;
   imageUrl: string;
   imageHint: string;
+  bio: string;
 }
 
 export interface Resource {
