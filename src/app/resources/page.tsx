@@ -1,49 +1,54 @@
+
 import Image from "next/image";
+import Link from "next/link";
 import PageHeader from "@/components/shared/page-header";
-import { ResourceForm } from "@/components/forms/resource-form";
 import { resources } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import ContactSection from "@/components/shared/contact-section";
 
-
-export default function ResourcesPage() {
-    const resource = resources[0];
-    const resourceImage = PlaceHolderImages.find(img => img.id === resource.imageUrl);
-
+export default function EGuidesPage() {
     return (
         <>
             <PageHeader 
-                title="Free Resources"
+                title="eGuides"
                 description="Gain valuable insights from our industry experts. Access our library of white papers, ebooks, and guides."
             />
             <section className="py-16 md:py-24">
                 <div className="container">
-                    <Card className="overflow-hidden md:grid md:grid-cols-2 md:items-start">
-                        <div className="p-8 md:p-10">
-                            <CardHeader className="p-0">
-                                <CardTitle className="font-headline text-2xl md:text-3xl">{resource.title}</CardTitle>
-                                <CardDescription className="pt-2 text-base">{resource.description}</CardDescription>
-                            </CardHeader>
-                            <CardContent className="mt-6 p-0">
-                                <h3 className="mb-4 text-lg font-semibold">Get your free copy now</h3>
-                                <ResourceForm />
-                            </CardContent>
-                        </div>
-                         {resourceImage && (
-                            <div className="relative h-64 w-full md:h-full">
+                    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                      {resources.map((resource) => {
+                        const resourceImage = PlaceHolderImages.find(img => img.id === resource.imageUrl);
+                        return (
+                          <Card key={resource.title} className="flex flex-col">
+                            {resourceImage && (
+                              <div className="relative h-64 w-full">
                                 <Image 
                                     src={resourceImage.imageUrl}
                                     alt={resourceImage.description}
                                     fill
-                                    className="object-cover"
-                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                    className="object-cover rounded-t-lg"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     data-ai-hint={resourceImage.imageHint}
                                 />
-                            </div>
-                        )}
-                    </Card>
+                              </div>
+                            )}
+                            <CardHeader className="flex-grow">
+                                <CardTitle className="font-headline text-xl">{resource.title}</CardTitle>
+                            </CardHeader>
+                            <CardContent>
+                                <Button asChild className="w-full">
+                                    <Link href="#">View eGuide</Link>
+                                </Button>
+                            </CardContent>
+                          </Card>
+                        )
+                      })}
+                    </div>
                 </div>
             </section>
+            <ContactSection />
         </>
     );
 }

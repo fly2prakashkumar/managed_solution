@@ -4,11 +4,11 @@ import Image from "next/image";
 import { liveEvents } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import { EventContactForm } from "@/components/forms/event-contact-form";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Clock, MapPin } from "lucide-react";
 import Link from "next/link";
 import ContactSection from "@/components/shared/contact-section";
+import Breadcrumbs from "@/components/shared/breadcrumbs";
 
 export async function generateStaticParams() {
   return liveEvents.map((event) => ({
@@ -24,19 +24,19 @@ export default function EventPage({ params }: { params: { slug: string } }) {
   }
 
   const eventImage = PlaceHolderImages.find(img => img.id === event.imageUrl);
+  
+  const breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "Events", href: "/events" },
+    { label: event.title, href: `/events/${event.slug}` }
+  ];
 
   return (
     <>
       <section className="py-12 md:py-20 bg-secondary">
         <div className="container">
-           <div className="text-sm text-muted-foreground mb-4">
-            <Link href="/" className="hover:text-primary">Home</Link>
-            <span className="mx-2">&raquo;</span>
-            <Link href="/events" className="hover:text-primary">Events</Link>
-            <span className="mx-2">&raquo;</span>
-            <span className="text-foreground">{event.title}</span>
-          </div>
-          <h1 className="font-headline text-3xl font-bold tracking-tight md:text-5xl">
+           <Breadcrumbs items={breadcrumbItems} />
+          <h1 className="font-headline text-3xl font-bold tracking-tight md:text-5xl mt-4">
             {event.title}
           </h1>
         </div>
@@ -70,15 +70,8 @@ export default function EventPage({ params }: { params: { slug: string } }) {
                         <div className="flex items-center gap-4">
                             <Calendar className="w-6 h-6 text-orange-500" />
                             <div>
-                                <p className="font-semibold">Date</p>
+                                <p className="font-semibold">Date & Time</p>
                                 <p className="text-muted-foreground">{event.date}</p>
-                            </div>
-                        </div>
-                         <div className="flex items-center gap-4">
-                            <Clock className="w-6 h-6 text-orange-500" />
-                            <div>
-                                <p className="font-semibold">Time</p>
-                                <p className="text-muted-foreground">10:00 AM - 11:00 AM PST</p>
                             </div>
                         </div>
                          <div className="flex items-center gap-4">
@@ -88,8 +81,8 @@ export default function EventPage({ params }: { params: { slug: string } }) {
                                 <p className="text-muted-foreground">Virtual</p>
                             </div>
                         </div>
-                        <Button asChild size="lg" className="w-full bg-orange-500 hover:bg-orange-600 text-white">
-                            <Link href="#register">Register Now</Link>
+                        <Button asChild size="lg" className="w-full bg-orange-500 hover:bg-orange-600 text-white uppercase">
+                            <Link href="#register">Register</Link>
                         </Button>
                     </CardContent>
                 </Card>
@@ -103,4 +96,3 @@ export default function EventPage({ params }: { params: { slug: string } }) {
     </>
   );
 }
-

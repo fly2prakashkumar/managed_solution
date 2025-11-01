@@ -31,7 +31,7 @@ export interface Service {
 export interface CaseStudy {
   slug: string;
   title:string;
-  clientName: string;
+  clientName?: string;
   description: string;
   imageUrl: string;
   imageHint: string;
