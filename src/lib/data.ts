@@ -32,7 +32,7 @@ export const navItems: NavItem[] = [
     title: "Products",
     href: "#",
     children: [
-      { title: "Procurement", href: "#" },
+      { title: "Procurement Services", href: "#" },
       { title: "Security", href: "/services/cybersecurity" },
       { title: "Microsoft Licensing", href: "#" },
     ],
@@ -683,6 +683,7 @@ export const vcioFaqs: Faq[] = [
     
 
     
+
 
 
 
