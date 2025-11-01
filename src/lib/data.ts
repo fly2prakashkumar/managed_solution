@@ -1,4 +1,5 @@
 
+
 import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
@@ -21,12 +22,12 @@ export const navItems: NavItem[] = [
     title: "Solutions",
     href: "/solutions",
     children: [
-        { title: "AI and Automation", href: "/services/ai-and-automation" },
-        { title: "Communication and Collaboration", href: "#" },
-        { title: "Network Monitoring", href: "#" },
-        { title: "Cloud Management & Deployment", href: "#" },
-        { title: "Zero Touch Deployment Services", href: "#" },
-        { title: "Employee Lifecycle Management", href: "#" },
+      { title: "AI and Automation", href: "/services/ai-and-automation" },
+      { title: "Communication and Collaboration", href: "#" },
+      { title: "Network Monitoring", href: "#" },
+      { title: "Cloud Management & Deployment", href: "#" },
+      { title: "Zero Touch Deployment Services", href: "#" },
+      { title: "Employee Lifecycle Management", href: "#" },
     ],
   },
   {
@@ -64,7 +65,6 @@ export const navItems: NavItem[] = [
     children: [
       { title: "About Us", href: "/about" },
       { title: "Awards & Certifications", href: "/about" },
-      { title: "Careers", href: "#" },
       { title: "Leadership Team", href: "/about" },
     ]
   },
@@ -73,7 +73,8 @@ export const navItems: NavItem[] = [
     href: "/contact",
     children: [
       { title: "Contact Us", href: "/contact" },
-      { title: "Book Consultation", href: "/contact" },
+      { title: "Customer Support", href: "#" },
+      { title: "Partner with Us", href: "#" },
     ]
   },
 ];
@@ -211,7 +212,7 @@ export const solutions: Solution[] = [
         title: "AI and Automation",
         description: "Leverage cutting-edge AI and automation technologies to streamline processes, enhance productivity, and drive innovation across your organization.",
         imageUrl: "solution-ai",
-        imageHint: "AI automation",
+        imageHint: "cybersecurity tools",
         href: "/services/ai-and-automation"
     },
     {
@@ -219,7 +220,7 @@ export const solutions: Solution[] = [
         title: "Communication and Collaboration",
         description: "Enhance collaboration and streamline communications with Microsoft Teams Collaboration tools and our reliable support.",
         imageUrl: "solution-collaboration",
-        imageHint: "team meeting",
+        imageHint: "microsoft teams",
         href: "#"
     },
     {
@@ -227,7 +228,7 @@ export const solutions: Solution[] = [
         title: "Network Monitoring",
         description: "Stay ahead of downtime with a proactive IT support team and network monitoring tools so you can focus on what's important.",
         imageUrl: "solution-network",
-        imageHint: "network monitoring",
+        imageHint: "network datasheet",
         href: "#"
     },
     {
@@ -235,7 +236,7 @@ export const solutions: Solution[] = [
         title: "Cloud Management & Deployment",
         description: "Our team of cloud experts is here to help you leverage the power of the cloud seamlessly to meet the needs your business.",
         imageUrl: "solution-cloud",
-        imageHint: "cloud management",
+        imageHint: "cloud service",
         href: "#"
     },
     {
@@ -243,7 +244,7 @@ export const solutions: Solution[] = [
         title: "Zero Touch Deployment Services",
         description: "Save time and costs on manual device set-up while enhancing security and compliance.",
         imageUrl: "solution-deployment",
-        imageHint: "device setup",
+        imageHint: "white papers",
         href: "#"
     },
     {
@@ -251,7 +252,7 @@ export const solutions: Solution[] = [
         title: "Employee Lifecycle Management",
         description: "From onboarding to offboarding, automate the employee lifecycle while enhancing productivity and security.",
         imageUrl: "solution-employee",
-        imageHint: "employee journey",
+        imageHint: "resources hero",
         href: "#"
     }
 ];
@@ -777,3 +778,4 @@ export const aiResources: AiResource[] = [
 
 
     
+
