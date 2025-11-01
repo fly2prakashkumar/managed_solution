@@ -114,3 +114,10 @@ export interface Solution {
     imageHint: string;
     href: string;
 }
+
+export interface AiResource {
+    title: string;
+    href: string;
+    imageId: string;
+    type: 'article' | 'ebook';
+}

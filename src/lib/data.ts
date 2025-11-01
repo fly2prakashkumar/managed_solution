@@ -1,4 +1,5 @@
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution } from "@/lib/types";
+
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -20,7 +21,7 @@ export const navItems: NavItem[] = [
     title: "Solutions",
     href: "/solutions",
     children: [
-        { title: "AI and Automation", href: "#" },
+        { title: "AI and Automation", href: "/services/ai-and-automation" },
         { title: "Communication and Collaboration", href: "#" },
         { title: "Network Monitoring", href: "#" },
         { title: "Cloud Management & Deployment", href: "#" },
@@ -193,6 +194,15 @@ export const services: Service[] = [
     imageUrl: "service-vcio",
     imageHint: "business strategy",
   },
+  {
+    slug: 'ai-and-automation',
+    title: 'AI and Automation',
+    shortDescription: 'Streamline processes and enhance productivity with AI.',
+    icon: BrainCircuit,
+    description: 'Leverage cutting-edge AI and automation technologies to streamline processes, enhance productivity, and drive innovation across your organization.',
+    imageUrl: 'solution-ai',
+    imageHint: 'AI automation'
+  }
 ];
 
 export const solutions: Solution[] = [
@@ -202,7 +212,7 @@ export const solutions: Solution[] = [
         description: "Leverage cutting-edge AI and automation technologies to streamline processes, enhance productivity, and drive innovation across your organization.",
         imageUrl: "solution-ai",
         imageHint: "AI automation",
-        href: "#"
+        href: "/services/ai-and-automation"
     },
     {
         slug: "communication-collaboration",
@@ -681,6 +691,79 @@ export const vcioFaqs: Faq[] = [
     }
 ];
 
+export const aiFaqs: Faq[] = [
+    {
+        question: "What type of AI and automation service do you provide?",
+        answer: "We specialize in three key areas: Azure OpenAI for business innovation, Robotic Process Automation (RPA) for help desk efficiency, and Microsoft Copilot implementation to enhance productivity across your organization."
+    },
+    {
+        question: "What are some use cases for Azure OpenAI?",
+        answer: "Use cases include advanced data analysis in finance, patient record summarization in healthcare, personalized customer experiences in retail, and predictive maintenance in manufacturing."
+    },
+    {
+        question: "How can RPA improve our IT Help Desk?",
+        answer: "RPA can automate routine tasks like ticket creation, password resets, and order tracking. This frees up your support team to focus on more complex issues, leading to faster resolutions and a better user experience."
+    },
+    {
+        question: "Is it difficult to integrate Microsoft Copilot?",
+        answer: "Our team ensures a seamless integration of Copilot with your existing Microsoft 365 apps like Teams, Outlook, Word, and Excel. We provide workshops, adoption programs, and security assessments to maximize its benefits."
+    },
+    {
+        question: "What is the cost of implementing these AI solutions?",
+        answer: "Costs vary depending on the solution. For example, Copilot for Microsoft 365 is available for $30 per user per month. We also offer cost optimization services and can provide up to 10-20% savings on Azure AI services as a Microsoft Tier 1 CSP."
+    },
+    {
+        question: "What is Copilot Studio?",
+        answer: "Copilot Studio is a low-code tool that allows you to customize Microsoft Copilot and build your own standalone copilots (chatbots) tailored to your specific business needs and processes."
+    },
+    {
+        question: "What are the benefits of using Copilot Studio for IT?",
+        answer: "It allows you to automate a wide range of IT tasks, such as managing user calendars, handling remote access requests, installing printers, and even running diagnostics. This significantly reduces the manual workload on your IT staff."
+    },
+    {
+        question: "Do you offer training for our team on these new tools?",
+        answer: "Yes, we offer comprehensive services including workshops and adoption programs to ensure your team is proficient and can fully leverage the capabilities of Copilot and other AI tools."
+    },
+    {
+        question: "How do you ensure the security of AI implementations?",
+        answer: "Security is a top priority. We conduct thorough security assessments for solutions like Copilot and adhere to best practices for data protection and privacy in all our AI and automation implementations, especially within Azure."
+    },
+    {
+        question: "What is a Copilot Workshop?",
+        answer: "Our Copilot Workshop is a session designed to help your organization understand the capabilities of Microsoft Copilot, identify high-impact use cases for your business, and create a clear roadmap for implementation."
+    },
+    {
+        question: "How long is the Copilot Adoption program?",
+        answer: "Our Copilot Adoption program is a structured three-week program designed to drive successful adoption and ensure your team gets the most value from your Copilot investment."
+    }
+];
+
+export const aiResources: AiResource[] = [
+    {
+        title: "Exploring AI-Enhanced IT Help Desk Software: How Automation is Transforming Support",
+        href: "/blog",
+        imageId: "ai-blog-1",
+        type: "article"
+    },
+    {
+        title: "2024 Tech Recap: AI, Cybersecurity, and IT Breakthroughs",
+        href: "/blog",
+        imageId: "ai-blog-2",
+        type: "article"
+    },
+    {
+        title: "AI in Finance: Strengthening the CFO-CIO Partnership",
+        href: "/blog",
+        imageId: "ai-blog-3",
+        type: "article"
+    },
+    {
+        title: "4 Ways to Get Started in Teams",
+        href: "/resources",
+        imageId: "ai-ebook-1",
+        type: "ebook"
+    }
+]
     
 
     

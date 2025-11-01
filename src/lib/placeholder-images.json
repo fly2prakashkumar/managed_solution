@@ -461,6 +461,96 @@
       "description": "ms resources hero",
       "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXNvdXJjZXMlMjBoZXJvfGVufDB8fHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "resources hero"
+    },
+    {
+      "id": "ai-hero",
+      "description": "Abstract AI graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxBSSUyMGFic3RyYWN0fGVufDB8fHx8MTcyMjU4NDU2MXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI abstract"
+    },
+    {
+      "id": "azure-openai-1",
+      "description": "Azure OpenAI Illustrations 1",
+      "imageUrl": "https://images.unsplash.com/photo-1662052955282-da15376f3919?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dvJTIwYXp1cmV8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "Azure logo"
+    },
+    {
+      "id": "azure-openai-2",
+      "description": "Azure OpenAI Illustrations 2 1",
+      "imageUrl": "https://images.unsplash.com/photo-1712219002737-d4e04d21c2c8?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3NjA4NzE4MjR8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "abstract illustration"
+    },
+    {
+      "id": "rpa-helpdesk",
+      "description": "Managed Solution U.S. based employees working in office for IT Help Desk Services.",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "team office"
+    },
+    {
+      "id": "rpa-helpdesk-2",
+      "description": "AI in IT help desk software blog featured image depicting technology service desk imagery",
+      "imageUrl": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwdG9vbHN8ZW58MHx8fHwxNzIyNTU2MjU1fDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "cybersecurity tools"
+    },
+    {
+      "id": "copilot-powerpoint",
+      "description": "Microsoft Powerpoint Logo",
+      "imageUrl": "https://images.unsplash.com/photo-1695239510754-367439498b58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBwb3dlcnBvaW50fGVufDB8fHx8MTcyMjU4NTQyNHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "powerpoint logo"
+    },
+    {
+      "id": "copilot-word",
+      "description": "Microsoft Word Logo",
+      "imageUrl": "https://images.unsplash.com/photo-1695239510651-788c946d3f34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjB3b3JkfGVufDB8fHx8MTcyMjU4NTQyNHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "word logo"
+    },
+    {
+      "id": "copilot-excel",
+      "description": "Microsoft Excel Logo",
+      "imageUrl": "https://images.unsplash.com/photo-1695239510804-2436f5e71ae4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBleGNlbHxlbnwwfHx8fDE3MjI1ODU0MjR8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "excel logo"
+    },
+    {
+      "id": "copilot-teams",
+      "description": "Microsoft Teams Logo",
+      "imageUrl": "https://images.unsplash.com/photo-1632882765332-342d9a3e6a98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjB0ZWFtc3xlbnwwfHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "teams logo"
+    },
+    {
+      "id": "copilot-outlook",
+      "description": "Microsoft Outlook Logo",
+      "imageUrl": "https://images.unsplash.com/photo-1695239510869-de0d47a46875?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBvdXRsb29rfGVufDB8fHx8MTcyMjU4NTQyNHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "outlook logo"
+    },
+    {
+      "id": "ai-roadmap-eguide",
+      "description": "eGuide CTA Graphic 1",
+      "imageUrl": "https://images.unsplash.com/photo-1606764539891-b9a9f75294b4?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZGYlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjE4MzY0NDF8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "guide document"
+    },
+    {
+      "id": "ai-blog-1",
+      "description": "AI in IT help desk software blog featured image depicting technology service desk imagery",
+      "imageUrl": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwdG9vbHN8ZW58MHx8fHwxNzIyNTU2MjU1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "cybersecurity tools"
+    },
+    {
+      "id": "ai-blog-2",
+      "description": "the future of technology image of globe lit up by technology use in futuristic setting",
+      "imageUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmdXR1cmUlMjB0ZWNobm9sb2d5fGVufDB8fHx8MTcyMjU4NjY2Mnww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "future technology"
+    },
+    {
+      "id": "ai-blog-3",
+      "description": "featured image for AI in Finance blog depicting two business professionals discussing data sheet",
+      "imageUrl": "https://images.unsplash.com/photo-1642132652873-774b94653600?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaW5hbmNlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDMyMjZ8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "finance technology"
+    },
+    {
+      "id": "ai-ebook-1",
+      "description": "eBook Cover for '4 Ways to Get Started in Teams'",
+      "imageUrl": "https://images.unsplash.com/photo-1632882765332-342d9a3e6a98?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjB0ZWFtc3xlbnwwfHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "teams logo"
     }
   ]
 }

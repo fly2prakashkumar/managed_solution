@@ -1,4 +1,5 @@
 
+
 import { notFound } from "next/navigation";
 import { services } from "@/lib/data";
 
@@ -10,6 +11,7 @@ import { MicrosoftSecurityPage } from "@/components/services/microsoft-security-
 import { AzureCloudPage } from "@/components/services/azure-cloud-page";
 import { VCIOPage } from "@/components/services/vcio-page";
 import { GenericServicePage } from "@/components/services/generic-service-page";
+import { AiAutomationPage } from "@/components/services/ai-automation-page";
 
 
 export async function generateStaticParams() {
@@ -41,6 +43,10 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   
   if (params.slug === 'vcio-consulting') {
     return <VCIOPage />;
+  }
+  
+  if (params.slug === 'ai-and-automation') {
+    return <AiAutomationPage />;
   }
 
   const service = services.find((p) => p.slug === params.slug);
