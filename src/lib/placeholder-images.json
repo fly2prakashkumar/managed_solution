@@ -151,6 +151,12 @@
       "imageHint": "logo award"
     },
     {
+      "id": "award-6",
+      "description": "MSUS Award Partner Winner logo",
+      "imageUrl": "https://images.unsplash.com/photo-1643370362348-3d5360bc0137?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "partner award"
+    },
+    {
       "id": "webinar-1",
       "description": "Copilot Agents graphic",
       "imageUrl": "https://images.unsplash.com/photo-1712219002737-d4e04d21c2c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhYnN0cmFjdCUyMGlsbHVzdHJhdGlvbnxlbnwwfHx8fDE3NjA4NzE4MjR8MA&ixlib.rb-4.1.0&q=80&w=1080",
@@ -551,6 +557,48 @@
       "description": "eBook Cover for '4 Ways to Get Started in Teams'",
       "imageUrl": "https://images.unsplash.com/photo-1632882765332-342d9a3e6a98?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjB0ZWFtc3xlbnwwfHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "teams logo"
+    },
+    {
+      "id": "network-monitoring-hero",
+      "description": "Networking Monitoring and Support Datasheet phto",
+      "imageUrl": "https://images.unsplash.com/photo-1580894894543-c2499a38356f?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwbW9uaXRvcmluZyUyMGRhdGFzaGVldHxlbnwwfHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "network datasheet"
+    },
+    {
+      "id": "network-monitoring-team",
+      "description": "IT Help Desk Workers Smiling",
+      "imageUrl": "https://images.unsplash.com/photo-1556742053-999a3851b664?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMGVtcGxveWVlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "happy employee"
+    },
+    {
+      "id": "ztd-hero",
+      "description": "leadership 1",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3NjA5MjYwNjd8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "compliance-hero",
+      "description": "women consulting in professional setting",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjB3aGl0ZWJvYXJkfGVufDB8fHx8MTcyMjMzMjI5NXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "consulting setting"
+    },
+    {
+      "id": "compliance-products",
+      "description": "Managed Solution IT products page feature image",
+      "imageUrl": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwdG9vbHN8ZW58MHx8fHwxNzIyNTU2MjU1fDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "IT products"
+    },
+    {
+      "id": "compliance-cloud",
+      "description": "image man at desk learning about cloud computing monitoring",
+      "imageUrl": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMHNlcnZpY2V8ZW58MHx8fHwxNzIyNTU2MjU1fDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "cloud computing"
+    },
+    {
+      "id": "compliance-blog-1",
+      "description": "best-practices-for-compliance-management",
+      "imageUrl": "https://images.unsplash.com/photo-1583521214690-8a79a6396930?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjIwMDk2ODF8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "compliance best practices"
     }
   ]
 }

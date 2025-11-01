@@ -12,6 +12,9 @@ import { AzureCloudPage } from "@/components/services/azure-cloud-page";
 import { VCIOPage } from "@/components/services/vcio-page";
 import { GenericServicePage } from "@/components/services/generic-service-page";
 import { AiAutomationPage } from "@/components/services/ai-automation-page";
+import { NetworkMonitoringPage } from "@/components/services/network-monitoring-page";
+import { ZeroTouchDeploymentPage } from "@/components/services/zero-touch-deployment-page";
+import { ComplianceManagementPage } from "@/components/services/compliance-management-page";
 
 
 export async function generateStaticParams() {
@@ -47,6 +50,18 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   
   if (params.slug === 'ai-and-automation') {
     return <AiAutomationPage />;
+  }
+
+  if (params.slug === 'network-monitoring') {
+    return <NetworkMonitoringPage />;
+  }
+
+  if (params.slug === 'zero-touch-deployment') {
+    return <ZeroTouchDeploymentPage />;
+  }
+  
+  if (params.slug === 'compliance-management') {
+    return <ComplianceManagementPage />;
   }
 
   const service = services.find((p) => p.slug === params.slug);

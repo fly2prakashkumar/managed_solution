@@ -121,3 +121,9 @@ export interface AiResource {
     imageId: string;
     type: 'article' | 'ebook';
 }
+
+export interface ComplianceRegulation {
+    name: string;
+    acronym: string;
+    description: string;
+}

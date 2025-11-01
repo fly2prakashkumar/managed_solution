@@ -1,6 +1,6 @@
 
 
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource } from "@/lib/types";
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -24,9 +24,10 @@ export const navItems: NavItem[] = [
     children: [
       { title: "AI and Automation", href: "/services/ai-and-automation" },
       { title: "Communication and Collaboration", href: "#" },
-      { title: "Network Monitoring", href: "#" },
-      { title: "Cloud Management & Deployment", href: "#" },
-      { title: "Zero Touch Deployment Services", href: "#" },
+      { title: "Network Monitoring", href: "/services/network-monitoring" },
+      { title: "Cloud Management & Deployment", href: "/services/cloud-services" },
+      { title: "Zero Touch Deployment Services", href: "/services/zero-touch-deployment" },
+      { title: "Compliance Management System", href: "/services/compliance-management" },
       { title: "Employee Lifecycle Management", href: "#" },
     ],
   },
@@ -203,7 +204,34 @@ export const services: Service[] = [
     description: 'Leverage cutting-edge AI and automation technologies to streamline processes, enhance productivity, and drive innovation across your organization.',
     imageUrl: 'solution-ai',
     imageHint: 'AI automation'
-  }
+  },
+  {
+    slug: 'network-monitoring',
+    title: 'Network Monitoring',
+    shortDescription: 'Proactive monitoring to ensure network health and performance.',
+    icon: Network,
+    description: 'Stay ahead of downtime with a proactive IT support team and network monitoring tools so you can focus on what\'s important.',
+    imageUrl: 'solution-network',
+    imageHint: 'network datasheet',
+  },
+  {
+    slug: 'zero-touch-deployment',
+    title: 'Zero Touch Deployment',
+    shortDescription: 'Automated device setup and configuration for seamless onboarding.',
+    icon: Laptop,
+    description: 'Save time and costs on manual device set-up while enhancing security and compliance.',
+    imageUrl: 'solution-deployment',
+    imageHint: 'white papers',
+  },
+  {
+    slug: 'compliance-management',
+    title: 'Compliance Management',
+    shortDescription: 'Maintain optimal compliance standards with expert support.',
+    icon: ShieldCheck,
+    description: 'Ensure your organization is protected and prepared with our detailed security offerings.',
+    imageUrl: 'compliance-hero',
+    imageHint: 'compliance management',
+  },
 ];
 
 export const solutions: Solution[] = [
@@ -229,7 +257,7 @@ export const solutions: Solution[] = [
         description: "Stay ahead of downtime with a proactive IT support team and network monitoring tools so you can focus on what's important.",
         imageUrl: "solution-network",
         imageHint: "network datasheet",
-        href: "#"
+        href: "/services/network-monitoring"
     },
     {
         slug: "cloud-management",
@@ -237,7 +265,7 @@ export const solutions: Solution[] = [
         description: "Our team of cloud experts is here to help you leverage the power of the cloud seamlessly to meet the needs your business.",
         imageUrl: "solution-cloud",
         imageHint: "cloud service",
-        href: "#"
+        href: "/services/cloud-services"
     },
     {
         slug: "zero-touch-deployment",
@@ -245,15 +273,15 @@ export const solutions: Solution[] = [
         description: "Save time and costs on manual device set-up while enhancing security and compliance.",
         imageUrl: "solution-deployment",
         imageHint: "white papers",
-        href: "#"
+        href: "/services/zero-touch-deployment"
     },
     {
-        slug: "employee-lifecycle",
-        title: "Employee Lifecycle Management",
+        slug: "compliance-management-system",
+        title: "Compliance Management System",
         description: "From onboarding to offboarding, automate the employee lifecycle while enhancing productivity and security.",
         imageUrl: "solution-employee",
         imageHint: "resources hero",
-        href: "#"
+        href: "/services/compliance-management"
     }
 ];
 
@@ -369,6 +397,24 @@ export const testimonials: Testimonial[] = [
     comment: "They are always great at helping me out. The fast response … highly recommend this company!",
     date: "2024-07-08"
   },
+  {
+        name: "Annglia C.",
+        company: "Polara Health",
+        comment: "They are ALWAYS so pleasant to work with and have a sense of urgency. The whole team is very helpful and knowledgeable! Thank you for all that you do for us!",
+        date: "2024-07-18"
+    },
+    {
+        name: "Molly Wardell",
+        company: "COOWardell Builders",
+        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        date: "2024-07-17"
+    },
+    {
+        name: "Barbara R.",
+        company: "CA Assoc of Marriage & Family Therapists",
+        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        date: "2024-07-16"
+    }
 ];
 
 export const vcioTestimonials: Testimonial[] = [
@@ -448,6 +494,7 @@ export const awards: Award[] = [
     { title: "Microsoft Partner - Azure Infrastructure", imageId: "award-3" },
     { title: "CRN MSP 500", imageId: "award-4" },
     { title: "UpCity National Excellence", imageId: "award-5" },
+    { title: "MSUS Award Partner Winner", imageId: "award-6" },
 ];
 
 export const webinars: Webinar[] = [
@@ -764,18 +811,100 @@ export const aiResources: AiResource[] = [
         imageId: "ai-ebook-1",
         type: "ebook"
     }
-]
+];
     
+export const networkMonitoringFaqs: Faq[] = [
+    {
+        question: "What is network and systems management?",
+        answer: "Network and systems management is the process of monitoring and managing your IT infrastructure to ensure its performance, security, and reliability. This includes proactive issue detection, performance optimization, and strategic planning."
+    },
+    {
+        question: "Do you offer 24/7 network monitoring?",
+        answer: "Yes, our U.S.-based team provides around-the-clock monitoring to detect and respond to issues immediately, minimizing downtime and protecting your operations."
+    },
+    {
+        question: "Can you monitor cloud and on-premise environments?",
+        answer: "Absolutely. We provide a single, unified view across your entire hybrid environment, whether your assets are on-premise, in the cloud, or spread across multiple clouds."
+    },
+    {
+        question: "How do you help reduce 'alert fatigue'?",
+        answer: "We use LogicMonitor's intelligent, AIOps-driven alerting to filter out noise and escalate only the critical issues that require attention, allowing your team to focus on what matters."
+    },
+    {
+        question: "What makes your network monitoring service 'managed'?",
+        answer: "Beyond providing the tools, we offer a fully staffed team of experts who handle deployment, configuration, continuous management, security, and optimization, freeing your team to focus on innovation."
+    },
+    {
+        question: "Can your monitoring solutions scale with my business?",
+        answer: "Yes. Our solutions are designed to scale seamlessly. We ensure you maintain complete visibility and control over your infrastructure as your business grows and your technology stack evolves."
+    }
+];
 
-    
+export const complianceRegulations: ComplianceRegulation[] = [
+    {
+        name: "California Consumer Privacy Act",
+        acronym: "CCPA",
+        description: "A state statute intended to enhance privacy rights and consumer protection for residents of California."
+    },
+    {
+        name: "Health Insurance Portability and Accountability Act",
+        acronym: "HIPAA",
+        description: "A federal law that required the creation of national standards to protect sensitive patient health information from being disclosed without the patient's consent or knowledge."
+    },
+    {
+        name: "General Data Protection Regulation",
+        acronym: "GDPR",
+        description: "A regulation in EU law on data protection and privacy in the European Union and the European Economic Area."
+    },
+    {
+        name: "Personal Information Protection & Electronic Documents Act",
+        acronym: "PIPEDA",
+        description: "A Canadian law relating to data privacy. It governs how private sector organizations collect, use, and disclose personal information in the course of commercial business."
+    },
+    {
+        name: "Sarbanes-Oxley Act",
+        acronym: "SOX",
+        description: "A federal law that established sweeping auditing and financial regulations for public companies."
+    },
+    {
+        name: "NIST 800-53 & NIST 800-171",
+        acronym: "NIST",
+        description: "Standards and guidelines from the National Institute of Standards and Technology to help federal agencies and contractors meet the requirements of the Federal Information Security Management Act (FISMA)."
+    },
+    {
+        name: "Payment Card Industry Data Security Standard",
+        acronym: "PCI DSS",
+        description: "A set of security standards designed to ensure that all companies that accept, process, store or transmit credit card information maintain a secure environment."
+    },
+    {
+        name: "Service Organization Control 2",
+        acronym: "SOC 2",
+        description: "A voluntary compliance standard for service organizations, developed by the American Institute of CPAs (AICPA), which specifies how organizations should manage customer data."
+    },
+    {
+        name: "Financial Industry Regulatory Authority",
+        acronym: "FINRA",
+        description: "A private American corporation that acts as a self-regulatory organization that regulates member brokerage firms and exchange markets."
+    }
+];
 
-
-
-
-
-
-    
-
-
-    
-
+export const complianceTestimonials: Testimonial[] = [
+    {
+        name: "Annglia C.",
+        company: "Polara Health",
+        comment: "They are ALWAYS so pleasant to work with and have a sense of urgency. The whole team is very helpful and knowledgeable! Thank you for all that you do for us!",
+        date: "2024-07-18"
+    },
+    {
+        name: "Mary Wardell",
+        company: "COOWardell Builders",
+        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        date: "2024-07-17"
+    },
+    {
+        name: "Barbara R.",
+        company: "CA Assoc of Marriage & Family Therapists",
+        comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
+        date: "2024-07-16"
+    }
+];
