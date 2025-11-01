@@ -671,6 +671,96 @@
       "description": "BDR",
       "imageUrl": "https://images.unsplash.com/photo-1606764539891-b9a9f75294b4?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZGYlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjE4MzY0NDF8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "case study"
+    },
+    {
+      "id": "procurement-hero",
+      "description": "Procurement Hero",
+      "imageUrl": "https://images.unsplash.com/photo-1578574577315-3fbeb0cecdc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9jdXJlbWVudCUyMGhlcm98ZW58MHx8fHwxNzIyNTkyMzY1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "procurement hero"
+    },
+    {
+      "id": "procurement-meeting",
+      "description": "resized MSC21 Getty officeMeeting 1163568487 1024x683 1",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxvZmZpY2UlMjBtZWV0aW5nfGVufDB8fHx8fDE3MjI1OTIzNjV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "office meeting"
+    },
+    {
+      "id": "licensing-logos",
+      "description": "msp azure licensing logo office windows server knowb4",
+      "imageUrl": "https://images.unsplash.com/photo-1662052955282-da15376f3919?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsb2dvJTIwYXp1cmV8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "licensing logos"
+    },
+    {
+      "id": "network-logos",
+      "description": "sentinel netgear networking and server licensing options MSP logos",
+      "imageUrl": "https://images.unsplash.com/photo-1634961138287-354d10332526?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpZGVudGl0eSUyMGFic3RyYWN0fGVufDB8fHx8MTcyMjAyMTgwMnww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "network logos"
+    },
+    {
+      "id": "hardware-logos",
+      "description": "MSP hardware procurement lenovo logitech surface",
+      "imageUrl": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXJkd2FyZSUyMGxvZ29zfGVufDB8fHx8fDE3MjI1OTIzNjV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "hardware logos"
+    },
+    {
+      "id": "firewall-logos",
+      "description": "firewalls and switches licensing options from msp logos barracuda last pass 1 veeam",
+      "imageUrl": "https://images.unsplash.com/photo-1526374965324-74d5821c38bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaXJld2FsbCUyMGxvZ29zfGVufDB8fHx8fDE3MjI1OTIzNjV8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "firewall logos"
+    },
+    {
+      "id": "doc-graphic",
+      "description": "graphic of documents for managed solutions best helpdesk webpage",
+      "imageUrl": "https://images.unsplash.com/photo-1583521214690-8a79a6396930?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjIwMDk2ODF8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "document graphic"
+    },
+    {
+      "id": "procurement-blog-1",
+      "description": "6 benefits of working with a managed service provider blog post image",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXNvdXJjZXMlMjBoZXJvfGVufDB8fHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "msp benefits"
+    },
+    {
+      "id": "procurement-blog-2",
+      "description": "managed solution Public Productivity Immersion Experience Brainstorm Session",
+      "imageUrl": "https://images.unsplash.com/photo-1542744095-fcf48d80b2fd?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMHdvcmtzaG9wfGVufDB8fHx8MTcyMTkxMDY1N3ww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "brainstorm session"
+    },
+    {
+      "id": "security-products-hero",
+      "description": "bigstock Concept Of Cyber Security Inf 415697575",
+      "imageUrl": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlciUyMHNlY3VyaXR5fGVufDB8fHx8fDE3MjI1OTI5MjR8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "cyber security"
+    },
+    {
+      "id": "cyber-data-security",
+      "description": "bigstock Cyber Security And Digital Dat 321109804",
+      "imageUrl": "https://images.unsplash.com/photo-1584433144853-1ab3d72a23a3?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwYWJzdHJhY3R8ZW58MHx8fHwxNzIyMDIxODAyfDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "data security"
+    },
+    {
+      "id": "managed-secure",
+      "description": "Managed Secure",
+      "imageUrl": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjbG91ZCUyMHNlcnZpY2V8ZW58MHx8fHwxNzIyNTU2MjU1fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "managed secure"
+    },
+    {
+      "id": "work-team",
+      "description": "work team",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MjE5MTA2NTd8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "work team"
+    },
+    {
+      "id": "hero-template-5",
+      "description": "Copy of Website Hero Image Template 5",
+      "imageUrl": "https://images.unsplash.com/photo-1556742053-999a3851b664?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMGVtcGxveWVlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "hero template"
+    },
+    {
+      "id": "csp-licensing-intro",
+      "description": "csp licensing intro",
+      "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjB3aGl0ZWJvYXJkfGVufDB8fHx8MTcyMjMzMjI5NXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "licensing intro"
     }
   ]
 }

@@ -124,6 +124,12 @@ export interface SolutionDetails {
     href: string;
 }
 
+export interface ProductDetails {
+    slug: string;
+    title: string;
+    description: string;
+}
+
 export interface AiResource {
     title: string;
     href: string;

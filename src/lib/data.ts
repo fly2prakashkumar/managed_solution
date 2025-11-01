@@ -1,6 +1,5 @@
 
-
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation, SolutionDetails } from "@/lib/types";
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation, SolutionDetails, ProductDetails } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -37,11 +36,11 @@ export const navItems: NavItem[] = [
   },
   {
     title: "Products",
-    href: "#",
+    href: "/products",
     children: [
-      { title: "Procurement Services", href: "#" },
-      { title: "Security", href: "/services/cybersecurity" },
-      { title: "Microsoft Licensing", href: "#" },
+      { title: "Procurement Services", href: "/products/procurement-services" },
+      { title: "Security", href: "/products/security-products" },
+      { title: "Microsoft Licensing", href: "/products/microsoft-licensing" },
     ],
   },
   {
@@ -52,7 +51,7 @@ export const navItems: NavItem[] = [
       { title: "Healthcare", href: "#" },
       { title: "Life Sciences", href: "#" },
       { title: "Non-Profits", href: "#" },
-    ]
+    ],
   },
   {
     title: "Resources",
@@ -62,7 +61,7 @@ export const navItems: NavItem[] = [
       { title: "Case Studies", href: "/case-studies" },
       { title: "eGuides", href: "/resources" },
       { title: "Events", href: "/events" },
-    ]
+    ],
   },
   {
     title: "Culture",
@@ -71,7 +70,7 @@ export const navItems: NavItem[] = [
       { title: "About Us", href: "/about" },
       { title: "Awards & Certifications", href: "/about" },
       { title: "Leadership Team", href: "/about" },
-    ]
+    ],
   },
   {
     title: "Contact",
@@ -80,7 +79,7 @@ export const navItems: NavItem[] = [
       { title: "Contact Us", href: "/contact" },
       { title: "Customer Support", href: "#" },
       { title: "Partner with Us", href: "#" },
-    ]
+    ],
   },
 ];
 
@@ -248,6 +247,38 @@ export const solutions: SolutionDetails[] = [
         href: "/solutions/ai-and-automation"
     },
     {
+        slug: "entra-id-and-intune-migration",
+        title: "Entra ID & Intune Migration",
+        description: "Seamlessly move identity and device management from legacy on-prem systems to modern, cloud-based solutions.",
+        imageUrl: "entra-id-employee-lifecycle",
+        imageHint: "employee lifecycle",
+        href: "/solutions/entra-id-and-intune-migration"
+    },
+    {
+        slug: "employee-engagement",
+        title: "Employee Engagement",
+        description: "Cultivating Efficiency with Viva—Microsoft's Ultimate Employee Engagement Tool",
+        imageUrl: "viva-employee-engagement",
+        imageHint: "employee engagement",
+        href: "/solutions/employee-engagement"
+    },
+    {
+        slug: "business-process-automation",
+        title: "Business Process Automation",
+        description: "Streamline Business Processes with Microsoft Power Platform.",
+        imageUrl: "power-platform-asset",
+        imageHint: "power platform",
+        href: "/solutions/business-process-automation"
+    },
+    {
+        slug: "technology-mergers-and-acquisitions",
+        title: "Technology Mergers and Acquisitions",
+        description: "Seamlessly Integrate Your Systems Without Missing a Beat.",
+        imageUrl: "mergers-acquisitions-hero",
+        imageHint: "business deal",
+        href: "/solutions/technology-mergers-and-acquisitions"
+    },
+    {
         slug: "communication-and-collaboration",
         title: "Communication and Collaboration",
         description: "Enhance collaboration and streamline communications with Microsoft Teams Collaboration tools and our reliable support.",
@@ -287,6 +318,24 @@ export const solutions: SolutionDetails[] = [
         imageHint: "resources hero",
         href: "/solutions/compliance-management"
     }
+];
+
+export const products: ProductDetails[] = [
+  {
+    slug: "procurement-services",
+    title: "Procurement Services",
+    description: "Buy, Deploy, and Scale Smarter with our managed IT procurement services."
+  },
+  {
+    slug: "security-products",
+    title: "Security Products",
+    description: "Powerful Standalone Security Tools to Protect What Matters Most."
+  },
+  {
+    slug: "microsoft-licensing",
+    title: "Microsoft Licensing",
+    description: "Top Microsoft Cloud Solution Provider offering low rates and premium support."
+  }
 ];
 
 export const caseStudies: CaseStudy[] = [
