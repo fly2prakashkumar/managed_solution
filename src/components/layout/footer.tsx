@@ -66,7 +66,7 @@ export default function Footer() {
           </div>
           
           <div className="md:col-span-6">
-             <div className="grid grid-cols-2 gap-8 sm:grid-cols-3">
+             <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
                 {footerNav.map(section => (
                     <div key={section.title}>
                         <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">{section.title}</h3>

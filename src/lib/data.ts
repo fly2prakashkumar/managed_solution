@@ -96,6 +96,16 @@ export const footerNav: FooterNav[] = [
         ]
     },
     {
+      title: "Solutions",
+      links: [
+        { title: "AI and Automation", href: "/solutions/ai-and-automation" },
+        { title: "Entra ID & Intune Migration", href: "/solutions/entra-id-and-intune-migration" },
+        { title: "Network Monitoring", href: "/solutions/network-monitoring" },
+        { title: "Zero Touch Deployment", href: "/solutions/zero-touch-deployment" },
+        { title: "Compliance Management", href: "/solutions/compliance-management" },
+      ]
+    },
+    {
         title: "Industries",
         links: [
             { title: "Healthcare", href: "#" },
@@ -480,7 +490,7 @@ export const vcioTestimonials: Testimonial[] = [
     {
         name: "Molly Wardell",
         company: "COOWardell Builders",
-        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        comment: "The tech was very patient with me and very knowledgeable. He was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
         date: "2024-07-17"
     },
     {
@@ -951,7 +961,7 @@ export const complianceTestimonials: Testimonial[] = [
     {
         name: "Mary Wardell",
         company: "COOWardell Builders",
-        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        comment: "The tech was very patient with me and very knowledgeable. He was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
         date: "2024-07-17"
     },
     {
@@ -997,3 +1007,4 @@ export const mergersAcquisitionsFaqs: Faq[] = [
     { question: "How do you ensure data security during the integration process?", answer: "We conduct a thorough security assessment of both environments and create a unified security framework. This includes standardizing security policies, integrating threat detection tools, and ensuring all data is protected throughout the migration and consolidation process." },
     { question: "Your case study mentions a move from an Enterprise Agreement to CSP. What is the benefit?", answer: "Moving to a Cloud Solution Provider (CSP) model offers greater flexibility, pay-as-you-go pricing, and direct support from the partner. For the enterprise customer in our case study, this switch resulted in significant cost savings—$2.5 million in the first year alone." }
 ];
+
