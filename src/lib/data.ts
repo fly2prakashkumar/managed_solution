@@ -69,6 +69,14 @@ export const navItems: NavItem[] = [
       { title: "Awards", href: "/about" },
     ]
   },
+  {
+    title: "Contact",
+    href: "/contact",
+    children: [
+      { title: "Contact Us", href: "/contact" },
+      { title: "Book Consultation", href: "/contact" },
+    ]
+  },
 ];
 
 export const footerNav: FooterNav[] = [
@@ -678,3 +686,4 @@ export const vcioFaqs: Faq[] = [
     
 
     
+
