@@ -53,8 +53,8 @@ export const navItems: NavItem[] = [
     children: [
       { title: "Blog", href: "/blog" },
       { title: "Case Studies", href: "/case-studies" },
+      { title: "eGuides", href: "/resources" },
       { title: "Events", href: "/events" },
-      { title: "White Papers", href: "/resources" },
     ]
   },
   {
