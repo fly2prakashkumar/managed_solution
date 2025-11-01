@@ -76,11 +76,6 @@ export const navItems: NavItem[] = [
   {
     title: "Contact",
     href: "/contact",
-    children: [
-        { title: "Contact Us", href: "/contact" },
-        { title: "Customer Support", href: "/contact/customer-support" },
-        { title: "Partner with Us", href: "/contact/partner" },
-    ],
   },
 ];
 
@@ -650,7 +645,7 @@ export const testimonials: Testimonial[] = [
     {
         name: "Molly Wardell",
         company: "COOWardell Builders",
-        comment: "The tech was very patient with me and very knowledgeable. He was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
         date: "2024-07-17"
     },
     {
@@ -871,7 +866,7 @@ export const onDemandVideos: OnDemandVideo[] = [
         slug: "inside-copilot-notebooks",
         title: "Copilot Series Webinar 3 Notebooks",
         series: "Microsoft Copilot Series",
-        description: "See how Copilot can transform meeting notes, outlines, and ideas into ready-to-share documents and presentations in minutes. This session includes live examples, practical tips for refining output, and time for your questions in a live Q&A.",
+        description: "See Copilot can transform meeting notes, outlines, and ideas into ready-to-share documents and presentations in minutes. This session includes live examples, practical tips for refining output, and time for your questions in a live Q&A.",
         imageUrl: "on-demand-4",
         imageHint: "Copilot notebooks",
     },
@@ -1191,7 +1186,7 @@ export const complianceTestimonials: Testimonial[] = [
     {
         name: "Mary Wardell",
         company: "COOWardell Builders",
-        comment: "The tech was very patient with me and very knowledgeable. He was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
         date: "2024-07-17"
     },
     {
