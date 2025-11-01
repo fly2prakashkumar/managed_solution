@@ -1,8 +1,12 @@
+
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { blogPosts } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import SummaryClient from "./summary-client";
+import { M365BusinessPremiumPost } from "@/components/blog/m365-business-premium";
+import { SecurityToolkitPost } from "@/components/blog/security-toolkit";
+import { ZeroTrustPost } from "@/components/blog/zero-trust";
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -17,6 +21,18 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     notFound();
   }
 
+  // Specific components for detailed posts
+  if (params.slug === "microsoft-365-business-premium-new-offerings") {
+    return <M365BusinessPremiumPost />;
+  }
+  if (params.slug === "security-toolkit-cybersecurity-awareness-month") {
+    return <SecurityToolkitPost />;
+  }
+  if (params.slug === "harnessing-ai-for-zero-trust-architecture") {
+    return <ZeroTrustPost />;
+  }
+
+  // Fallback for standard posts
   const postImage = PlaceHolderImages.find(img => img.id === post.imageUrl);
 
   return (

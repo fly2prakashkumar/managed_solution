@@ -1,5 +1,4 @@
 
-
 import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation, SolutionDetails, ProductDetails, IndustryDetails, CareersData } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
@@ -454,7 +453,7 @@ export const blogPosts: BlogPost[] = [
     date: "2024-10-01",
     excerpt: "Explore 18 essential resources to enhance your cybersecurity awareness and protect your organization during Cybersecurity Awareness Month and beyond.",
     content: "Content for Security Toolkit blog post...",
-    imageUrl: "blog-4",
+    imageUrl: "blog-security-toolkit-hero",
     imageHint: "cybersecurity lock",
   },
   {
@@ -464,7 +463,7 @@ export const blogPosts: BlogPost[] = [
     date: "2024-09-25",
     excerpt: "Discover how Artificial Intelligence is revolutionizing Zero Trust security models, providing dynamic, adaptive, and predictive threat detection.",
     content: "Content for Harnessing AI for Zero Trust Architecture blog post...",
-    imageUrl: "blog-5",
+    imageUrl: "blog-zerotrust-hero",
     imageHint: "AI security",
   },
   {
@@ -474,7 +473,7 @@ export const blogPosts: BlogPost[] = [
     date: "2024-09-18",
     excerpt: "Learn about the latest updates to Microsoft 365 Business Premium tailored for small and medium-sized businesses, enhancing productivity and security.",
     content: "Content for Microsoft 365 Business Premium blog post...",
-    imageUrl: "blog-6",
+    imageUrl: "blog-m365-hero",
     imageHint: "business team",
   },
   {
@@ -786,7 +785,6 @@ export const onDemandVideos: OnDemandVideo[] = [
         description: "Learn how to streamline meeting coordination, task follow-ups, and research by letting Copilot handle the scheduling and information gathering for you.",
         imageUrl: "on-demand-5",
         imageHint: "Copilot scheduler",
-        isNew: true,
     },
     {
         slug: "prompt-like-a-pro",
@@ -795,7 +793,6 @@ export const onDemandVideos: OnDemandVideo[] = [
         description: "See Copilot in action during this impactful 30-minute session where our Microsoft Solutions expert will demonstrate how smarter prompting can drive better results across your Microsoft 365 apps.",
         imageUrl: "on-demand-6",
         imageHint: "Copilot prompt",
-        isNew: false,
     },
 ];
 
@@ -1194,5 +1191,3 @@ export const careersData: CareersData = {
         "Teamwork!! Everyone is willing to help each other out"
     ]
 };
-
-    

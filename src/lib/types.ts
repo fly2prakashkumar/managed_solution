@@ -1,5 +1,4 @@
 
-
 import type { LucideIcon } from "lucide-react";
 
 export interface NavItem {
@@ -98,7 +97,6 @@ export interface OnDemandVideo {
     description: string;
     imageUrl: string;
     imageHint: string;
-    isNew?: boolean;
 }
 
 export interface Faq {

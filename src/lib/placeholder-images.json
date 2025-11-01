@@ -61,24 +61,6 @@
       "imageHint": "architecture firm"
     },
     {
-      "id": "blog-1",
-      "description": "Cybersecurity concept with digital lock.",
-      "imageUrl": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y3liZXIlMjBzZWN1cml0eXxlbnwwfHx8fDE3NjA4NDYzMTZ8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "cyber security"
-    },
-    {
-      "id": "blog-2",
-      "description": "Person typing on a laptop with code on screen.",
-      "imageUrl": "https://images.unsplash.com/photo-1667984436031-ea1d9ff307ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkZXZlbG9wZXIlMjBjb2Rpbmd8ZW58MHx8fHwxNzYwODQ0NTMzfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "developer coding"
-    },
-    {
-      "id": "blog-3",
-      "description": "Business team collaborating with cloud icons.",
-      "imageUrl": "https://images.unsplash.com/photo-1516880711640-ef7db81be3e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidXNpbmVzcyUyMGNvbGxhYm9yYXRpb258ZW58MHx8fHwxNzYwOTMxMjYzfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "business collaboration"
-    },
-    {
       "id": "about-1",
       "description": "Diverse team of professionals smiling in an office.",
       "imageUrl": "https://images.unsplash.com/photo-1527525443983-6e60c75fff46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkaXZlcnNlJTIwdGVhbXxlbnwwfHx8fDE3NjA4NjM5OTh8MA&ixlib.rb-4.1.0&q=80&w=1080",
@@ -109,10 +91,22 @@
       "imageHint": "man smiling"
     },
     {
-      "id": "resource-1",
+      "id": "eguide-1",
       "description": "Cover image for a white paper on cybersecurity.",
       "imageUrl": "https://images.unsplash.com/photo-1733945711023-bb707111c16a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxlYm9vayUyMGNvdmVyfGVufDB8fHx8MTc2MDg0NzMwOHww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "ebook cover"
+    },
+    {
+      "id": "eguide-2",
+      "description": "Cover for AI ebook",
+      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhaSUyMGVib29rfGVufDB8fHx8MTcyMjYyNjMwMXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI ebook"
+    },
+    {
+      "id": "eguide-3",
+      "description": "Cover for IT Guide",
+      "imageUrl": "https://images.unsplash.com/photo-1586996157503-9587db867a20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlZ3VpZGUlMjBjb3ZlcnxlbnwwfHx8fDE3MjE4OTc2OTB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "IT guide"
     },
     {
       "id": "contact-hero",
@@ -173,12 +167,6 @@
       "description": "Copilot and Power Automate graphic",
       "imageUrl": "https://images.unsplash.com/photo-1654547279170-cc0600c1ee7c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhYnN0cmFjdCUyMGZsb3d8ZW58MHx8fHwxNzYwODk2NTg1fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "abstract flow"
-    },
-    {
-      "id": "events-hero",
-      "description": "People attending a tech conference.",
-      "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxldmVudCUyMGNvbmZlcmVuY2V8ZW58MHx8fHwxNzYwOTUxOTk5fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "event conference"
     },
     {
       "id": "live-event-1",
@@ -578,7 +566,7 @@
     },
     {
       "id": "compliance-hero",
-      "description": "women consulting in professional setting",
+      "description": "women consulting in professional setting for Managed Solution's compliance management system page",
       "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjB3aGl0ZWJvYXJkfGVufDB8fHx8MTcyMjMzMjI5NXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "consulting setting"
     },
@@ -857,6 +845,84 @@
       "description": "Copy of BBB Torch Awards for Ethics",
       "imageUrl": "https://images.unsplash.com/photo-1643370362348-3d5360bc0137?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "award logo"
+    },
+    {
+      "id": "blog-m365-hero",
+      "description": "Microsoft 365 Business Premium New Plans for SMBs blog featured photo small business team Microsoft logo Microsoft defender logo Microsoft purview logo",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW18ZW58MHx8fHwxNzIyNjI3NTc0fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "business team"
+    },
+    {
+      "id": "blog-m365-solutions-plays",
+      "description": "introducing fy26 security solution plays standard",
+      "imageUrl": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMHBsYXl8ZW58MHx8fHwxNzIyNjI3NTc0fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "security play"
+    },
+    {
+      "id": "blog-security-toolkit-hero",
+      "description": "Cybersecurity awareness month blog featured image of a computer with digital lock graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjY3liZXJzZWN1cml0eSUyMGxvY2t8ZW58MHx8fHwxNzIyNjI3NTc0fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "cybersecurity lock"
+    },
+    {
+      "id": "blog-security-toolkit-graphic",
+      "description": "Managed Solution's security toolkit for cybersecurity awareness month 2025 image depicting business man handing viewer digital",
+      "imageUrl": "https://images.unsplash.com/photo-1556740758-90de374c12ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMHRvb2xraXR8ZW58MHx8fHwxNzIyNjI3NTc0fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "security toolkit"
+    },
+    {
+      "id": "blog-zerotrust-hero",
+      "description": "AI for Zero trust security blog featured image depicting three workers holding computers with different levels",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMHplcm8lMjB0cnVzdHxlbnwwfHx8fDE3MjI2Mjg1NzN8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI zero trust"
+    },
+    {
+      "id": "blog-zerotrust-explained",
+      "description": "Zero Trust Security Explained graph visualizing how zero trust security works",
+      "imageUrl": "https://images.unsplash.com/photo-1634620942424-95d4b8be05f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx6ZXJvJTIwdHJ1c3QlMjBncmFwaHxlbnwwfHx8fDE3MjI2Mjg1NzN8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "zero trust graph"
+    },
+    {
+      "id": "blog-zerotrust-graph",
+      "description": "graph from microsoft that breaks down preparing for AI with Zero trust security",
+      "imageUrl": "https://images.unsplash.com/photo-1634620942424-95d4b8be05f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMHplcm8lMjB0cnVzdCUyMGdyYXBufGVufDB8fHx8MTcyMjYyODU3M3ww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI graph"
+    },
+    {
+      "id": "blog-7",
+      "description": "AI Chatbot assistant",
+      "imageUrl": "https://images.unsplash.com/photo-1678483789005-a09e13a4810a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMGNoYXRib3R8ZW58MHx8fHwxNzIyNjI5MDYwfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI chatbot"
+    },
+    {
+      "id": "blog-8",
+      "description": "AI security graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1677756119517-756a188d2d94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBSSUyMHNlY3VyaXR5fGVufDB8fHx8MTcyMjYyOTA2MHww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "AI security"
+    },
+    {
+      "id": "blog-9",
+      "description": "Award graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhd2FyZCUyMGdyYXBoaWN8ZW58MHx8fHwxNzIyNjI5MDYwfDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "award graphic"
+    },
+    {
+      "id": "blog-10",
+      "description": "Social engineering graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzb2NpYWwlMjBlbmdpbmVlcmluZ3xlbnwwfHx8fDE3MjI2MjkwNjB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "social engineering"
+    },
+    {
+      "id": "blog-11",
+      "description": "Inc 5000 logo",
+      "imageUrl": "https://images.unsplash.com/photo-1643370362348-3d5360bc0137?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "Inc 5000"
+    },
+    {
+      "id": "blog-12",
+      "description": "Security orb graphic",
+      "imageUrl": "https://images.unsplash.com/photo-1584433144853-1ab3d72a23a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzZWN1cml0eSUyMG9yYnxlbnwwfHx8fDE3MjI2MjkwNjB8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "security orb"
     }
   ]
 }

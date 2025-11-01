@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { blogPosts } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import ContactSection from "@/components/shared/contact-section";
+import Breadcrumbs from "@/components/shared/breadcrumbs";
 
 export default function BlogPage() {
   const categories = [
@@ -20,6 +21,12 @@ export default function BlogPage() {
     "Artificial Intelligence", "Microsoft Dynamics", "cybersecurity", "Power BI"
   ];
 
+  const breadcrumbItems = [
+    { label: "Home", href: "/" },
+    { label: "Resources", href: "/resources" },
+    { label: "Blog", href: "/blog" }
+  ];
+
   return (
     <>
       <PageHeader
@@ -28,6 +35,10 @@ export default function BlogPage() {
       />
       <section className="py-16 md:py-24">
         <div className="container">
+          <div className="mb-8">
+            <Breadcrumbs items={breadcrumbItems} />
+          </div>
+
           <div className="mb-12">
             <h2 className="text-xl font-bold mb-4">Categories</h2>
             <div className="flex flex-wrap gap-2">
@@ -74,8 +85,11 @@ export default function BlogPage() {
               </Card>
             )})}
           </div>
-           <div className="mt-12 text-center">
-              <Button variant="outline" asChild>
+           <div className="mt-12 flex justify-center gap-2">
+              <Button variant="outline" size="icon">1</Button>
+              <Button variant="ghost" size="icon">2</Button>
+              <Button variant="ghost" size="icon">3</Button>
+              <Button variant="ghost" asChild>
                 <Link href="#">Next &raquo;</Link>
               </Button>
            </div>
