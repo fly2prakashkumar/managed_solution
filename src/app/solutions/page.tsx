@@ -1,10 +1,11 @@
 
+
 import Image from "next/image";
 import Link from "next/link";
 import PageHeader from "@/components/shared/page-header";
 import { solutions } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import ContactSection from "@/components/shared/contact-section";
 

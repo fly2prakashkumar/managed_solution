@@ -115,6 +115,15 @@ export interface Solution {
     href: string;
 }
 
+export interface SolutionDetails {
+    slug: string;
+    title: string;
+    description: string;
+    imageUrl: string;
+    imageHint: string;
+    href: string;
+}
+
 export interface AiResource {
     title: string;
     href: string;

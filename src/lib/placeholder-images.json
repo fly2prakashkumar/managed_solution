@@ -15,7 +15,7 @@
     {
       "id": "service-managed-it",
       "description": "remote management and monitoring tools image for managed solution",
-      "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZW1vdGUlMjBtYW5hZ2VtZW50fGVufDB8fHx8MTcyMjU1NTkwMXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZW1vdGUlMjBtYW5hZ2VtZW50fGVufDB8fHx8fDE3MjI1NTU5MDF8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "remote management"
     },
     {
@@ -599,6 +599,78 @@
       "description": "best-practices-for-compliance-management",
       "imageUrl": "https://images.unsplash.com/photo-1583521214690-8a79a6396930?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjIwMDk2ODF8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "compliance best practices"
+    },
+    {
+      "id": "entra-id-employee-lifecycle",
+      "description": "Entra IDEmployee Lifecycle Management",
+      "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZXNvdXJjZXMlMjBoZXJvfGVufDB8fHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "employee lifecycle"
+    },
+    {
+      "id": "entra-id-webpage",
+      "description": "microsoft entra ID webpage for managed solution workers gathered around desk",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "team office"
+    },
+    {
+      "id": "entra-id-datasheet",
+      "description": "Entra ID Datasheet e1750256410630",
+      "imageUrl": "https://images.unsplash.com/photo-1606764539891-b9a9f75294b4?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZGYlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjE4MzY0NDF8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "datasheet pdf"
+    },
+    {
+      "id": "active-directory-migration-skyscraper",
+      "description": "bigstock Skyscraper Tower Buildings In 369096139",
+      "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza3lzY3JhcGVyfGVufDB8fHx8fDE3MjI1ODkwMDV8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "skyscraper"
+    },
+    {
+      "id": "risk-analysis-ad-degunking",
+      "description": "Risk Analysis",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04421cd6c3?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidWRnZXQlMjBwbGFubmluZ3xlbnwwfHx8fDE3NjA5NTM2Njl8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "risk analysis"
+    },
+    {
+      "id": "viva-employee-engagement",
+      "description": "Viva Employee Engagement",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MjE5MTA2NTd8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "employee engagement"
+    },
+    {
+      "id": "viva-suite-logos",
+      "description": "viva suite logos",
+      "imageUrl": "https://images.unsplash.com/photo-1632882765332-342d9a3e6a98?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjB0ZWFtc3xlbnwwfHx8fDE3MjI1NTYyNTV8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "viva logos"
+    },
+    {
+      "id": "g-suite-vs-office-365",
+      "description": "g suite vs office 365",
+      "imageUrl": "https://images.unsplash.com/photo-1662027008658-b615840c7deb?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsb2dvJTIwbWljcm9zb2Z0fGVufDB8fHx8MTc2MDk0Mjg4MHww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "microsoft logo"
+    },
+    {
+      "id": "meet-our-team-section",
+      "description": "Meet Our Team",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MjE5MTA2NTd8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "team collaboration"
+    },
+    {
+      "id": "power-platform-asset",
+      "description": "Power Platform Asset 1 1",
+      "imageUrl": "https://images.unsplash.com/photo-1695239510754-367439498b58?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaWNyb3NvZnQlMjBwb3dlcnBvaW50fGVufDB8fHx8MTcyMjU4NTQyNHww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "power platform"
+    },
+    {
+      "id": "mergers-acquisitions-hero",
+      "description": "image of business deal men shaking hands in professional setting",
+      "imageUrl": "https://images.unsplash.com/photo-1622675313417-38a8b8481b7a?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGRlYWx8ZW58MHx8fHwxNzIyNTkwMjU4fDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "business deal"
+    },
+    {
+      "id": "bdr-case-study",
+      "description": "BDR",
+      "imageUrl": "https://images.unsplash.com/photo-1606764539891-b9a9f75294b4?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZGYlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjE4MzY0NDF8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "case study"
     }
   ]
 }

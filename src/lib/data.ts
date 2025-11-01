@@ -1,6 +1,6 @@
 
 
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation } from "@/lib/types";
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation, SolutionDetails } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -22,12 +22,16 @@ export const navItems: NavItem[] = [
     title: "Solutions",
     href: "/solutions",
     children: [
-      { title: "AI and Automation", href: "/services/ai-and-automation" },
+      { title: "AI and Automation", href: "/solutions/ai-and-automation" },
+      { title: "Entra ID & Intune Migration", href: "/solutions/entra-id-and-intune-migration" },
+      { title: "Employee Engagement", href: "/solutions/employee-engagement" },
+      { title: "Business Process Automation", href: "/solutions/business-process-automation" },
+      { title: "Technology Mergers and Acquisitions", href: "/solutions/technology-mergers-and-acquisitions" },
       { title: "Communication and Collaboration", href: "#" },
-      { title: "Network Monitoring", href: "/services/network-monitoring" },
+      { title: "Network Monitoring", href: "/solutions/network-monitoring" },
       { title: "Cloud Management & Deployment", href: "/services/cloud-services" },
-      { title: "Zero Touch Deployment Services", href: "/services/zero-touch-deployment" },
-      { title: "Compliance Management System", href: "/services/compliance-management" },
+      { title: "Zero Touch Deployment Services", href: "/solutions/zero-touch-deployment" },
+      { title: "Compliance Management System", href: "/solutions/compliance-management" },
       { title: "Employee Lifecycle Management", href: "#" },
     ],
   },
@@ -234,17 +238,17 @@ export const services: Service[] = [
   },
 ];
 
-export const solutions: Solution[] = [
+export const solutions: SolutionDetails[] = [
     {
-        slug: "ai-automation",
+        slug: "ai-and-automation",
         title: "AI and Automation",
         description: "Leverage cutting-edge AI and automation technologies to streamline processes, enhance productivity, and drive innovation across your organization.",
         imageUrl: "solution-ai",
         imageHint: "cybersecurity tools",
-        href: "/services/ai-and-automation"
+        href: "/solutions/ai-and-automation"
     },
     {
-        slug: "communication-collaboration",
+        slug: "communication-and-collaboration",
         title: "Communication and Collaboration",
         description: "Enhance collaboration and streamline communications with Microsoft Teams Collaboration tools and our reliable support.",
         imageUrl: "solution-collaboration",
@@ -257,10 +261,10 @@ export const solutions: Solution[] = [
         description: "Stay ahead of downtime with a proactive IT support team and network monitoring tools so you can focus on what's important.",
         imageUrl: "solution-network",
         imageHint: "network datasheet",
-        href: "/services/network-monitoring"
+        href: "/solutions/network-monitoring"
     },
     {
-        slug: "cloud-management",
+        slug: "cloud-management-and-deployment",
         title: "Cloud Management & Deployment",
         description: "Our team of cloud experts is here to help you leverage the power of the cloud seamlessly to meet the needs your business.",
         imageUrl: "solution-cloud",
@@ -273,7 +277,7 @@ export const solutions: Solution[] = [
         description: "Save time and costs on manual device set-up while enhancing security and compliance.",
         imageUrl: "solution-deployment",
         imageHint: "white papers",
-        href: "/services/zero-touch-deployment"
+        href: "/solutions/zero-touch-deployment"
     },
     {
         slug: "compliance-management-system",
@@ -281,7 +285,7 @@ export const solutions: Solution[] = [
         description: "From onboarding to offboarding, automate the employee lifecycle while enhancing productivity and security.",
         imageUrl: "solution-employee",
         imageHint: "resources hero",
-        href: "/services/compliance-management"
+        href: "/solutions/compliance-management"
     }
 ];
 
@@ -907,4 +911,40 @@ export const complianceTestimonials: Testimonial[] = [
         comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
     }
+];
+
+export const entraIdIntuneFaqs: Faq[] = [
+    { question: "What is the difference between Entra and Intune?", answer: "Microsoft Entra ID is an identity and access management solution that handles user authentication and access policies. Microsoft Intune is a mobile device management (MDM) and mobile application management (MAM) solution for managing endpoint devices." },
+    { question: "How does Entra support Single Sign-On (SSO)?", answer: "Entra ID enables SSO by allowing users to sign in once with a single set of credentials to access multiple applications and services, improving both user experience and security." },
+    { question: "Can Intune manage both company-owned and personal devices?", answer: "Yes, Intune supports both company-owned devices (COD) and bring-your-own-device (BYOD) scenarios, allowing you to apply different policies to protect corporate data while respecting user privacy." },
+    { question: "What is a tenant-to-tenant migration?", answer: "This is a complex process, typically during mergers or acquisitions, where users, devices, apps, and policies are migrated from one Microsoft 365 tenant to another. We specialize in making this process seamless." },
+    { question: "Why migrate from SCCM (Configuration Manager) to Intune?", answer: "Migrating to Intune provides a modern, cloud-based approach to endpoint management, offering better support for remote work, simplified administration, and integration with the broader Microsoft security ecosystem." },
+    { question: "What is Zero Trust architecture?", answer: "Zero Trust is a security model that assumes no user or device is trusted by default. It requires strict verification for every person and device trying to access resources, regardless of their location." },
+    { question: "What happens to Azure Active Directory?", answer: "Azure Active Directory (Azure AD) has been renamed to Microsoft Entra ID. It's the same service with the same capabilities, just under a new name as part of the Microsoft Entra product family." },
+    { question: "What is 'Copilot in Intune'?", answer: "Copilot in Intune uses AI to provide insights and automation for endpoint management, helping IT admins make better decisions, troubleshoot issues faster, and proactively manage their device fleet." },
+    { question: "How long does a migration take?", answer: "The timeline varies depending on the complexity, number of users, and number of devices. We start with a detailed assessment to provide a clear roadmap and timeline for your specific project." }
+];
+
+export const employeeEngagementFaqs: Faq[] = [
+    { question: "What is Microsoft Viva?", answer: "Microsoft Viva is an employee experience platform integrated directly into Microsoft Teams. It combines communications, knowledge, learning, resources, and insights into a unified experience to improve employee engagement and productivity." },
+    { question: "What are the main components of Microsoft Viva?", answer: "Viva includes modules like Viva Connections (culture and communications), Viva Insights (productivity and wellbeing), Viva Topics (knowledge and expertise), and Viva Learning (skill development)." },
+    { question: "How does Viva improve employee engagement?", answer: "By bringing essential tools and resources directly into the flow of work, Viva reduces context-switching, fosters a sense of community, makes knowledge easily accessible, and provides insights for both individuals and managers to improve work patterns." },
+    { question: "Is Microsoft Viva included with Microsoft 365?", answer: "Some core features of Viva are included in many Microsoft 365 and Office 365 plans. More advanced features and premium modules may require additional licensing." },
+    { question: "Can we customize Microsoft Viva?", answer: "Yes, Viva is highly customizable. Viva Connections, for example, can be branded and tailored to reflect your company's culture and provide targeted content for different employee groups." }
+];
+
+export const powerPlatformFaqs: Faq[] = [
+    { question: "What is the Microsoft Power Platform?", answer: "The Microsoft Power Platform is a suite of low-code/no-code tools that allows you to build custom apps (Power Apps), automate workflows (Power Automate), analyze data (Power BI), and create intelligent chatbots (Power Virtual Agents)." },
+    { question: "Do I need to be a developer to use Power Apps?", answer: "No. Power Apps is designed for everyone. Its low-code approach means business users can create custom applications with minimal coding, while professional developers can still use it for more complex scenarios." },
+    { question: "What is the difference between Power Automate and Power Apps?", answer: "Power Apps is for building custom applications for users to interact with. Power Automate is for creating automated workflows that connect different apps and services to perform tasks in the background." },
+    { question: "How does Power BI help with data visualization?", answer: "Power BI allows you to connect to hundreds of data sources, create interactive dashboards and reports, and gain actionable insights from your data. It makes complex data easy to understand and share." },
+    { question: "Can Power Virtual Agents integrate with other systems?", answer: "Yes, you can easily integrate Power Virtual Agents with other services and systems using hundreds of pre-built connectors or by creating custom workflows with Power Automate, allowing your chatbots to perform actions on behalf of the user." }
+];
+
+export const mergersAcquisitionsFaqs: Faq[] = [
+    { question: "Why is technology integration a critical part of a merger or acquisition?", answer: "Seamless technology integration is crucial for realizing the value of an M&A deal. Failure to properly merge IT systems can lead to operational disruptions, security vulnerabilities, and a poor employee experience, ultimately eroding the benefits of the merger." },
+    { question: "What are the biggest IT challenges during an M&A?", answer: "Common challenges include consolidating different email systems (e.g., Microsoft 365 and Google Workspace), merging separate Active Directory domains, integrating diverse document management platforms, and unifying security policies and tools." },
+    { question: "What is 'identity management' in the context of an M&A?", answer: "It involves creating a single, unified identity for each employee across both organizations. This is essential for providing seamless access to applications and data while maintaining strong security and control." },
+    { question: "How do you ensure data security during the integration process?", answer: "We conduct a thorough security assessment of both environments and create a unified security framework. This includes standardizing security policies, integrating threat detection tools, and ensuring all data is protected throughout the migration and consolidation process." },
+    { question: "Your case study mentions a move from an Enterprise Agreement to CSP. What is the benefit?", answer: "Moving to a Cloud Solution Provider (CSP) model offers greater flexibility, pay-as-you-go pricing, and direct support from the partner. For the enterprise customer in our case study, this switch resulted in significant cost savings—$2.5 million in the first year alone." }
 ];
