@@ -74,6 +74,26 @@ export interface Award {
     imageId: string;
 }
 
+export interface AwardTimeline {
+    year: number;
+    awards: string[];
+}
+
+export interface Certification {
+    gold: string[];
+    silver: string[];
+    individual: {
+        code: string;
+        title: string;
+    }[];
+    other: {
+        name: string;
+        description: string;
+    }[];
+    cisco: string[];
+    dell: string[];
+}
+
 export interface Webinar {
     slug: string;
     title: string;

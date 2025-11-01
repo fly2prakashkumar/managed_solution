@@ -741,6 +741,60 @@ export const awards: Award[] = [
     { title: "MSUS Award Partner Winner", imageId: "award-6" },
 ];
 
+export const awardTimeline = [
+    { year: 2025, awards: ["CRN Solution Provider 500 Award", "CRN MSP 500 Award", "CloudTango MSP Select"] },
+    { year: 2023, awards: ["CRN TRIPLE CROWN Award", "CRN Fast Growth 150 Award", "BBB Torch Award for Ethics Finalist", "Cloudtango - MSP Select Top Managed Services Provider in the US"] },
+    { year: 2022, awards: ["CRN's Managed Services Provider Top 500", "San Diego Business Journal's Best Place to Work - Top 100", "Cloudtango's Managed Service Provider US Select 2022"] },
+    { year: 2021, awards: ["UpCity's Best of Cloud Consulting", "CRN's Managed Service Provider Top 500", "Cloudtango's Top Managed Services Provider in the United States"] },
+    { year: 2020, awards: ["San Diego Union Tribune Top Places to Work", "Best IT Managed Service Providers in San Diego (Expertise)"] },
+    { year: 2019, awards: ["CRN's Tech Elite 250", "CRN's Managed Service Provider Top 500", "San Diego Business Journal Fastest Growing Private Companies"] },
+    { year: 2018, awards: ["CRN's 2018 Fast Growth 150", "MSUS Partner of the Year – Modern Workplace – Teamwork"] },
+    { year: 2017, awards: ["Inc. 500 Fastest Growing Companies", "Microsoft SoCal SMB Partner Award Azure Rainmaker", "Top 100 Cloud Service Providers"] },
+    { year: 2016, awards: ["Microsoft 2016 US SMB Champions Club SMB Marketer of the Year", "CRN's 2016 Fast Growth 150 List"] },
+    { year: 2015, awards: ["Talkin' Cloud 100", "Microsoft Top West Region Small and Midsize Business Cloud Partner", "San Diego Business Journal Fastest Growing Private Companies"] },
+];
+
+export const certifications = {
+  gold: [
+    "Devices and Deployment",
+    "Small and Midmarket Cloud Solutions",
+    "Hosting",
+    "Cloud Productivity",
+    "Cloud Platform",
+  ],
+  silver: [
+    "Cloud Productivity",
+    "Hosting",
+    "Identity and Access",
+    "Cloud CRM",
+    "CRM Online Acceleration Partner",
+  ],
+  individual: [
+    { code: "MS-301", title: "Deploying SharePoint Server Hybrid, Deploying Microsoft 365 Teamwork" },
+    { code: "MS-500", title: "Microsoft Security Security Administration" },
+    { code: "MS-201", title: "Implementing a Hybrid and Secure Messaging Platform" },
+    { code: "MS-200", title: "Planning and Configuring a Messaging Platform" },
+    { code: "MS-100", title: "Microsoft 365 Identity & Services" },
+    { code: "MS-101", title: "Microsoft 365 Mobility and Security" },
+    { code: "MD-101", title: "Managing Modern Desktops" },
+    { code: "AZ-104", title: "Microsoft Azure Administrator" },
+    { code: "AZ-900", title: "Microsoft Azure Fundamentals" },
+    { code: "MS-900", title: "Microsoft 365 Fundamentals" },
+    { code: "MD-100", title: "Windows 10" },
+    { code: "MS-700", title: "Managing Microsoft Teams" },
+  ],
+  other: [
+      { name: "Cisco Certified Network Professional (CCNP)", description: "Validates advanced knowledge and skills in implementing, operating, configuring, and troubleshooting all converged IP networks and communications." },
+      { name: "Certified Dell Gold Partner", description: "" }
+  ],
+  cisco: [
+    "Cisco Certified Network Associate (CCNA)", "Cisco Advanced Routing and Switching Specialist", "Cisco Certified Design Associate (CCDA)", "Cisco Sales Expert", "Cisco Foundation Express Sales Specialist", "Cisco Certified Design Professional (CCDP)", "Cisco IP Communications Express Sales Specialist", "Cisco Certified Internetworking Expert (CCIE)", "Cisco Advanced Routing and Switching Sales Specialist", "Cisco Certified Security Professional (CCSP)", "Cisco Security Sales Specialist", "Cisco Certified Voice Professional (CCVP)", "Cisco Virtual Private Network Specialist", "Cisco Firewall Specialist", "Cisco Express Foundation Specialist", "Cisco IP Communications Express Specialist"
+  ],
+  dell: [
+      "Dell Sales Workstation", "Dell Sales Data Center", "Dell Sales Server"
+  ]
+};
+
 export const webinars: Webinar[] = [
     {
         slug: "copilot-agents",
