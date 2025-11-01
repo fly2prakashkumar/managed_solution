@@ -85,14 +85,6 @@ export default function BlogPage() {
               </Card>
             )})}
           </div>
-           <div className="mt-12 flex justify-center gap-2">
-              <Button variant="outline" size="icon">1</Button>
-              <Button variant="ghost" size="icon">2</Button>
-              <Button variant="ghost" size="icon">3</Button>
-              <Button variant="ghost" asChild>
-                <Link href="#">Next &raquo;</Link>
-              </Button>
-           </div>
 
             <div className="mt-24 text-center">
               <h2 className="font-headline text-3xl font-bold">See How We Make IT Easy for Businesses Like Yours</h2>
