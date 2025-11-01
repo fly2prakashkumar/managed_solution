@@ -35,9 +35,9 @@ export default function Footer() {
   return (
     <footer className="border-t bg-secondary py-12 md:py-16">
       <div className="container">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-12">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-5">
           
-          <div className="md:col-span-3">
+          <div className="md:col-span-1">
             <Logo />
             <div className="mt-6 flex space-x-4">
               {socialLinks.map((link) => (
@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
             <div className="mt-8 space-y-4">
                 <div>
-                    <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">Address</h3>
+                    <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">SERVICES</h3>
                     <p className="mt-2 text-sm text-muted-foreground">
                         2150 W Washington St, Suite 402<br />
                         San Diego, CA 92110
@@ -65,8 +65,8 @@ export default function Footer() {
              </Button>
           </div>
           
-          <div className="md:col-span-6">
-             <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
+          <div className="md:col-span-4">
+             <div className="grid grid-cols-1 gap-8 sm:grid-cols-4">
                 {footerNav.map(section => (
                     <div key={section.title}>
                         <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">{section.title}</h3>
@@ -83,23 +83,9 @@ export default function Footer() {
                 ))}
               </div>
           </div>
-           <div className="md:col-span-3">
-            <h3 className="font-headline text-sm font-semibold uppercase tracking-wider text-orange-500">Newsletter Sign-Up</h3>
-            <form className="mt-4 space-y-4">
-              <div>
-                <label htmlFor="footer-firstname" className="sr-only">First name*</label>
-                <Input id="footer-firstname" placeholder="First name*" required />
-              </div>
-              <div>
-                <label htmlFor="footer-email" className="sr-only">Email*</label>
-                <Input id="footer-email" type="email" placeholder="Email*" required />
-              </div>
-              <Button type="submit" className="w-full">Sign Up</Button>
-            </form>
-          </div>
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>Copyright &copy; {new Date().getFullYear()} EternalMinds. All rights reserved.</p>
+          <p>Copyright &copy; {new Date().getFullYear()} Optimal Solutions Hub. All rights reserved.</p>
         </div>
       </div>
     </footer>

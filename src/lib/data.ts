@@ -93,38 +93,42 @@ export const footerNav: FooterNav[] = [
             { title: "Microsoft Consulting Services", href: "/services/it-consulting" },
             { title: "Microsoft Security Services", href: "/services/microsoft-security" },
             { title: "Azure Cloud Managed Services", href: "/services/cloud-services" },
+            { title: "Compliance Management", href: "/solutions/compliance-management" },
+            { title: "Backup and Disaster Recovery...", href: "/services/data-backup" },
+            { title: "Remote Management and Monitoring...", href: "/solutions/network-monitoring" },
+            { title: "Virtual CIO Consulting Services", href: "/services/vcio-consulting" },
         ]
     },
     {
       title: "Solutions",
       links: [
-        { title: "AI and Automation", href: "/solutions/ai-and-automation" },
-        { title: "Entra ID & Intune Migration", href: "/solutions/entra-id-and-intune-migration" },
-        { title: "Network Monitoring", href: "/solutions/network-monitoring" },
-        { title: "Zero Touch Deployment", href: "/solutions/zero-touch-deployment" },
-        { title: "Compliance Management", href: "/solutions/compliance-management" },
+        { title: "Zero Touch Deployment Services", href: "/solutions/zero-touch-deployment" },
+        { title: "Entra ID and Intune...", href: "/solutions/entra-id-and-intune-migration" },
+        { title: "Employee Engagement", href: "/solutions/employee-engagement" },
+        { title: "Business Process Automation", href: "/solutions/business-process-automation" },
+        { title: "Technology Mergers and Acquisitions", href: "/solutions/technology-mergers-and-acquisitions" },
+        { title: "Communication and Collaboration", href: "#" },
+        { title: "Simplified Cloud Management and...", href: "/services/cloud-services" },
       ]
     },
      {
       title: "Products",
       links: [
-        { title: "Procurement Services", href: "/products/procurement-services" },
+        { title: "Procurement", href: "/products/procurement-services" },
         { title: "Security", href: "/products/security-products" },
         { title: "Microsoft Licensing", href: "/products/microsoft-licensing" },
       ]
     },
     {
-        title: "Company",
+        title: "Contact",
         links: [
-            { title: "About Us", href: "/about" },
-            { title: "Blog", href: "/blog" },
-            { title: "Case Studies", href: "/case-studies" },
-            { title: "Events", href: "/events" },
-            { title: "Careers", href: "#" },
             { title: "Contact Us", href: "/contact" },
+            { title: "Customer Support", href: "#" },
+            { title: "Partners", href: "#" },
+            { title: "Careers", href: "#" },
         ]
     }
-]
+];
 
 export const services: Service[] = [
   {
@@ -753,7 +757,7 @@ export const onDemandVideos: OnDemandVideo[] = [
         slug: "copilot-analyst",
         title: "Copilot Series Webinar 5 Analyst",
         series: "Copilot Series",
-        description: "Copilot Analyst: Smarter Data Workflows in Excel. See how Copilot Agents can take on repetitive work, manage routine updates, and keep projects moving behind the scenes. You'll explore practical ways to set up and customize agents so they become reliable digital teammates for your team.",
+        description: "See how Copilot Agents can take on repetitive work, manage routine updates, and keep projects moving behind the scenes. You'll explore practical ways to set up and customize agents so they become reliable digital teammates for your team.",
         imageUrl: "on-demand-2",
         imageHint: "Copilot Analyst",
     },
@@ -761,7 +765,7 @@ export const onDemandVideos: OnDemandVideo[] = [
         slug: "copilot-create",
         title: "Copilot Series Webinar 4 Notebooks",
         series: "Microsoft Copilot Series",
-        description: "Copilot Create: From Idea to Polished Product in Minutes. In this 30-minute session, our Microsoft Solutions expert will demonstrate how Copilot Notebooks can capture ideas, structure projects, and support collaborative planning. You'll see real examples of brainstorming, meeting summaries, and long-form analysis - and get your questions answered during a live Q&A.",
+        description: "In this 30-minute session, our Microsoft Solutions expert will demonstrate how Copilot Notebooks can capture ideas, structure projects, and support collaborative planning. You'll see real examples of brainstorming, meeting summaries, and long-form analysis - and get your questions answered during a live Q&A.",
         imageUrl: "on-demand-3",
         imageHint: "Copilot create",
     },
@@ -769,7 +773,7 @@ export const onDemandVideos: OnDemandVideo[] = [
         slug: "inside-copilot-notebooks",
         title: "Copilot Series Webinar 3 Notebooks",
         series: "Microsoft Copilot Series",
-        description: "Inside Copilot Notebooks: AI-Powered Thinking Spaces. See how Copilot can transform meeting notes, outlines, and ideas into ready-to-share documents and presentations in minutes. This session includes live examples, practical tips for refining output, and time for your questions in a live Q&A.",
+        description: "See how Copilot can transform meeting notes, outlines, and ideas into ready-to-share documents and presentations in minutes. This session includes live examples, practical tips for refining output, and time for your questions in a live Q&A.",
         imageUrl: "on-demand-4",
         imageHint: "Copilot notebooks",
     },
@@ -1099,7 +1103,7 @@ export const complianceTestimonials: Testimonial[] = [
         company: "CA Assoc of Marriage & Family Therapists",
         comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
-    }
+    },
 ];
 
 export const entraIdIntuneFaqs: Faq[] = [
