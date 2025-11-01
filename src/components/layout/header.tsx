@@ -43,8 +43,8 @@ export default function Header() {
                   </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent
-                  onMouseLeave={() => setOpenMenu(null)}
                   align="start"
+                  onMouseLeave={() => setOpenMenu(null)}
                 >
                   {item.children.map((child) => (
                     <DropdownMenuItem key={child.title} asChild>
