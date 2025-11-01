@@ -22,13 +22,14 @@ export const navItems: NavItem[] = [
     title: "Solutions",
     href: "/solutions",
     children: [
-        { title: "Zero Touch Deployment Services", href: "#" },
+        { title: "AI & Automation", href: "#" },
+        { title: "Network Monitoring", href: "#" },
+        { title: "Zero Touch Deployment", href: "#" },
+        { title: "Compliance Management System", href: "#" },
         { title: "Entra ID and Intune Migration", href: "#" },
         { title: "Employee Engagement", href: "#" },
         { title: "Business Process Automation", href: "#" },
         { title: "Technology Mergers and Acquisitions", href: "#" },
-        { title: "Communication and Collaboration", href: "#" },
-        { title: "Simplified Cloud Management and Deployment", href: "#" },
     ],
   },
   {
@@ -686,4 +687,5 @@ export const vcioFaqs: Faq[] = [
     
 
     
+
 
