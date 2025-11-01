@@ -114,4 +114,3 @@ export interface Solution {
     imageHint: string;
     href: string;
 }
-
