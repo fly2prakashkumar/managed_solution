@@ -152,7 +152,7 @@ export const ProcurementPage = () => {
                     <div>
                         {docGraphic && (
                             <div className="relative h-96 w-full">
-                                <Image src={docGraphic.imageUrl} alt={docGraphic.description} fill className="object-contain" data-ai-hint={doc-graphic.imageHint} />
+                                <Image src={docGraphic.imageUrl} alt={docGraphic.description} fill className="object-contain" data-ai-hint={docGraphic.imageHint} />
                             </div>
                         )}
                     </div>
