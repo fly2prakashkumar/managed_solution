@@ -71,6 +71,7 @@ export const navItems: NavItem[] = [
       { title: "About Us", href: "/about" },
       { title: "Awards & Certifications", href: "/about" },
       { title: "Leadership Team", href: "/about" },
+      { title: "Careers", href: "/careers" },
     ],
   },
   {
@@ -611,7 +612,7 @@ export const testimonials: Testimonial[] = [
     {
         name: "Molly Wardell",
         company: "COOWardell Builders",
-        comment: "The tech was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
+        comment: "The tech was very patient with me and very knowledgeable. He was very patient with me and very knowledgeable. He was able to fix my issue in a timely manner. Thank you for your help!",
         date: "2024-07-17"
     },
     {
@@ -1104,7 +1105,7 @@ export const complianceTestimonials: Testimonial[] = [
         company: "CA Assoc of Marriage & Family Therapists",
         comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
-    },
+    }
 ];
 
 export const entraIdIntuneFaqs: Faq[] = [
@@ -1193,3 +1194,5 @@ export const careersData: CareersData = {
         "Teamwork!! Everyone is willing to help each other out"
     ]
 };
+
+    
