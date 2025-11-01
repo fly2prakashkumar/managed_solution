@@ -73,6 +73,10 @@ export const navItems: NavItem[] = [
       { title: "Careers", href: "/careers" },
     ],
   },
+  {
+    title: "Contact",
+    href: "/contact",
+  },
 ];
 
 export const footerNav: FooterNav[] = [
