@@ -149,3 +149,14 @@ export interface ComplianceRegulation {
     acronym: string;
     description: string;
 }
+
+export interface CareersData {
+    employeePerks: {
+        title: string;
+        description: string;
+        link?: string;
+    }[];
+    benefits: string[];
+    openPositions: string[];
+    testimonials: string[];
+}

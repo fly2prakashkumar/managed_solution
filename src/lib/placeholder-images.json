@@ -839,6 +839,24 @@
       "description": "Copy of Work life balance 1",
       "imageUrl": "https://images.unsplash.com/photo-1593113598332-cd288d649433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxub25wcm9maXR8ZW58MHx8fHwxNzIyNTk3NTg3fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "nonprofit hero"
+    },
+    {
+      "id": "careers-team-culture",
+      "description": "Screenshot 2024 12 18 at 7.06.04 PM",
+      "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY3VsdHVyZXxlbnwwfHx8fDE3MjI2MjEwODZ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "team culture"
+    },
+    {
+      "id": "careers-work-life-balance",
+      "description": "Work life balance e1691386189104",
+      "imageUrl": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JrJTIwbGlmZSUyMGJhbGFuY2V8ZW58MHx8fHwxNzIyNjIxMDg2fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "work life"
+    },
+    {
+      "id": "careers-bbb-award",
+      "description": "Copy of BBB Torch Awards for Ethics",
+      "imageUrl": "https://images.unsplash.com/photo-1643370362348-3d5360bc0137?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxsb2dvJTIwYXdhcmR8ZW58MHx8fHwxNzYwOTQ4OTkxfDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
+      "imageHint": "award logo"
     }
   ]
 }

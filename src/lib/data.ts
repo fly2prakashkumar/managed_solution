@@ -1,5 +1,6 @@
 
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation, SolutionDetails, ProductDetails, IndustryDetails } from "@/lib/types";
+
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation, SolutionDetails, ProductDetails, IndustryDetails, CareersData } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -125,7 +126,7 @@ export const footerNav: FooterNav[] = [
             { title: "Contact Us", href: "/contact" },
             { title: "Customer Support", href: "#" },
             { title: "Partners", href: "#" },
-            { title: "Careers", href: "#" },
+            { title: "Careers", href: "/careers" },
         ]
     }
 ];
@@ -1141,3 +1142,54 @@ export const mergersAcquisitionsFaqs: Faq[] = [
     { question: "How do you ensure data security during the integration process?", answer: "We conduct a thorough security assessment of both environments and create a unified security framework. This includes standardizing security policies, integrating threat detection tools, and ensuring all data is protected throughout the migration and consolidation process." },
     { question: "Your case study mentions a move from an Enterprise Agreement to CSP. What is the benefit?", answer: "Moving to a Cloud Solution Provider (CSP) model offers greater flexibility, pay-as-you-go pricing, and direct support from the partner. For the enterprise customer in our case study, this switch resulted in significant cost savings—$2.5 million in the first year alone." }
 ];
+
+export const careersData: CareersData = {
+    employeePerks: [
+        {
+            title: "Accelerate your career...",
+            description: "Ample growth opportunities and a compassionate team."
+        },
+        {
+            title: "Access Ongoing Development Opportunities",
+            description: "We will prepay the exam costs of most relevant certs."
+        },
+        {
+            title: "Flexible Work Opportunities",
+            description: "A hybrid working environment and many employees working fully remote across the country."
+        },
+        {
+            title: "Dynamic team culture",
+            description: "Frequent employee events, volunteer opportunities, wellness activities, and so much more."
+        },
+        {
+            title: "High standard of conduct",
+            description: "We are committed to maintaining a high standard of conduct.",
+            link: "#"
+        }
+    ],
+    benefits: [
+        "PTO",
+        "401k",
+        "Paid Holidays",
+        "Progressive benefits plans",
+        "Free $100K Life/AD&D policy",
+        "Employee Assistance Program"
+    ],
+    openPositions: [
+        "Strategic Technical Account Manager",
+        "vCIO, (MSP)",
+        "Modern Workplace Sr Systems Engineer",
+        "Sr Client Technology Consultant",
+        "Account Executive, MSP (100% Hunter)",
+        "Technical Support Specialist, L1",
+        "Senior Technical Account Manager",
+        "Customer Support Representative, L2",
+        "Solution Architect, Modern Work"
+    ],
+    testimonials: [
+        "The way our Leaders run each team is great and cohesive. It's critical to our happiness",
+        "Flexibility and being involved in all aspects of the business and technology",
+        "There's always a new challenge and it's really dynamic. Everyone is very open to Feedback",
+        "Teamwork!! Everyone is willing to help each other out"
+    ]
+};
