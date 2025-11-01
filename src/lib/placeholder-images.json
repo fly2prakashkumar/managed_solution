@@ -662,7 +662,7 @@
     },
     {
       "id": "mergers-acquisitions-hero",
-      "description": "image of business deal men shaking hands in professional setting",
+      "description": "image of business deal men shaking hands in professional setting for Managed solution's technology mergers and",
       "imageUrl": "https://images.unsplash.com/photo-1622675313417-38a8b8481b7a?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGRlYWx8ZW58MHx8fHwxNzIyNTkwMjU4fDA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "business deal"
     },
@@ -745,22 +745,100 @@
       "imageHint": "managed secure"
     },
     {
-      "id": "work-team",
-      "description": "work team",
-      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3MjE5MTA2NTd8MA&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
-      "imageHint": "work team"
-    },
-    {
-      "id": "hero-template-5",
-      "description": "Copy of Website Hero Image Template 5",
-      "imageUrl": "https://images.unsplash.com/photo-1556742053-999a3851b664?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMGVtcGxveWVlfGVufDB8fHx8MTcyMjAwOTY4MXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
-      "imageHint": "hero template"
-    },
-    {
       "id": "csp-licensing-intro",
       "description": "csp licensing intro",
       "imageUrl": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW4lMjB3aGl0ZWJvYXJkfGVufDB8fHx8MTcyMjMzMjI5NXww&ixlib.rb-4.1.0&fm=jpg&w=1080&h=720&fit=crop&crop=entropy&cs=tinysrgb",
       "imageHint": "licensing intro"
+    },
+    {
+      "id": "industry-finance",
+      "description": "Financial district skyscrapers.",
+      "imageUrl": "https://images.unsplash.com/photo-1600880292203-94268ddc756c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkaXN0cmljdHxlbnwwfHx8fDE3MjI1OTc1ODd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "financial district"
+    },
+    {
+      "id": "industry-healthcare",
+      "description": "Medical professionals in a modern hospital.",
+      "imageUrl": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsc3xlbnwwfHx8fDE3MjI1OTc1ODd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare professionals"
+    },
+    {
+      "id": "industry-life-sciences",
+      "description": "Scientist looking through a microscope in a lab.",
+      "imageUrl": "https://images.unsplash.com/photo-1532187643623-dbf2f5a3d8b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaWZlJTIwc2NpZW5jZXMlMjBsYWJ8ZW58MHx8fHwxNzIyNTk3NTg3fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "life sciences"
+    },
+    {
+      "id": "industry-non-profit",
+      "description": "Volunteers packing donation boxes.",
+      "imageUrl": "https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxub24lMjBwcm9maXQlMjB2b2x1bnRlZXJzfGVufDB8fHx8fDE3MjI1OTc1ODd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "non profit"
+    },
+    {
+      "id": "finance-it-intro",
+      "description": "Financial IT Solutions Intro",
+      "imageUrl": "https://images.unsplash.com/photo-1642132652873-774b94653600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxmaW5hbmNlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDMyMjZ8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance technology"
+    },
+    {
+      "id": "finance-crm",
+      "description": "10.15financecrm",
+      "imageUrl": "https://images.unsplash.com/photo-1634620942424-95d4b8be05f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaW5hbmNlJTIwY3JtfGVufDB8fHx8fDE3MjI1OTc1ODd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance crm"
+    },
+    {
+      "id": "healthcare-cover",
+      "description": "Healthcare cover image",
+      "imageUrl": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwY292ZXJ8ZW58MHx8fHwxNzIyNTk3NTg3fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare cover"
+    },
+    {
+      "id": "download-cta-graphic",
+      "description": "Download CTA Graphic scaled",
+      "imageUrl": "https://images.unsplash.com/photo-1583521214690-8a79a6396930?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkb2N1bWVudHxlbnwwfHx8fDE3MjIwMDk2ODF8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "download graphic"
+    },
+    {
+      "id": "healthcare-blended-it",
+      "description": "healthcare blended it managed solution 1",
+      "imageUrl": "https://images.unsplash.com/photo-1666214278381-c9cf932750d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3MjE5MDI5NzN8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare blended"
+    },
+    {
+      "id": "healthcare-tips2",
+      "description": "healthcare tips2",
+      "imageUrl": "https://images.unsplash.com/photo-1581091870622-c4c9a57b643a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwdGlwc3xlbnwwfHx8fDE3MjI1OTc1ODd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthcare tips"
+    },
+    {
+      "id": "end-user-security-training",
+      "description": "end-user-security-training-is-important",
+      "imageUrl": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbmQlMjB1c2VyJTIwc2VjdXJpdHl8ZW58MHx8fHwxNzIyNTk3NTg3fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "user security"
+    },
+    {
+      "id": "biotech-intro",
+      "description": "biotech intro image",
+      "imageUrl": "https://images.unsplash.com/photo-1532187643623-dbf2f5a3d8b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsaWZlJTIwc2NpZW5jZXMlMjBsYWJ8ZW58MHx8fHwxNzIyNTk3NTg3fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "biotech intro"
+    },
+    {
+      "id": "compliance-man",
+      "description": "Man working on compliance using it services vendor",
+      "imageUrl": "https://images.unsplash.com/photo-1554224155-8d04421cd6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21wbGlhbmNlJTIwbWFufGVufDB8fHx8fDE3MjI1OTc1ODd8MA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "compliance man"
+    },
+    {
+      "id": "case-study-image",
+      "description": "managed it service case studies and success story image",
+      "imageUrl": "https://images.unsplash.com/photo-1606764539891-b9a9f75294b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjYXNlJTIwc3R1ZHl8ZW58MHx8fHwxNzIyNTk3NTg3fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "case study"
+    },
+    {
+      "id": "non-profit-hero",
+      "description": "Copy of Work life balance 1",
+      "imageUrl": "https://images.unsplash.com/photo-1593113598332-cd288d649433?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxub25wcm9maXR8ZW58MHx8fHwxNzIyNTk3NTg3fDA&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageHint": "nonprofit hero"
     }
   ]
 }

@@ -130,6 +130,13 @@ export interface ProductDetails {
     description: string;
 }
 
+export interface IndustryDetails {
+    slug: string;
+    title: string;
+    description: string;
+    imageUrl: string;
+}
+
 export interface AiResource {
     title: string;
     href: string;

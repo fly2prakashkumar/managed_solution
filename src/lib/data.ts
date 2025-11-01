@@ -1,5 +1,5 @@
 
-import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation, SolutionDetails, ProductDetails } from "@/lib/types";
+import type { Service, CaseStudy, BlogPost, TeamMember, Resource, NavItem, Testimonial, Award, Webinar, LiveEvent, OnDemandVideo, FooterNav, Faq, Solution, AiResource, ComplianceRegulation, SolutionDetails, ProductDetails, IndustryDetails } from "@/lib/types";
 import { ShieldCheck, Server, Cloud, Database, Network, Laptop, LifeBuoy, BrainCircuit, CheckCircle, Building, Handshake, Users, Briefcase } from "lucide-react";
 
 export const navItems: NavItem[] = [
@@ -45,12 +45,12 @@ export const navItems: NavItem[] = [
   },
   {
     title: "Industries",
-    href: "#",
+    href: "/industries",
     children: [
-      { title: "Finance", href: "#" },
-      { title: "Healthcare", href: "#" },
-      { title: "Life Sciences", href: "#" },
-      { title: "Non-Profits", href: "#" },
+      { title: "Finance", href: "/industries/financial-technology-services" },
+      { title: "Healthcare", href: "/industries/healthcare-technology-services" },
+      { title: "Life Sciences", href: "/industries/life-sciences-technology-services" },
+      { title: "Non-Profits", href: "/industries/non-profit-technology-services" },
     ],
   },
   {
@@ -76,9 +76,9 @@ export const navItems: NavItem[] = [
     title: "Contact",
     href: "/contact",
     children: [
-      { title: "Contact Us", href: "/contact" },
-      { title: "Customer Support", href: "#" },
-      { title: "Partner with Us", href: "#" },
+        { title: "Contact Us", href: "/contact" },
+        { title: "Customer Support", href: "#" },
+        { title: "Partner with Us", href: "#" },
     ],
   },
 ];
@@ -91,7 +91,7 @@ export const footerNav: FooterNav[] = [
             { title: "IT Help Desk", href: "/services/help-desk" },
             { title: "Managed IT Security Solutions", href: "/services/cybersecurity" },
             { title: "Microsoft Consulting Services", href: "/services/it-consulting" },
-            { title: "Microsoft Security Services", href: "/services/cybersecurity" },
+            { title: "Microsoft Security Services", href: "/services/microsoft-security" },
             { title: "Azure Cloud Managed Services", href: "/services/cloud-services" },
         ]
     },
@@ -105,14 +105,13 @@ export const footerNav: FooterNav[] = [
         { title: "Compliance Management", href: "/solutions/compliance-management" },
       ]
     },
-    {
-        title: "Industries",
-        links: [
-            { title: "Healthcare", href: "#" },
-            { title: "Financial", href: "#" },
-            { title: "Life Sciences", href: "#" },
-            { title: "Nonprofit", href: "#" },
-        ]
+     {
+      title: "Products",
+      links: [
+        { title: "Procurement Services", href: "/products/procurement-services" },
+        { title: "Security", href: "/products/security-products" },
+        { title: "Microsoft Licensing", href: "/products/microsoft-licensing" },
+      ]
     },
     {
         title: "Company",
@@ -348,6 +347,33 @@ export const products: ProductDetails[] = [
   }
 ];
 
+export const industries: IndustryDetails[] = [
+    {
+        slug: "financial-technology-services",
+        title: "Finance",
+        description: "Optimize operations, improve customer experience, and meet regulatory requirements with our tailored IT solutions for financial institutions.",
+        imageUrl: "industry-finance"
+    },
+    {
+        slug: "healthcare-technology-services",
+        title: "Healthcare",
+        description: "Modernize your systems to protect patients, ensure HIPAA compliance, and boost performance with our specialized healthcare IT services.",
+        imageUrl: "industry-healthcare"
+    },
+    {
+        slug: "life-sciences-technology-services",
+        title: "Life Sciences",
+        description: "Accelerate discovery and development with secure, compliant, and collaborative IT solutions for the pharma and life sciences sectors.",
+        imageUrl: "industry-life-sciences"
+    },
+    {
+        slug: "non-profit-technology-services",
+        title: "Non-Profits",
+        description: "Drive social change and extend your reach with cost-effective technology solutions and expert guidance for non-profit organizations.",
+        imageUrl: "industry-non-profit"
+    }
+];
+
 export const caseStudies: CaseStudy[] = [
   {
     slug: "retail-chain-network-overhaul",
@@ -549,7 +575,7 @@ export const securityTestimonials: Testimonial[] = [
         comment: "I am always so impressed with the level of service I receive from Managed Solution. They are always so quick to respond and always resolve my issues.",
         date: "2024-07-16"
     }
-]
+];
 
 export const awards: Award[] = [
     { title: "Microsoft Partner - Security", imageId: "award-1" },
@@ -1007,4 +1033,3 @@ export const mergersAcquisitionsFaqs: Faq[] = [
     { question: "How do you ensure data security during the integration process?", answer: "We conduct a thorough security assessment of both environments and create a unified security framework. This includes standardizing security policies, integrating threat detection tools, and ensuring all data is protected throughout the migration and consolidation process." },
     { question: "Your case study mentions a move from an Enterprise Agreement to CSP. What is the benefit?", answer: "Moving to a Cloud Solution Provider (CSP) model offers greater flexibility, pay-as-you-go pricing, and direct support from the partner. For the enterprise customer in our case study, this switch resulted in significant cost savings—$2.5 million in the first year alone." }
 ];
-
