@@ -17,6 +17,7 @@ import { Phone } from "lucide-react";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [openMenu, setOpenMenu] = useState<string | null>(null);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -46,32 +47,39 @@ export default function Header() {
         <Logo />
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center space-x-6 lg:flex">
+        <nav className="hidden items-center space-x-1 lg:flex">
           {navItems.map((item) =>
             item.children ? (
-              <DropdownMenu key={item.title}>
-                <DropdownMenuTrigger asChild>
-                  <Button
-                    variant="ghost"
-                    className="flex items-center gap-1 text-sm font-medium"
-                  >
-                    {item.title}
-                    <ChevronDown className="h-4 w-4" />
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent>
-                  {item.children.map((child) => (
-                    <DropdownMenuItem key={child.title} asChild>
-                      <Link href={child.href}>{child.title}</Link>
-                    </DropdownMenuItem>
-                  ))}
-                </DropdownMenuContent>
+              <DropdownMenu 
+                key={item.title} 
+                open={openMenu === item.title} 
+                onOpenChange={(isOpen) => setOpenMenu(isOpen ? item.title : null)}
+              >
+                <div onMouseLeave={() => setOpenMenu(null)}>
+                  <DropdownMenuTrigger asChild>
+                     <Button
+                      variant="ghost"
+                      className="flex items-center gap-1 text-sm font-medium"
+                      onMouseEnter={() => setOpenMenu(item.title)}
+                    >
+                      {item.title}
+                      <ChevronDown className="h-4 w-4" />
+                    </Button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent onMouseLeave={() => setOpenMenu(null)}>
+                    {item.children.map((child) => (
+                      <DropdownMenuItem key={child.title} asChild>
+                        <Link href={child.href}>{child.title}</Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuContent>
+                </div>
               </DropdownMenu>
             ) : (
               <Link
                 key={item.title}
                 href={item.href}
-                className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
+                className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground px-4 py-2"
               >
                 {item.title}
               </Link>
