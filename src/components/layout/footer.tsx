@@ -85,7 +85,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>Copyright &copy; {new Date().getFullYear()} Optimal Solutions Hub. All rights reserved.</p>
+          <p>Copyright &copy; {new Date().getFullYear()} EternalMinds. All rights reserved.</p>
         </div>
       </div>
     </footer>

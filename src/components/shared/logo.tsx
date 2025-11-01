@@ -7,7 +7,7 @@ export default function Logo() {
       <div className="relative h-12 w-12">
         <Image
           src="/logo.png"
-          alt="Optimal Solutions Hub Logo"
+          alt="EternalMinds Logo"
           width={48}
           height={48}
           className="object-contain"
@@ -15,7 +15,7 @@ export default function Logo() {
       </div>
       <div className="hidden sm:block">
         <p className="font-headline text-xl font-bold leading-none text-primary">
-          Optimal Solutions Hub
+          EternalMinds
         </p>
         <p className="text-xs tracking-wider text-muted-foreground">
           Your Partner in Managed IT Services and Solutions.
@@ -24,5 +24,3 @@ export default function Logo() {
     </Link>
   );
 }
-
-    
