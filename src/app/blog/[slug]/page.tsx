@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import { blogPosts } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import SummaryClient from "./summary-client";
 import { M365BusinessPremiumPost } from "@/components/blog/m365-business-premium";
 import { SecurityToolkitPost } from "@/components/blog/security-toolkit";
 import { ZeroTrustPost } from "@/components/blog/zero-trust";
@@ -88,8 +87,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <div className="prose prose-lg dark:prose-invert mx-auto max-w-none prose-p:text-foreground/80 prose-headings:font-headline prose-headings:text-foreground">
           <p>{post.content}</p>
         </div>
-
-        <SummaryClient content={post.content} />
 
       </div>
     </article>

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import SummaryClient from "@/app/blog/[slug]/summary-client";
 import Breadcrumbs from "../shared/breadcrumbs";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { AlertTriangle } from "lucide-react";
@@ -79,7 +78,6 @@ export const SharePointZeroDayPost = () => {
                     </div>
                 </div>
 
-                <SummaryClient content={blogPostContent} />
             </div>
         </article>
     );

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import SummaryClient from "@/app/blog/[slug]/summary-client";
 import Breadcrumbs from "../shared/breadcrumbs";
 
 const toc = [
@@ -222,7 +221,6 @@ export const SecurityToolkitPost = () => {
 
                 </div>
 
-                <SummaryClient content={blogPostContent} />
             </div>
         </article>
     );

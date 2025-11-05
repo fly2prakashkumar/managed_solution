@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import SummaryClient from "@/app/blog/[slug]/summary-client";
 import Breadcrumbs from "../shared/breadcrumbs";
 
 export const Inc5000Post = () => {
@@ -65,8 +64,6 @@ export const Inc5000Post = () => {
                         </Button>
                     </div>
                 </div>
-
-                <SummaryClient content={blogPostContent} />
             </div>
         </article>
     );

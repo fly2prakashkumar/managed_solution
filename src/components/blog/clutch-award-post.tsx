@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import SummaryClient from "@/app/blog/[slug]/summary-client";
 import Breadcrumbs from "../shared/breadcrumbs";
 import { Star } from "lucide-react";
 
@@ -72,7 +71,6 @@ export const ClutchAwardPost = () => {
                     </div>
                 </div>
 
-                <SummaryClient content={blogPostContent} />
             </div>
         </article>
     );

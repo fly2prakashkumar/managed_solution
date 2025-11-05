@@ -4,12 +4,12 @@ import Image from "next/image";
 export default function Logo() {
   return (
     <Link href="/" className="flex items-center gap-3">
-      <div className="relative h-12 w-12">
+      <div className="relative h-12 w-15">
         <Image
           src="/logo.png"
           alt="EternalMinds Logo"
-          width={48}
-          height={48}
+          width={100}
+          height={100}
           className="object-contain"
         />
       </div>

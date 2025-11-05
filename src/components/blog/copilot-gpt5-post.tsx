@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "@/components/ui/button";
-import SummaryClient from "@/app/blog/[slug]/summary-client";
 import Breadcrumbs from "../shared/breadcrumbs";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Zap, BrainCircuit, Eye } from "lucide-react";
@@ -97,7 +96,6 @@ export const CopilotGpt5Post = () => {
                     </div>
                 </div>
 
-                <SummaryClient content={blogPostContent} />
             </div>
         </article>
     );
